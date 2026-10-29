@@ -1,0 +1,4719 @@
+[
+  {
+    "id": "301045408155594",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140438849642,
+        -37.333765137257
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140437847844,
+        -37.333765827905
+      ]
+    },
+    "compass_angle": 245.2596282959,
+    "computed_compass_angle": 256.80720448132,
+    "computed_rotation": [
+      1.0465665445978,
+      1.2692405926486,
+      -1.4659131742494
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.84220679785693,
+      -0.00042784367216507,
+      -0.0010132027976819
+    ],
+    "captured_at": 1560863959977,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 2.007521495223,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "301045408155594.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=301045408155594",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 22.83652531479651,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/301045408155594.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "907590459808217",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140497712064,
+        -37.333787280957
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140494577965,
+        -37.333786783506
+      ]
+    },
+    "compass_angle": 244.29759216309,
+    "computed_compass_angle": 256.33516031195,
+    "computed_rotation": [
+      1.0424578025605,
+      1.2841392923149,
+      -1.462565341183
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.84220679785693,
+      -0.00042784367216507,
+      -0.0010132027976819
+    ],
+    "captured_at": 1560863960942,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211.53938185444,
+    "computed_altitude": 1.9922398040071,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "907590459808217.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=907590459808217",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 17.074589639922834,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/907590459808217.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "741548099844678",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140544312635,
+        -37.333805764936
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140546655201,
+        -37.333806779415
+      ]
+    },
+    "compass_angle": 242.75004577637,
+    "computed_compass_angle": 256.11185710344,
+    "computed_rotation": [
+      1.0361368520234,
+      1.2883444626673,
+      -1.4617514934047
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.84220679785693,
+      -0.00042784367216507,
+      -0.0010132027976819
+    ],
+    "captured_at": 1560863961875,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 1.9862399008125,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "741548099844678.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=741548099844678",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 12.229104747032041,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/741548099844678.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "935780077260456",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14064011087,
+        -37.333842917194
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140639066647,
+        -37.333842360242
+      ]
+    },
+    "compass_angle": 244.91815185547,
+    "computed_compass_angle": 255.82866292497,
+    "computed_rotation": [
+      1.0584280574012,
+      1.3119324739477,
+      -1.4567452939973
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.84220679785693,
+      -0.00042784367216507,
+      -0.0010132027976819
+    ],
+    "captured_at": 1560863963741,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 1.9184376914054,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "935780077260456.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=935780077260456",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 3.0623902442057256,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/935780077260456.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "393899311681249",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140712131976,
+        -37.333869459086
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140709689083,
+        -37.333868650973
+      ]
+    },
+    "compass_angle": 245.61343383789,
+    "computed_compass_angle": 66.653658750943,
+    "computed_rotation": [
+      1.510300602766,
+      -0.84858944207995,
+      0.98369827762912
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.86292551438657,
+      0.00058818309393126,
+      -0.0023837055572215
+    ],
+    "captured_at": 1560863964909,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 1.732671154663,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "393899311681249.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=393899311681249",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.5939990130199473,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/393899311681249.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "4001399279953466",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140773932927,
+        -37.333892748476
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140773397449,
+        -37.333891441268
+      ]
+    },
+    "compass_angle": 243.65328979492,
+    "computed_compass_angle": 256.89312105879,
+    "computed_rotation": [
+      1.0511047880862,
+      1.2616496508709,
+      -1.4735051463926
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.84220679785693,
+      -0.00042784367216507,
+      -0.0010132027976819
+    ],
+    "captured_at": 1560863965840,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 2.0249765943736,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "4001399279953466.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=4001399279953466",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.5713665144446691,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/4001399279953466.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "2562651520707392",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140835059583,
+        -37.333915971698
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140834155488,
+        -37.333915272054
+      ]
+    },
+    "compass_angle": 246.12911987305,
+    "computed_compass_angle": 61.688678575556,
+    "computed_rotation": [
+      1.674278592803,
+      -0.86401670163145,
+      0.84427326132547
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.86292551438657,
+      0.00058818309393126,
+      -0.0023837055572215
+    ],
+    "captured_at": 1560863966740,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211.6772591857,
+    "computed_altitude": 1.8346102256328,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "2562651520707392.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=2562651520707392",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.5201481461243443,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/2562651520707392.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "142581291222782",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140918230448,
+        -37.333947773831
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140918155865,
+        -37.333947917856
+      ]
+    },
+    "compass_angle": 242.21701049805,
+    "computed_compass_angle": 255.73522264153,
+    "computed_rotation": [
+      1.0456514011615,
+      1.2827319020088,
+      -1.4836240861458
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.77810117939077,
+      0.00027943506679701,
+      0.00037447033996939
+    ],
+    "captured_at": 1560863967906,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 2.0280782673508,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "142581291222782.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=142581291222782",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.4126557026933053,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/142581291222782.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "313620030363368",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140988012121,
+        -37.333976609697
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140988348789,
+        -37.33397667515
+      ]
+    },
+    "compass_angle": 243.16296386719,
+    "computed_compass_angle": 255.81668589441,
+    "computed_rotation": [
+      1.0465866816514,
+      1.2813782960797,
+      -1.4830468315647
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.77810117939077,
+      0.00027943506679701,
+      0.00037447033996939
+    ],
+    "captured_at": 1560863968839,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211.41616161616,
+    "computed_altitude": 1.9636473832652,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "313620030363368.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=313620030363368",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.13756398370318954,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/313620030363368.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "543918590095055",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141058553234,
+        -37.334004264378
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141058879801,
+        -37.334003263941
+      ]
+    },
+    "compass_angle": 244.99362182617,
+    "computed_compass_angle": 255.88166110778,
+    "computed_rotation": [
+      1.0284968101789,
+      1.2896579482075,
+      -1.4634314911222
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863969739,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 1.9940428296104,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "543918590095055.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=543918590095055",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.007565747039573852,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/543918590095055.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "2960657547503093",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141160092749,
+        -37.334041404834
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141160724189,
+        -37.334041584181
+      ]
+    },
+    "compass_angle": 245.89270019531,
+    "computed_compass_angle": 255.74414237778,
+    "computed_rotation": [
+      1.0352399906832,
+      1.2837858162041,
+      -1.4770631944518
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863970938,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 2.0163570865989,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "2960657547503093.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=2960657547503093",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.051850017903435436,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/2960657547503093.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "463608934730948",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141239536561,
+        -37.334071122036
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141238053426,
+        -37.334070840257
+      ]
+    },
+    "compass_angle": 243.83483886719,
+    "computed_compass_angle": 255.76724760294,
+    "computed_rotation": [
+      1.0446277581516,
+      1.2890442436657,
+      -1.4755918814209
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863971838,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 2.0104246912524,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "463608934730948.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=463608934730948",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.004940084199931697,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/463608934730948.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1017273085470683",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141319494914,
+        -37.33410252767
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141316835742,
+        -37.334101142298
+      ]
+    },
+    "compass_angle": 243.7548828125,
+    "computed_compass_angle": 255.91387988384,
+    "computed_rotation": [
+      1.0416914312829,
+      1.2847387313037,
+      -1.4742054381031
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863972737,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 1.9831354450434,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "1017273085470683.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1017273085470683",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.09845742011432132,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/1017273085470683.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "501006261324314",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141418541406,
+        -37.334139369336
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141415897667,
+        -37.334138674819
+      ]
+    },
+    "compass_angle": 246.90682983398,
+    "computed_compass_angle": 256.04000521856,
+    "computed_rotation": [
+      1.0299233549419,
+      1.2873468840681,
+      -1.4617925558476
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863973903,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 2.0296414578333,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "501006261324314.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=501006261324314",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.14219578536006988,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/501006261324314.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "3650702221706337",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141487845685,
+        -37.334164232995
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141487880688,
+        -37.3341655309
+      ]
+    },
+    "compass_angle": 243.98596191406,
+    "computed_compass_angle": 256.19412606445,
+    "computed_rotation": [
+      1.0300228642739,
+      1.2814237151554,
+      -1.4633378673527
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863974769,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 2.021601377055,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "3650702221706337.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=3650702221706337",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.052768619516349376,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/3650702221706337.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "4030685080343085",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141574350934,
+        -37.334198137365
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141576159121,
+        -37.334198491754
+      ]
+    },
+    "compass_angle": 243.67980957031,
+    "computed_compass_angle": 255.72988482569,
+    "computed_rotation": [
+      1.0317805346326,
+      1.2898383950321,
+      -1.469470724911
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863975936,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211.49164208456,
+    "computed_altitude": 2.0240238755941,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "4030685080343085.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=4030685080343085",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.1979601466264872,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/4030685080343085.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "509285256776297",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141639614934,
+        -37.334223333199
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141643510207,
+        -37.3342243524
+      ]
+    },
+    "compass_angle": 244.81410217285,
+    "computed_compass_angle": 255.37206391942,
+    "computed_rotation": [
+      1.0230293741984,
+      1.2957581861105,
+      -1.4696377861006
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863976835,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 2.031545679085,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "509285256776297.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=509285256776297",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.2818944542151686,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/509285256776297.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1235411700247993",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141702314889,
+        -37.334247054829
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141704898265,
+        -37.334249404565
+      ]
+    },
+    "compass_angle": 244.24728393555,
+    "computed_compass_angle": 255.34085280507,
+    "computed_rotation": [
+      1.0216713779093,
+      1.2946719576042,
+      -1.4709962882703
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863977702,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 1.9960855869576,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "1235411700247993.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1235411700247993",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.3675920646182907,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/1235411700247993.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "819038589039857",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141778499898,
+        -37.334278028601
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141777996883,
+        -37.334277598324
+      ]
+    },
+    "compass_angle": 240.99487304688,
+    "computed_compass_angle": 255.26936713255,
+    "computed_rotation": [
+      1.0208055948837,
+      1.2985483115666,
+      -1.4687024245735
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863978902,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 1.9963984079659,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "819038589039857.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=819038589039857",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.6112494010965247,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/819038589039857.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "3775185412610418",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141829350932,
+        -37.33429981629
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141826007872,
+        -37.334296728903
+      ]
+    },
+    "compass_angle": 242.8727722168,
+    "computed_compass_angle": 255.30618643021,
+    "computed_rotation": [
+      1.0216603048431,
+      1.2955277400995,
+      -1.4711494788638
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863979834,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 1.9668952533975,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "3775185412610418.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=3775185412610418",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.7411170042518986,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/3775185412610418.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "981048899304382",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141864555533,
+        -37.334313866999
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141864983758,
+        -37.334311727265
+      ]
+    },
+    "compass_angle": 246.20834350586,
+    "computed_compass_angle": 255.41044286709,
+    "computed_rotation": [
+      1.0259012318282,
+      1.2963915543805,
+      -1.4693035353153
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863980734,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 1.9741343650967,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "981048899304382.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=981048899304382",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.7930092142703336,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/981048899304382.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "158608926269453",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141915512326,
+        -37.334328745626
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141914947016,
+        -37.334331403173
+      ]
+    },
+    "compass_angle": 251.36735534668,
+    "computed_compass_angle": 255.13399685373,
+    "computed_rotation": [
+      1.0148901757872,
+      1.294906660974,
+      -1.4734509363754
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.85178387402525,
+      -0.0017939088594683,
+      -0.0020698157235551
+    ],
+    "captured_at": 1560863985765,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 212,
+    "computed_altitude": 1.9944397611544,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "158608926269453.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=158608926269453",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 0.6162148848641248,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/158608926269453.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1235130840236785",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142027874063,
+        -37.334333074753
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142047450865,
+        -37.33427232227
+      ]
+    },
+    "compass_angle": 286.58380126953,
+    "computed_compass_angle": 308.97867845487,
+    "computed_rotation": [
+      1.3452819274038,
+      0.64842027717199,
+      -0.71806694988746
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.90108867831352,
+      0.0057002712325255,
+      -0.0012259653287306
+    ],
+    "captured_at": 1560864027917,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211.51972386588,
+    "computed_altitude": 3.4036706341431,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "1235130840236785.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1235130840236785",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 3.1492899630057107,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/1235130840236785.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1776118365901888",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142088861774,
+        -37.334306604689
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142085461194,
+        -37.334246871596
+      ]
+    },
+    "compass_angle": 316.88052368164,
+    "computed_compass_angle": 323.79554327376,
+    "computed_rotation": [
+      1.4147217119947,
+      0.46729713824822,
+      -0.50753884713166
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.90108867831352,
+      0.0057002712325255,
+      -0.0012259653287306
+    ],
+    "captured_at": 1560864028814,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 3.5054783252999,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "1776118365901888.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1776118365901888",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 8.093053844767606,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/1776118365901888.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "845919839332719",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142135763511,
+        -37.334261500888
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14212738462,
+        -37.334208321064
+      ]
+    },
+    "compass_angle": 326.33404541016,
+    "computed_compass_angle": 331.96148775956,
+    "computed_rotation": [
+      1.4405511060524,
+      0.3585377303324,
+      -0.39822762692589
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.90108867831352,
+      0.0057002712325255,
+      -0.0012259653287306
+    ],
+    "captured_at": 1560864029714,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 3.4436465613544,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "845919839332719.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=845919839332719",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 14.385131392203938,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/845919839332719.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1918783648286685",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.1421932,
+        -37.334188523482
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142186011162,
+        -37.334136226404
+      ]
+    },
+    "compass_angle": 330.31567382812,
+    "computed_compass_angle": 339.1897417347,
+    "computed_rotation": [
+      1.4560664834318,
+      0.27820648158632,
+      -0.2828417832372
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.90108867831352,
+      0.0057002712325255,
+      -0.0012259653287306
+    ],
+    "captured_at": 1560864030847,
+    "sequence": "9oqboj69kt96vn7ft1w3di",
+    "width": 4128,
+    "height": 3096,
+    "altitude": 211,
+    "computed_altitude": 3.2768143704161,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "paprika",
+      "id": "102211555358182"
+    },
+    "is_pano": false,
+    "file_name": "1918783648286685.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1918783648286685",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 23.875811036742363,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/1918783648286685.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1105709096594518",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141162651777,
+        -37.335759402538
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141199858001,
+        -37.33576338541
+      ]
+    },
+    "compass_angle": 335.31845092773,
+    "computed_compass_angle": 336.1088965927,
+    "computed_rotation": [
+      1.4912249745513,
+      0.33757734265226,
+      -0.31038680644539
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76700725518934,
+      0.001042145209189,
+      -0.0046267634165918
+    ],
+    "captured_at": 1539978433571,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 231.1421319797,
+    "computed_altitude": 1.7688842192292,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "1105709096594518.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1105709096594518",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 28.84457529333451,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/1105709096594518.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "469531677614208",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141199912154,
+        -37.335700287399
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14123637707,
+        -37.335703518474
+      ]
+    },
+    "compass_angle": 332.97692871094,
+    "computed_compass_angle": 336.12714737215,
+    "computed_rotation": [
+      1.4762057818603,
+      0.3264356571188,
+      -0.31973754365473
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76700725518934,
+      0.001042145209189,
+      -0.0046267634165918
+    ],
+    "captured_at": 1539978434652,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 231,
+    "computed_altitude": 1.7958970386535,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "469531677614208.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=469531677614208",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 21.45572199117342,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/469531677614208.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "119822900116818",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141230295349,
+        -37.335641088372
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141269858682,
+        -37.335642637041
+      ]
+    },
+    "compass_angle": 333.71984863281,
+    "computed_compass_angle": 339.30683007463,
+    "computed_rotation": [
+      1.4978754986664,
+      0.28501705407231,
+      -0.27679563183378
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76700725518934,
+      0.001042145209189,
+      -0.0046267634165918
+    ],
+    "captured_at": 1539978435776,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230.86046511628,
+    "computed_altitude": 1.7452611951157,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "119822900116818.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=119822900116818",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 14.07732461359931,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/119822900116818.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "4002530999813638",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141254679272,
+        -37.33560165905
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14128591685,
+        -37.335604641038
+      ]
+    },
+    "compass_angle": 333.71984863281,
+    "computed_compass_angle": 344.52695541566,
+    "computed_rotation": [
+      1.5032432453816,
+      0.21953589152329,
+      -0.20016210508367
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76700725518934,
+      0.001042145209189,
+      -0.0046267634165918
+    ],
+    "captured_at": 1539978436509,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 229.37815975733,
+    "computed_altitude": 1.728639553301,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "4002530999813638.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=4002530999813638",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 9.651979751785293,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/4002530999813638.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1105915583240058",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141252316487,
+        -37.335557265947
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141291849204,
+        -37.335558342616
+      ]
+    },
+    "compass_angle": 11.2890625,
+    "computed_compass_angle": 359.60572511104,
+    "computed_rotation": [
+      1.4983264003003,
+      0.016090306020653,
+      0.0062136912359801
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76700725518934,
+      0.001042145209189,
+      -0.0046267634165918
+    ],
+    "captured_at": 1539978437562,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 229,
+    "computed_altitude": 1.7108532618731,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "1105915583240058.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1105915583240058",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 4.7655772575011435,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/1105915583240058.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1121021761743910",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141265775336,
+        -37.3354823762
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141270724633,
+        -37.335484687338
+      ]
+    },
+    "compass_angle": 339.65896606445,
+    "computed_compass_angle": 27.95799367581,
+    "computed_rotation": [
+      1.461816914334,
+      -0.30848432164621,
+      0.45322167401278
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978439595,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230.74856046065,
+    "computed_altitude": 1.6018283991143,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "1121021761743910.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1121021761743910",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 1.8740918801469963,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/1121021761743910.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "311820940548210",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141197456194,
+        -37.335443324876
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141206580817,
+        -37.335435294913
+      ]
+    },
+    "compass_angle": 78.315216064453,
+    "computed_compass_angle": 57.721972781066,
+    "computed_rotation": [
+      1.3730490494841,
+      -0.71895528182175,
+      0.84151127681002
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978441462,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230,
+    "computed_altitude": 1.8727155728266,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "311820940548210.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=311820940548210",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 3.32425265262695,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/311820940548210.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1416258252042545",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14113025596,
+        -37.335419848889
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14114990573,
+        -37.335414190158
+      ]
+    },
+    "compass_angle": 61.010711669922,
+    "computed_compass_angle": 66.965061046817,
+    "computed_rotation": [
+      1.3088742543382,
+      -0.84638666240718,
+      0.95368019756999
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978442531,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230,
+    "computed_altitude": 1.9556464143097,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "1416258252042545.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1416258252042545",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 3.1968446123389964,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/1416258252042545.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1162960817479137",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141077713821,
+        -37.335389546341
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141082598083,
+        -37.335389645622
+      ]
+    },
+    "compass_angle": 52.689300537109,
+    "computed_compass_angle": 66.095735259054,
+    "computed_rotation": [
+      1.3045581831928,
+      -0.83898995551026,
+      0.93510480899832
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978443667,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230.86178861789,
+    "computed_altitude": 2.0923845199868,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "1162960817479137.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1162960817479137",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 4.3013533579246594,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/1162960817479137.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "458855975344426",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141025302338,
+        -37.335347331668
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141013518775,
+        -37.335360400767
+      ]
+    },
+    "compass_angle": 70.570770263672,
+    "computed_compass_angle": 63.138742406746,
+    "computed_rotation": [
+      1.3279286761413,
+      -0.80547829520327,
+      0.89266598030872
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978444756,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230,
+    "computed_altitude": 2.2362298015505,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "458855975344426.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=458855975344426",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 4.856864294113904,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/458855975344426.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "461149594996606",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14096493847,
+        -37.335330330181
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140956442293,
+        -37.335334279954
+      ]
+    },
+    "compass_angle": 70.570739746094,
+    "computed_compass_angle": 61.512111124773,
+    "computed_rotation": [
+      1.3535323539777,
+      -0.79640609366197,
+      0.86289371682247
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978445564,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230,
+    "computed_altitude": 2.2697679251432,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "461149594996606.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=461149594996606",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 5.371651411175178,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/461149594996606.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "145107770847913",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140916110072,
+        -37.335306500144
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140887265992,
+        -37.33530137865
+      ]
+    },
+    "compass_angle": 56.086120605469,
+    "computed_compass_angle": 60.941151331222,
+    "computed_rotation": [
+      1.3584006459598,
+      -0.78779002176539,
+      0.85694376070714
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978446652,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230.6928057554,
+    "computed_altitude": 2.2635322734714,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "145107770847913.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=145107770847913",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 6.120848193132502,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/145107770847913.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1445099315844837",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140810580323,
+        -37.335258292776
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.1408054741,
+        -37.335263662113
+      ]
+    },
+    "compass_angle": 74.428771972656,
+    "computed_compass_angle": 61.917620255953,
+    "computed_rotation": [
+      1.3669672062208,
+      -0.79571000017251,
+      0.87874864840659
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978447870,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230.8716730038,
+    "computed_altitude": 2.1895878091455,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "1445099315844837.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1445099315844837",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 6.887241054934891,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/1445099315844837.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "324165962607252",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140750621388,
+        -37.335244951331
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140747764766,
+        -37.335237065791
+      ]
+    },
+    "compass_angle": 74.428771972656,
+    "computed_compass_angle": 61.87700685557,
+    "computed_rotation": [
+      1.3672260453212,
+      -0.79888146364548,
+      0.87434728058017
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978448686,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230.09600760456,
+    "computed_altitude": 2.1306697884575,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "324165962607252.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=324165962607252",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 6.7376939284131785,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/324165962607252.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "846016185983685",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140675667108,
+        -37.335202546578
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140676846329,
+        -37.335206635085
+      ]
+    },
+    "compass_angle": 63.277374267578,
+    "computed_compass_angle": 63.712700760766,
+    "computed_rotation": [
+      1.3541084527496,
+      -0.83209246973611,
+      0.88860001784879
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978449782,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230,
+    "computed_altitude": 2.0610380759463,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "846016185983685.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=846016185983685",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 7.861986084039745,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/846016185983685.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1190333971418501",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140627161589,
+        -37.335183047682
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140623767582,
+        -37.335184194357
+      ]
+    },
+    "compass_angle": 63.277374267578,
+    "computed_compass_angle": 63.531067323544,
+    "computed_rotation": [
+      1.3482936955951,
+      -0.82626967373941,
+      0.8878695777014
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978450512,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230,
+    "computed_altitude": 2.0058089792728,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "1190333971418501.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1190333971418501",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 8.154183734050603,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/1190333971418501.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "476938636980232",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140558054572,
+        -37.335153090272
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140556934531,
+        -37.335154809498
+      ]
+    },
+    "compass_angle": 61.153259277344,
+    "computed_compass_angle": 62.279258498687,
+    "computed_rotation": [
+      1.3451340561403,
+      -0.81720876304189,
+      0.86070894677884
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978451565,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230,
+    "computed_altitude": 1.957834828645,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "476938636980232.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=476938636980232",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 8.635887907989027,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/476938636980232.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "870050853581010",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140494257854,
+        -37.335129219512
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140488763024,
+        -37.335124803851
+      ]
+    },
+    "compass_angle": 65.593566894531,
+    "computed_compass_angle": 62.901448361104,
+    "computed_rotation": [
+      1.3463901599501,
+      -0.82246477323533,
+      0.8733385147579
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978452606,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 231.74048780488,
+    "computed_altitude": 1.9047057377174,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "870050853581010.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=870050853581010",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 8.889340089231586,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/870050853581010.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "500511691078373",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140419655283,
+        -37.335092302358
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140420851441,
+        -37.33509535355
+      ]
+    },
+    "compass_angle": 57.387603759766,
+    "computed_compass_angle": 63.546469717299,
+    "computed_rotation": [
+      1.3480721231766,
+      -0.82610229882221,
+      0.8884216513704
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978453700,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 232.90660377358,
+    "computed_altitude": 1.877501482144,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "500511691078373.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=500511691078373",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 9.578756908282672,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/500511691078373.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "286871449741145",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140342479292,
+        -37.335067224142
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140351849424,
+        -37.335066063828
+      ]
+    },
+    "compass_angle": 67.171478271484,
+    "computed_compass_angle": 63.57314100189,
+    "computed_rotation": [
+      1.3441521120751,
+      -0.83148239690271,
+      0.88247915236798
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.80078526436998,
+      0.0020887675747771,
+      0.00040819526197555
+    ],
+    "captured_at": 1539978454762,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 232.98855359001,
+    "computed_altitude": 1.8240556614473,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "286871449741145.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=286871449741145",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 9.505739652449632,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/286871449741145.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "536573210698742",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140287491883,
+        -37.335048741623
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14028780955,
+        -37.335048639408
+      ]
+    },
+    "compass_angle": 67.171447753906,
+    "computed_compass_angle": 63.799140078287,
+    "computed_rotation": [
+      1.3445903311735,
+      -0.82270480845483,
+      0.89821632182656
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76928914456527,
+      0.0020863733175527,
+      -0.0013799439673064
+    ],
+    "captured_at": 1539978455499,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 232.22164412071,
+    "computed_altitude": 2.0045041907579,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "536573210698742.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=536573210698742",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 9.328157331873786,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/536573210698742.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "2996353730690117",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140210645588,
+        -37.335014386765
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140219342625,
+        -37.335018069295
+      ]
+    },
+    "compass_angle": 59.200714111328,
+    "computed_compass_angle": 61.628980864392,
+    "computed_rotation": [
+      1.356441834534,
+      -0.79666861280763,
+      0.86674467734013
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76928914456527,
+      0.0020863733175527,
+      -0.0013799439673064
+    ],
+    "captured_at": 1539978456617,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 232,
+    "computed_altitude": 2.0151529237628,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "2996353730690117.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=2996353730690117",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 9.890752977422625,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/2996353730690117.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "186003296676422",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140156618288,
+        -37.334991699222
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140155721253,
+        -37.334983779132
+      ]
+    },
+    "compass_angle": 62.789916992188,
+    "computed_compass_angle": 56.042884186794,
+    "computed_rotation": [
+      1.3997609460919,
+      -0.71363836283031,
+      0.80542176335659
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76928914456527,
+      0.0020863733175527,
+      -0.0013799439673064
+    ],
+    "captured_at": 1539978457628,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 232,
+    "computed_altitude": 2.0143325235695,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "186003296676422.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=186003296676422",
+    "block_selection": {
+      "street": "Constitución",
+      "distance_to_perimeter_m": 10.221032358128957,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/186003296676422.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1417530078639595",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140123855042,
+        -37.334953308011
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140117463619,
+        -37.334952886814
+      ]
+    },
+    "compass_angle": 29.242797851562,
+    "computed_compass_angle": 43.982417718206,
+    "computed_rotation": [
+      1.4740156956347,
+      -0.55602204167044,
+      0.64318953270188
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76928914456527,
+      0.0020863733175527,
+      -0.0013799439673064
+    ],
+    "captured_at": 1539978458747,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 229,
+    "computed_altitude": 1.8569273268804,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "1417530078639595.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1417530078639595",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 8.461347654198464,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/1417530078639595.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "160982345941294",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140084131264,
+        -37.334869473392
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140088053674,
+        -37.33488028577
+      ]
+    },
+    "compass_angle": 10.60009765625,
+    "computed_compass_angle": 8.5126512557217,
+    "computed_rotation": [
+      1.5200735552469,
+      -0.082059184360278,
+      0.15129739706164
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.76928914456527,
+      0.0020863733175527,
+      -0.0013799439673064
+    ],
+    "captured_at": 1539978460618,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 229.91130820399,
+    "computed_altitude": 2.1407759636641,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "160982345941294.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=160982345941294",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 1.7964480612739349,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/160982345941294.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "4048729631855105",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140085210931,
+        -37.334849366194
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140101486847,
+        -37.334855587705
+      ]
+    },
+    "compass_angle": 345.52267456055,
+    "computed_compass_angle": 359.49910211918,
+    "computed_rotation": [
+      1.5185937199447,
+      -0.017050402323494,
+      -0.031951118723333
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978461756,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 230,
+    "computed_altitude": 2.2401317041367,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "4048729631855105.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=4048729631855105",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.9182365854839006,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/4048729631855105.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "483695476310724",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140149990151,
+        -37.334787865829
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140146213853,
+        -37.334760015512
+      ]
+    },
+    "compass_angle": 331.78573608398,
+    "computed_compass_angle": 335.84871156911,
+    "computed_rotation": [
+      1.4880814796618,
+      0.31204974770111,
+      -0.34419150268656
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978464730,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 225.99698492462,
+    "computed_altitude": 1.9554854780436,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "483695476310724.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=483695476310724",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 1.5073734619167412,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/483695476310724.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "142226107872905",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140173188945,
+        -37.334753339196
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14017141609,
+        -37.334721349206
+      ]
+    },
+    "compass_angle": 331.78573608398,
+    "computed_compass_angle": 335.48670550475,
+    "computed_rotation": [
+      1.4873958753878,
+      0.31767960027681,
+      -0.34832067848708
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978465502,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 225.22110552764,
+    "computed_altitude": 1.9198077563196,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "142226107872905.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=142226107872905",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 1.6666951825324305,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/142226107872905.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "319261133201442",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140208795337,
+        -37.33471371627
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140208324261,
+        -37.334661720212
+      ]
+    },
+    "compass_angle": 322.14001464844,
+    "computed_compass_angle": 336.14434986006,
+    "computed_rotation": [
+      1.4845672403961,
+      0.31854019982086,
+      -0.32863351610987
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978466605,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 225,
+    "computed_altitude": 1.8648294666782,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "319261133201442.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=319261133201442",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 1.7559783983303687,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/319261133201442.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "373450317263069",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140276801236,
+        -37.334595537357
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140277841143,
+        -37.334532919025
+      ]
+    },
+    "compass_angle": 343.02740478516,
+    "computed_compass_angle": 339.01266363944,
+    "computed_rotation": [
+      1.4986345615952,
+      0.26901335861569,
+      -0.30196064504414
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978468683,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 223,
+    "computed_altitude": 1.6932128854096,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "373450317263069.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=373450317263069",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 1.1332042700439318,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/373450317263069.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "938906563539239",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140341703654,
+        -37.33450630897
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140318025492,
+        -37.334458095626
+      ]
+    },
+    "compass_angle": 344.12445068359,
+    "computed_compass_angle": 338.13934128647,
+    "computed_rotation": [
+      1.4942436269886,
+      0.28094791489036,
+      -0.31344138241117
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978469795,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 223,
+    "computed_altitude": 1.649578647688,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "938906563539239.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=938906563539239",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.7554867045519683,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/938906563539239.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "757577611790641",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14036747907,
+        -37.334433939535
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140349451506,
+        -37.334401909788
+      ]
+    },
+    "compass_angle": 344.12445068359,
+    "computed_compass_angle": 337.84852515885,
+    "computed_rotation": [
+      1.4888775804139,
+      0.29046808693193,
+      -0.31100382317549
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978470541,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 223,
+    "computed_altitude": 1.6890476411209,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "757577611790641.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=757577611790641",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.5718393617268953,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/757577611790641.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "832783243984699",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140422857182,
+        -37.334374994636
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140393188101,
+        -37.334322240909
+      ]
+    },
+    "compass_angle": 317.75079345703,
+    "computed_compass_angle": 337.98091474993,
+    "computed_rotation": [
+      1.4974540696982,
+      0.29330252242559,
+      -0.30514972238493
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978471646,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 222.13545454545,
+    "computed_altitude": 1.6373236868531,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "832783243984699.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=832783243984699",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.2455911241229747,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/832783243984699.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "319628862841089",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14045830631,
+        -37.334286091013
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140439330001,
+        -37.334237014009
+      ]
+    },
+    "compass_angle": 342.73596191406,
+    "computed_compass_angle": 338.71843399998,
+    "computed_rotation": [
+      1.4984084971419,
+      0.28650841809922,
+      -0.29174604174764
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978472810,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 223.89866156788,
+    "computed_altitude": 1.6302551012486,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "319628862841089.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=319628862841089",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.1550290382282575,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/319628862841089.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "502465284220120",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140485463671,
+        -37.334216313862
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140470777486,
+        -37.3341771715
+      ]
+    },
+    "compass_angle": 342.73596191406,
+    "computed_compass_angle": 339.00528010655,
+    "computed_rotation": [
+      1.495701607698,
+      0.26881086188957,
+      -0.30213198819103
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978473631,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 223.1137667304,
+    "computed_altitude": 1.619775896892,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "502465284220120.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=502465284220120",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.512344365541601,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/502465284220120.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "175323477689926",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140520288765,
+        -37.334117569534
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140509292505,
+        -37.334102611932
+      ]
+    },
+    "compass_angle": 335.4817199707,
+    "computed_compass_angle": 339.80499074315,
+    "computed_rotation": [
+      1.4977045401054,
+      0.25816424054145,
+      -0.29114627628084
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978474773,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 222.99493927126,
+    "computed_altitude": 1.5867439480498,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "175323477689926.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=175323477689926",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.5854729747397078,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/175323477689926.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "960621738018740",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14055143502,
+        -37.334063042713
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140537379418,
+        -37.334048080282
+      ]
+    },
+    "compass_angle": 335.4817199707,
+    "computed_compass_angle": 338.62381452589,
+    "computed_rotation": [
+      1.5053169042065,
+      0.26056947278173,
+      -0.32227227559304
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978475598,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 222.15991902834,
+    "computed_altitude": 1.5422326019034,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "960621738018740.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=960621738018740",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.45907261316687964,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/960621738018740.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "213324267222795",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140591861538,
+        -37.333999631339
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140575855012,
+        -37.333982480646
+      ]
+    },
+    "compass_angle": 332.54779052734,
+    "computed_compass_angle": 336.03967948967,
+    "computed_rotation": [
+      1.5014092747744,
+      0.31007018711248,
+      -0.34224573186279
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978476716,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 220.17663817664,
+    "computed_altitude": 1.5450838152319,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "213324267222795.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=213324267222795",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.6481555993705197,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/213324267222795.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "993897441440951",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140627224242,
+        -37.333929088485
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140608017592,
+        -37.333928601874
+      ]
+    },
+    "compass_angle": 3.45654296875,
+    "computed_compass_angle": 336.36149919486,
+    "computed_rotation": [
+      1.4942058662508,
+      0.3074558317987,
+      -0.33528117575834
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978477832,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 219.11515151515,
+    "computed_altitude": 1.5305022839457,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "993897441440951.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=993897441440951",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 0.09048704995789271,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/993897441440951.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "3828072440580721",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14062310303,
+        -37.333869066667
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140628570059,
+        -37.333892549446
+      ]
+    },
+    "compass_angle": 351.03228759766,
+    "computed_compass_angle": 337.31131672083,
+    "computed_rotation": [
+      1.481576302463,
+      0.28159282896849,
+      -0.33489803594848
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978478739,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 220.0303030303,
+    "computed_altitude": 1.5617169970647,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "3828072440580721.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=3828072440580721",
+    "block_selection": {
+      "street": "Alberdi",
+      "distance_to_perimeter_m": 1.5546274353084777,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/3828072440580721.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "154927706636328",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140630659238,
+        -37.333830832258
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140650764463,
+        -37.33385186179
+      ]
+    },
+    "compass_angle": 351.03228759766,
+    "computed_compass_angle": 338.14108682498,
+    "computed_rotation": [
+      1.471821603564,
+      0.27506100635551,
+      -0.31761786082243
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978479512,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 220.78592375367,
+    "computed_altitude": 1.6732963360846,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "154927706636328.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=154927706636328",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 1.7336451341413839,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/154927706636328.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "830463430892125",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140655746154,
+        -37.333773141538
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140678583412,
+        -37.333799297446
+      ]
+    },
+    "compass_angle": 338.64349365234,
+    "computed_compass_angle": 338.26588622412,
+    "computed_rotation": [
+      1.4676255414031,
+      0.25926351347079,
+      -0.33089084757652
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978480516,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 221,
+    "computed_altitude": 1.7878077728674,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "830463430892125.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=830463430892125",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 6.701829112961649,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/830463430892125.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "501192154251791",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140690429401,
+        -37.33372852088
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140710482734,
+        -37.333740776339
+      ]
+    },
+    "compass_angle": 325.04895019531,
+    "computed_compass_angle": 339.31762539523,
+    "computed_rotation": [
+      1.4757904042065,
+      0.26934902164831,
+      -0.2909416428784
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978481575,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 220.18632958801,
+    "computed_altitude": 1.9909592634067,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "501192154251791.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=501192154251791",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 13.65860786536503,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/501192154251791.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "2286535231484060",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140724778776,
+        -37.333671755714
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140745806541,
+        -37.333672220285
+      ]
+    },
+    "compass_angle": 329.69924926758,
+    "computed_compass_angle": 339.22938353808,
+    "computed_rotation": [
+      1.488382728664,
+      0.26387335085211,
+      -0.30045870898645
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978482764,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 218.99387755102,
+    "computed_altitude": 2.0640143239871,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "2286535231484060.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=2286535231484060",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 21.39031331227466,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/2286535231484060.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "126956006119395",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140767923265,
+        -37.333612801429
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.140769324875,
+        -37.333627636375
+      ]
+    },
+    "compass_angle": 329.69924926758,
+    "computed_compass_angle": 339.50159520855,
+    "computed_rotation": [
+      1.4791928645634,
+      0.25664967906633,
+      -0.29975121836503
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.83850916615423,
+      0.00061231209659412,
+      -0.00075743461831
+    ],
+    "captured_at": 1539978483488,
+    "sequence": "NJ3FOf5KSUix2TaldBz7Jw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 217.51632653061,
+    "computed_altitude": 2.1879388764501,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "126956006119395.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=126956006119395",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 27.209998540219186,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/126956006119395.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "217656679725522",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141237118897,
+        -37.335746776507
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141311134739,
+        -37.335750438559
+      ]
+    },
+    "compass_angle": 334.94741821289,
+    "computed_compass_angle": 332.86030495428,
+    "computed_rotation": [
+      -4.3947355792272,
+      -1.0670633858216,
+      1.0345260364917
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.99684294370208,
+      0.0024407343240998,
+      0.00044847137796414
+    ],
+    "captured_at": 1541197451128,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 224.89070480082,
+    "computed_altitude": -2.4665837930515,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "217656679725522.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=217656679725522",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 23.677913116120187,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/217656679725522.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "924982405003838",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141279372523,
+        -37.335674596323
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141350644899,
+        -37.335687559149
+      ]
+    },
+    "compass_angle": 334.94741821289,
+    "computed_compass_angle": 332.92068242234,
+    "computed_rotation": [
+      -4.3933562290576,
+      -1.0648151733793,
+      1.0272922932232
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.99684294370208,
+      0.0024407343240998,
+      0.00044847137796414
+    ],
+    "captured_at": 1541197451855,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 224.14811031665,
+    "computed_altitude": -2.7947875652462,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "924982405003838.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=924982405003838",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 16.064304473187445,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/924982405003838.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "1111716799312611",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141329761656,
+        -37.33559544816
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14140364918,
+        -37.335603398662
+      ]
+    },
+    "compass_angle": 332.64077758789,
+    "computed_compass_angle": 332.66714218297,
+    "computed_rotation": [
+      -4.3859214523685,
+      -1.0454905907533,
+      1.0590387202182
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.99684294370208,
+      0.0024407343240998,
+      0.00044847137796414
+    ],
+    "captured_at": 1541197452753,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 224,
+    "computed_altitude": -3.1859979135916,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "1111716799312611.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=1111716799312611",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 6.626205355072358,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/1111716799312611.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "887288155463015",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141381725173,
+        -37.335506332904
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14145013839,
+        -37.335529362023
+      ]
+    },
+    "compass_angle": 335.71405029297,
+    "computed_compass_angle": 332.91350878298,
+    "computed_rotation": [
+      -4.4088888456701,
+      -1.0773202370784,
+      1.0470391532202
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.99684294370208,
+      0.0024407343240998,
+      0.00044847137796414
+    ],
+    "captured_at": 1541197453628,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 224,
+    "computed_altitude": -3.475217747502,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "887288155463015.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=887288155463015",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 2.1886329472798245,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/887288155463015.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "298318311864344",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141461642568,
+        -37.335394380405
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141512061844,
+        -37.335423047392
+      ]
+    },
+    "compass_angle": 327.69323730469,
+    "computed_compass_angle": 335.89894197131,
+    "computed_rotation": [
+      1.4569680594302,
+      0.37129720538304,
+      -0.27553500048283
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197454918,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 223.10135135135,
+    "computed_altitude": -4.0875730551779,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "298318311864344.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=298318311864344",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 1.2334219268754358,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/298318311864344.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "503748167479527",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141536709921,
+        -37.335333885714
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141562859427,
+        -37.335330292591
+      ]
+    },
+    "compass_angle": 313.66589355469,
+    "computed_compass_angle": 335.93965131383,
+    "computed_rotation": [
+      1.4625492116596,
+      0.37361382388194,
+      -0.27291168505763
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197455883,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 221.29365079365,
+    "computed_altitude": -3.4510919321328,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "503748167479527.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=503748167479527",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 1.8254141193139022,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/503748167479527.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "3573274879564256",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141588453445,
+        -37.335239129921
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141613909721,
+        -37.335237328204
+      ]
+    },
+    "compass_angle": 339.59719848633,
+    "computed_compass_angle": 335.68950737398,
+    "computed_rotation": [
+      1.4650542425935,
+      0.3717781254371,
+      -0.28231468450969
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197456882,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 219.32480314961,
+    "computed_altitude": -2.8009775783867,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "3573274879564256.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=3573274879564256",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 1.3660688647595713,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/3573274879564256.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "309670914027470",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141638826774,
+        -37.335149023746
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141670007065,
+        -37.335136131264
+      ]
+    },
+    "compass_angle": 335.14462280273,
+    "computed_compass_angle": 335.46179256017,
+    "computed_rotation": [
+      1.4647735714437,
+      0.37589466380338,
+      -0.28432074075213
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197457976,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 216.3632923368,
+    "computed_altitude": -2.1574214892462,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "309670914027470.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=309670914027470",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 1.0224883834301355,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/309670914027470.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "506671577138551",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14172102334,
+        -37.335043993928
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141728672778,
+        -37.335031199888
+      ]
+    },
+    "compass_angle": 334.5202331543,
+    "computed_compass_angle": 335.48125368878,
+    "computed_rotation": [
+      1.4589725623771,
+      0.38054771107128,
+      -0.27783906044384
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197459106,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 217.1119544592,
+    "computed_altitude": -1.4745993474498,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "506671577138551.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=506671577138551",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 2.485421426212554,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/506671577138551.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "865981113954734",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141772347818,
+        -37.334957994877
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141770929356,
+        -37.334953820683
+      ]
+    },
+    "compass_angle": 334.5202331543,
+    "computed_compass_angle": 336.00317493596,
+    "computed_rotation": [
+      1.4568603519204,
+      0.369720441193,
+      -0.27425602575658
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197459911,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 217.87571157495,
+    "computed_altitude": -0.98646292835474,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "865981113954734.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=865981113954734",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 2.110497944428881,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/865981113954734.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "153803503413974",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141834223972,
+        -37.334869666199
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141825469376,
+        -37.334852628134
+      ]
+    },
+    "compass_angle": 330.10308837891,
+    "computed_compass_angle": 336.0579188744,
+    "computed_rotation": [
+      1.4607993006331,
+      0.36372588665014,
+      -0.2797631990577
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197460948,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 217.09127382146,
+    "computed_altitude": -0.310845695436,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "153803503413974.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=153803503413974",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 1.5627070239877794,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/153803503413974.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "459222228634464",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141902790976,
+        -37.334753594019
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14191835685,
+        -37.334779882912
+      ]
+    },
+    "compass_angle": 336.55068969727,
+    "computed_compass_angle": 340.78991388428,
+    "computed_rotation": [
+      1.5272050685009,
+      0.22532101621664,
+      -0.29994007869734
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197462072,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 218,
+    "computed_altitude": 3.1845255168155,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "459222228634464.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=459222228634464",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 2.936228497819347,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/459222228634464.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "285688606494753",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141942688458,
+        -37.334680148164
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141948451786,
+        -37.334691762192
+      ]
+    },
+    "compass_angle": 336.55068969727,
+    "computed_compass_angle": 340.09766191194,
+    "computed_rotation": [
+      -4.5590054350527,
+      -0.69365692448359,
+      0.92783301622584
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      0.99684294370208,
+      0.0024407343240998,
+      0.00044847137796414
+    ],
+    "captured_at": 1541197462819,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 218,
+    "computed_altitude": 3.267032507807,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "285688606494753.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=285688606494753",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 2.563555664098992,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/285688606494753.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "999708080562137",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141988909172,
+        -37.334579450449
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141979354868,
+        -37.334580562028
+      ]
+    },
+    "compass_angle": 340.45645141602,
+    "computed_compass_angle": 338.67043309223,
+    "computed_rotation": [
+      1.5284193954867,
+      0.2545776220593,
+      -0.32866072472594
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197463815,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 218,
+    "computed_altitude": 3.5752740791067,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "999708080562137.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=999708080562137",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 0.6681167798258437,
+      "position_source": "computed_geometry"
+    },
+    "local_image": "streetview/999708080562137.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "3698246510285143",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142025009296,
+        -37.334488162427
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.141972665199,
+        -37.334424999925
+      ]
+    },
+    "compass_angle": 342.90905761719,
+    "computed_compass_angle": 331.16301127703,
+    "computed_rotation": [
+      1.6693134691813,
+      0.42174748892619,
+      -0.38001198845869
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197464857,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 216.26810176125,
+    "computed_altitude": 12.613130413927,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "3698246510285143.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=3698246510285143",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 0.16271167916424234,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/3698246510285143.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "270872038086737",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14207670562,
+        -37.334399093411
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142035459811,
+        -37.334333703883
+      ]
+    },
+    "compass_angle": 334.03598022461,
+    "computed_compass_angle": 331.3141912941,
+    "computed_rotation": [
+      1.6264540565892,
+      0.40165483979653,
+      -0.3915487344953
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197465908,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 215.11434108527,
+    "computed_altitude": 11.161833900027,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "270872038086737.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=270872038086737",
+    "block_selection": {
+      "street": "Avenida Rivadavia",
+      "distance_to_perimeter_m": 0.35049656218585706,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/270872038086737.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "755587771790322",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142128535582,
+        -37.334311931029
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.14209136051,
+        -37.334250312894
+      ]
+    },
+    "compass_angle": 334.67440795898,
+    "computed_compass_angle": 331.48265395642,
+    "computed_rotation": [
+      1.6324325979477,
+      0.39694199612274,
+      -0.39177673449532
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197466958,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 215.78583473862,
+    "computed_altitude": 9.931380327791,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "755587771790322.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=755587771790322",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 9.040470143103876,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/755587771790322.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  },
+  {
+    "id": "474773977068611",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142189622359,
+        -37.334199050462
+      ]
+    },
+    "computed_geometry": {
+      "type": "Point",
+      "coordinates": [
+        -59.142147789104,
+        -37.334165788147
+      ]
+    },
+    "compass_angle": 331.37670898438,
+    "computed_compass_angle": 331.57454477225,
+    "computed_rotation": [
+      1.6260548538756,
+      0.40582814197724,
+      -0.38074943613015
+    ],
+    "camera_type": "perspective",
+    "camera_parameters": [
+      1.0764356482402,
+      0.00010854152390374,
+      -0.00012129031474252
+    ],
+    "captured_at": 1541197468016,
+    "sequence": "g6C71rMuT2-olWj15gM3Sw",
+    "width": 3264,
+    "height": 2448,
+    "altitude": 214.98256410256,
+    "computed_altitude": 8.7085621822625,
+    "exif_orientation": 1,
+    "creator": {
+      "username": "gabriel_tandil",
+      "id": "100334702216112"
+    },
+    "is_pano": false,
+    "file_name": "474773977068611.jpg",
+    "source": "mapillary",
+    "view_url": "https://www.mapillary.com/app/?pKey=474773977068611",
+    "block_selection": {
+      "street": "25 de Mayo",
+      "distance_to_perimeter_m": 22.68279321444808,
+      "position_source": "geometry"
+    },
+    "local_image": "streetview/474773977068611.jpg",
+    "local_width": 2048,
+    "local_height": 1536
+  }
+]

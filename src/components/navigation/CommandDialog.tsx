@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import { Dialog } from '@base-ui/react/dialog'
 import { Command } from 'cmdk'
 import {
@@ -12,7 +12,6 @@ import {
   TreePine,
   X,
 } from 'lucide-react'
-import { mockDetections } from '../../data/mockData'
 import type { Project } from '../../types/project'
 import type { SelectedTree } from '../../types/tree'
 
@@ -20,7 +19,7 @@ type CommandDialogProps = {
   open: boolean
   onClose: () => void
   projects: Project[]
-  loaded: boolean
+  trees: SelectedTree[]
   onAction: (action: 'home' | 'image' | 'yolo' | 'layers' | 'analysis') => void
   onProject: (project: Project) => void
   onTree: (tree: SelectedTree) => void
@@ -30,11 +29,19 @@ export default function CommandDialog({
   open,
   onClose,
   projects,
-  loaded,
+  trees,
   onAction,
   onProject,
   onTree,
 }: CommandDialogProps) {
+  const [query, setQuery] = useState('')
+  const matchingTrees = trees
+    .filter((tree) =>
+      `${tree.label} ${tree.census.especie} ${tree.calle}`
+        .toLocaleLowerCase()
+        .includes(query.toLocaleLowerCase()),
+    )
+    .slice(0, 40)
   const searchInput = useRef<HTMLInputElement>(null)
   const actions = [
     { id: 'home', label: 'Ir al Inicio', icon: House },
@@ -71,6 +78,8 @@ export default function CommandDialog({
               <Search size={19} className="shrink-0 text-slate-500" />
               <Command.Input
                 ref={searchInput}
+                value={query}
+                onValueChange={setQuery}
                 data-arbor-search=""
                 placeholder="Buscá un proyecto, árbol o acción…"
                 className="h-14 min-w-0 flex-1 bg-transparent text-sm outline-none placeholder:text-slate-500"
@@ -121,28 +130,22 @@ export default function CommandDialog({
                   </Command.Item>
                 ))}
               </Command.Group>
-              {loaded && (
-                <Command.Group heading="Árboles de la demostración">
-                  {mockDetections.features.map((tree) => (
+              {open && (
+                <Command.Group heading="Árboles del proyecto">
+                  {matchingTrees.map((tree) => (
                     <Command.Item
-                      key={tree.properties.id}
-                      value={`Árbol ${tree.properties.id} ${tree.properties.especie}`}
+                      key={tree.label}
+                      value={`Árbol ${tree.label} ${tree.census.especie} ${tree.calle}`}
                       onSelect={() => {
                         onClose()
-                        onTree({
-                          ...tree.properties,
-                          coordinates: tree.geometry.coordinates as [
-                            number,
-                            number,
-                          ],
-                        })
+                        onTree(tree)
                       }}
                       className="command-item"
                     >
                       <TreePine size={17} />
-                      Árbol {tree.properties.id}
+                      Árbol {tree.label}
                       <span className="ml-auto text-[10px] text-slate-500">
-                        {tree.properties.estado_sanitario}
+                        {tree.census.estado_sanitario ?? 'Sin relevar'}
                       </span>
                     </Command.Item>
                   ))}

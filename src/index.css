@@ -228,3 +228,43 @@
     transition: opacity 150ms ease;
   }
 }
+
+.street-view {
+  transition: opacity 200ms var(--ease-out);
+}
+.street-view[data-starting-style],
+.street-view[data-ending-style] {
+  opacity: 0;
+}
+.street-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 1rem;
+  color: var(--color-slate-50);
+  filter: drop-shadow(0 3px 2px rgb(15 23 42 / 70%));
+  transition: opacity 150ms var(--ease-out);
+  cursor: pointer;
+}
+.street-step:hover { background: rgb(15 23 42 / 30%); }
+.street-step:disabled { opacity: 0.2; cursor: default; }
+.street-step:focus-visible { outline: 2px solid var(--color-emerald-300); }
+.street-map-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  background: rgb(248 250 252 / 95%);
+  color: var(--color-slate-700);
+  box-shadow: 0 2px 8px rgb(15 23 42 / 15%);
+  cursor: pointer;
+}
+.street-map-button:hover { background: var(--color-slate-200); }
+.street-map-button:focus-visible { outline: 2px solid var(--color-emerald-700); }
+@media (prefers-reduced-motion: reduce) {
+  .street-view { transition-duration: 125ms; }
+}

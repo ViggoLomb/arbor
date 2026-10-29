@@ -1,63 +1,153 @@
-import { Camera, Save } from 'lucide-react'
-import type { SelectedTree } from '../../types/tree'
-
-type TreeDetailsFormProps = {
+import type {
+  CensusFields,
+  SelectedTree,
+  EstadoSanitario,
+} from '../../types/tree'
+const fieldClass =
+  'mt-2 h-10 w-full rounded-xl border border-slate-200/60 bg-slate-50 px-3 text-sm text-slate-800 outline-none placeholder:text-slate-400 focus-visible:ring-2 focus-visible:ring-emerald-600'
+export default function TreeDetailsForm({
+  tree,
+  onSave,
+}: {
   tree: SelectedTree
-  onSave: (id: string) => void
-}
-
-const fieldClassName = 'mt-2 h-11 w-full rounded-xl border border-slate-200/60 bg-slate-50 px-3 text-sm text-slate-800 outline-none placeholder:text-slate-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600'
-
-export default function TreeDetailsForm({ tree, onSave }: TreeDetailsFormProps) {
+  onSave: (id: string, census: CensusFields) => void
+}) {
+  const census = tree.census
   return (
     <form
-      className="flex min-h-0 flex-1 flex-col"
-      onSubmit={(event) => { event.preventDefault(); onSave(tree.id) }}
+      id="tree-census-form"
+      autoComplete="off"
+      onSubmit={(event) => {
+        event.preventDefault()
+        const fields = new FormData(event.currentTarget)
+        const dap = String(fields.get('dap') ?? '').trim()
+        const interference = (name: string) =>
+          fields.get(name) === '' ? null : fields.get(name) === 'yes'
+        onSave(tree.id, {
+          especie: String(fields.get('especie') ?? '').trim(),
+          dap_cm: dap ? Number(dap) : null,
+          estado_sanitario: (fields.get('estado') ||
+            null) as EstadoSanitario | null,
+          interferencias: {
+            Cables: interference('Cables'),
+            Vereda: interference('Vereda'),
+            Luminarias: interference('Luminarias'),
+          },
+          observaciones: String(fields.get('observaciones') ?? '').trim(),
+        })
+      }}
+      className="space-y-4"
     >
-      <div className="min-h-0 flex-1 space-y-5 overflow-y-auto overscroll-contain p-5">
-        <div role="img" aria-label="Foto de demostración del árbol, sin imagen disponible" className="flex h-28 flex-col items-center justify-center gap-2 rounded-2xl bg-slate-200/70 text-slate-500">
-          <Camera size={28} strokeWidth={1.5} aria-hidden="true" />
-          <span className="text-xs">Foto del ejemplar · Demostración</span>
-        </div>
-
+      <div>
+        <label
+          htmlFor="tree-species"
+          className="text-xs font-medium text-slate-700"
+        >
+          Especie
+        </label>
+        <input
+          id="tree-species"
+          name="especie"
+          type="text"
+          defaultValue={census.especie}
+          placeholder="Sin relevar"
+          className={fieldClass}
+        />
+      </div>
+      <div className="grid grid-cols-2 gap-3">
         <div>
-          <label htmlFor="tree-species" className="text-sm font-medium text-slate-700">Especie</label>
-          <input id="tree-species" name="especie" type="text" required defaultValue={tree.especie} placeholder="Ej.: Jacarandá" className={fieldClassName} />
+          <label
+            htmlFor="tree-dap"
+            className="text-xs font-medium text-slate-700"
+          >
+            DAP (cm)
+          </label>
+          <input
+            id="tree-dap"
+            name="dap"
+            type="number"
+            min="0.1"
+            step="0.1"
+            defaultValue={census.dap_cm ?? ''}
+            placeholder="Sin medir"
+            className={fieldClass}
+          />
         </div>
-
         <div>
-          <label htmlFor="tree-dap" className="text-sm font-medium text-slate-700">DAP (cm)</label>
-          <input id="tree-dap" name="dap" type="number" min="0.1" step="0.1" inputMode="decimal" placeholder="Ej.: 32" className={fieldClassName} />
-        </div>
-
-        <div>
-          <label htmlFor="tree-health" className="text-sm font-medium text-slate-700">Estado Sanitario</label>
-          <select id="tree-health" name="estado_sanitario" defaultValue={tree.estado_sanitario} className={fieldClassName}>
+          <label
+            htmlFor="tree-health"
+            className="text-xs font-medium text-slate-700"
+          >
+            Estado sanitario
+          </label>
+          <select
+            id="tree-health"
+            name="estado"
+            defaultValue={census.estado_sanitario ?? ''}
+            className={fieldClass}
+          >
+            <option value="">Sin relevar</option>
             <option value="Bueno">Bueno</option>
             <option value="Regular">Regular</option>
             <option value="Malo">Malo</option>
           </select>
         </div>
-
-        <fieldset>
-          <legend className="text-sm font-medium text-slate-700">Interferencias</legend>
-          <div className="mt-2 flex flex-wrap gap-2">
-            {['Cables', 'Vereda', 'Luminarias'].map((interference) => (
-              <label key={interference} className="flex min-h-11 cursor-pointer items-center gap-2 rounded-xl bg-slate-50 px-3 py-2 text-sm text-slate-600">
-                <input type="checkbox" name="interferencias" value={interference} className="size-4 rounded accent-slate-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600" />
-                {interference}
-              </label>
-            ))}
-          </div>
-        </fieldset>
       </div>
-
-      <footer className="shrink-0 border-t border-slate-200/80 p-4">
-        <button type="submit" className="flex h-11 w-full items-center justify-center gap-2 rounded-full bg-slate-800 px-5 text-sm font-medium text-slate-50 hover:bg-slate-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600">
-          <Save size={17} aria-hidden="true" /> Guardar Ficha
-        </button>
-        <p className="mt-2 text-center text-xs text-slate-500">Guardado de demostración</p>
-      </footer>
+      <fieldset>
+        <legend className="mb-2 text-xs font-medium text-slate-700">
+          Interferencias
+        </legend>
+        <div className="space-y-2">
+          {(['Cables', 'Vereda', 'Luminarias'] as const).map((name) => (
+            <div
+              key={name}
+              className="flex items-center justify-between gap-3 rounded-xl bg-slate-50 px-3 py-2"
+            >
+              <label
+                htmlFor={`tree-${name}`}
+                className="text-xs text-slate-600"
+              >
+                {name}
+              </label>
+              <select
+                id={`tree-${name}`}
+                name={name}
+                defaultValue={
+                  census.interferencias[name] === null
+                    ? ''
+                    : census.interferencias[name]
+                      ? 'yes'
+                      : 'no'
+                }
+                className="h-8 rounded-lg border border-slate-200/60 bg-slate-50 px-2 text-xs text-slate-700 focus-visible:outline-2 focus-visible:outline-emerald-600"
+              >
+                <option value="">Sin evaluar</option>
+                <option value="yes">Presenta</option>
+                <option value="no">No presenta</option>
+              </select>
+            </div>
+          ))}
+        </div>
+      </fieldset>
+      <div>
+        <label
+          htmlFor="tree-notes"
+          className="text-xs font-medium text-slate-700"
+        >
+          Observaciones
+        </label>
+        <textarea
+          id="tree-notes"
+          name="observaciones"
+          defaultValue={census.observaciones}
+          placeholder="Agregá notas del relevamiento…"
+          className={`${fieldClass} h-20 resize-y py-3`}
+        />
+      </div>
+      <p className="text-[11px] leading-5 text-slate-500">
+        Los campos pendientes requieren relevamiento. La detección no determina
+        especie, DAP ni diagnóstico sanitario.
+      </p>
     </form>
   )
 }

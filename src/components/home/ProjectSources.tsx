@@ -1,4 +1,5 @@
 import { ArrowUpRight, Cpu, FilePlus2, Image } from 'lucide-react'
+import { getAvailableTrees } from '../../data/trees'
 import type { Project, ProjectSession } from '../../types/project'
 
 export default function ProjectSources({
@@ -29,9 +30,7 @@ export default function ProjectSources({
           },
           {
             name: 'Detecciones IA',
-            detail: session.detectionsLoaded
-              ? '40 entidades confirmadas'
-              : 'Esperando GeoJSON del agente',
+            detail: `${getAvailableTrees(session.campaign).length} candidatos · agrotech · ${session.campaign === 'all' ? 'Todas las campañas' : session.campaign}`,
             icon: Cpu,
           },
           {

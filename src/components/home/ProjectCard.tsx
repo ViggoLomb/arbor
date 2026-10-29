@@ -29,13 +29,12 @@ export default function ProjectCard({
         <p className="mt-1 truncate text-xs text-[#a0a0a0]">
           {project.description}
         </p>
-        <p className="mt-1.5 flex items-center gap-1.5 text-xs text-[#a0a0a0]">
-          <Map size={12} aria-hidden="true" />
-          {project.library}
-          <span aria-hidden="true">·</span>
-          {project.updated}
-          <span aria-hidden="true">·</span>
-          {project.draft ? 'Borrador' : 'Proyecto demo'}
+        <p className="mt-1.5 flex items-center gap-1.5 truncate text-xs text-[#a0a0a0]">
+          <Map size={12} className="shrink-0" aria-hidden="true" />
+          <span className="truncate">
+            {project.library} · {project.updated} ·{' '}
+            {project.draft ? 'Borrador' : 'Proyecto demo'}
+          </span>
         </p>
       </div>
     </button>

@@ -10,10 +10,17 @@ export function showImportedImage(map: Map) {
   if (!map.getLayer(FIRST_DETECTION_LAYER_ID) || map.getLayer(LAYER_ID)) return
 
   map.addSource(SOURCE_ID, demoImportedImage)
-  map.addLayer({
-    id: LAYER_ID,
-    type: 'raster',
-    source: SOURCE_ID,
-    paint: { 'raster-opacity': 1, 'raster-fade-duration': 0 },
-  }, FIRST_DETECTION_LAYER_ID)
+  map.addLayer(
+    {
+      id: LAYER_ID,
+      type: 'raster',
+      minzoom: 17,
+      layout: {
+        visibility: map.getLayer('basemap-satellite') ? 'visible' : 'none',
+      },
+      source: SOURCE_ID,
+      paint: { 'raster-opacity': 1, 'raster-fade-duration': 0 },
+    },
+    FIRST_DETECTION_LAYER_ID,
+  )
 }

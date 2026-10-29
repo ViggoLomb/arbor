@@ -23,3 +23,33 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local assistant/editor configuration (AGENTS.md is shared)
+.agents/
+.cursorrules
+skills-lock.json
+
+# Test and tool output
+coverage/
+playwright-report/
+test-results/
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Retired preparation inputs; keep only the Thessaloniki example in Git
+references/thessaloniki/*
+!references/thessaloniki/01-city-overview.jpg
+!references/thessaloniki/01-city-overview.extent.json
+
+# Unused starter/design assets
+src/assets/

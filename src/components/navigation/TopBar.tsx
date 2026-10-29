@@ -7,9 +7,15 @@ import MapToolbar from './MapToolbar'
 import ExportButton from './ExportButton'
 import useSimulatedExport from './useSimulatedExport'
 import ToolButton from '../ui/ToolButton'
+import BasemapMenu from './BasemapMenu'
+import type { BasemapId } from '../../data/basemaps'
 import MenuSurface from '../ui/MenuSurface'
 
 type TopBarProps = {
+  basemap: BasemapId
+  basemapLabels: boolean
+  onBasemap: (value: BasemapId) => void
+  onBasemapLabels: (value: boolean) => void
   project: Project
   panel: EditorPanel
   onHome: (library?: string) => void
@@ -21,6 +27,10 @@ type TopBarProps = {
 }
 
 export default function TopBar({
+  basemap,
+  basemapLabels,
+  onBasemap,
+  onBasemapLabels,
   project,
   panel,
   onHome,
@@ -63,6 +73,12 @@ export default function TopBar({
           className="hidden sm:flex"
         />
         <ExportButton generating={generating} onGenerate={generate} />
+        <BasemapMenu
+          value={basemap}
+          labels={basemapLabels}
+          onChange={onBasemap}
+          onLabelsChange={onBasemapLabels}
+        />
         <Menu.Root>
           <Menu.Trigger
             aria-label="Espacio municipal"

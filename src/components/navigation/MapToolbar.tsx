@@ -87,7 +87,7 @@ export default function MapToolbar({
             <span>
               Cargar Detecciones IA
               <span className="block text-xs font-normal text-slate-500">
-                Agente YOLO · GeoJSON
+                agrotech · GeoJSON
               </span>
             </span>
           </Menu.Item>

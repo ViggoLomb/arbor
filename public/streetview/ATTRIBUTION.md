@@ -1,0 +1,99 @@
+# Fotografías de calle — atribución
+
+Fotografías aportadas a Mapillary por **paprika** y **gabriel_tandil**, bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+Los JPG se copiaron sin modificar de las imágenes descargadas (2048 × 1536). Se conservan sus desenfoques originales. Los IDs y créditos de cada imagen también están en `src/data/streetRoute.json`.
+
+Fuente de las condiciones: https://help.mapillary.com/hc/en-us/articles/115001770409-CC-BY-SA-license-for-open-data
+
+| Archivo | Autor | Fuente |
+|---|---|---|
+| `301045408155594.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=301045408155594) |
+| `907590459808217.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=907590459808217) |
+| `741548099844678.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=741548099844678) |
+| `935780077260456.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=935780077260456) |
+| `393899311681249.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=393899311681249) |
+| `4001399279953466.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=4001399279953466) |
+| `2562651520707392.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=2562651520707392) |
+| `142581291222782.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=142581291222782) |
+| `313620030363368.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=313620030363368) |
+| `543918590095055.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=543918590095055) |
+| `2960657547503093.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=2960657547503093) |
+| `463608934730948.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=463608934730948) |
+| `1017273085470683.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=1017273085470683) |
+| `501006261324314.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=501006261324314) |
+| `3650702221706337.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=3650702221706337) |
+| `4030685080343085.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=4030685080343085) |
+| `509285256776297.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=509285256776297) |
+| `1235411700247993.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=1235411700247993) |
+| `819038589039857.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=819038589039857) |
+| `3775185412610418.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=3775185412610418) |
+| `981048899304382.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=981048899304382) |
+| `158608926269453.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=158608926269453) |
+| `1235130840236785.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=1235130840236785) |
+| `1776118365901888.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=1776118365901888) |
+| `845919839332719.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=845919839332719) |
+| `1918783648286685.jpg` | paprika | [Mapillary](https://www.mapillary.com/app/?pKey=1918783648286685) |
+| `1105709096594518.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=1105709096594518) |
+| `469531677614208.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=469531677614208) |
+| `119822900116818.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=119822900116818) |
+| `4002530999813638.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=4002530999813638) |
+| `1105915583240058.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=1105915583240058) |
+| `1121021761743910.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=1121021761743910) |
+| `311820940548210.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=311820940548210) |
+| `1416258252042545.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=1416258252042545) |
+| `1162960817479137.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=1162960817479137) |
+| `458855975344426.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=458855975344426) |
+| `461149594996606.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=461149594996606) |
+| `145107770847913.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=145107770847913) |
+| `1445099315844837.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=1445099315844837) |
+| `324165962607252.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=324165962607252) |
+| `846016185983685.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=846016185983685) |
+| `1190333971418501.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=1190333971418501) |
+| `476938636980232.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=476938636980232) |
+| `870050853581010.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=870050853581010) |
+| `500511691078373.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=500511691078373) |
+| `286871449741145.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=286871449741145) |
+| `536573210698742.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=536573210698742) |
+| `2996353730690117.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=2996353730690117) |
+| `186003296676422.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=186003296676422) |
+| `1417530078639595.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=1417530078639595) |
+| `160982345941294.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=160982345941294) |
+| `4048729631855105.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=4048729631855105) |
+| `483695476310724.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=483695476310724) |
+| `142226107872905.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=142226107872905) |
+| `319261133201442.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=319261133201442) |
+| `373450317263069.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=373450317263069) |
+| `938906563539239.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=938906563539239) |
+| `757577611790641.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=757577611790641) |
+| `832783243984699.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=832783243984699) |
+| `319628862841089.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=319628862841089) |
+| `502465284220120.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=502465284220120) |
+| `175323477689926.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=175323477689926) |
+| `960621738018740.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=960621738018740) |
+| `213324267222795.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=213324267222795) |
+| `993897441440951.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=993897441440951) |
+| `3828072440580721.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=3828072440580721) |
+| `154927706636328.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=154927706636328) |
+| `830463430892125.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=830463430892125) |
+| `501192154251791.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=501192154251791) |
+| `2286535231484060.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=2286535231484060) |
+| `126956006119395.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=126956006119395) |
+| `217656679725522.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=217656679725522) |
+| `924982405003838.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=924982405003838) |
+| `1111716799312611.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=1111716799312611) |
+| `887288155463015.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=887288155463015) |
+| `298318311864344.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=298318311864344) |
+| `503748167479527.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=503748167479527) |
+| `3573274879564256.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=3573274879564256) |
+| `309670914027470.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=309670914027470) |
+| `506671577138551.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=506671577138551) |
+| `865981113954734.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=865981113954734) |
+| `153803503413974.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=153803503413974) |
+| `459222228634464.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=459222228634464) |
+| `285688606494753.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=285688606494753) |
+| `999708080562137.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=999708080562137) |
+| `3698246510285143.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=3698246510285143) |
+| `270872038086737.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=270872038086737) |
+| `755587771790322.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=755587771790322) |
+| `474773977068611.jpg` | gabriel_tandil | [Mapillary](https://www.mapillary.com/app/?pKey=474773977068611) |

@@ -1,7 +1,9 @@
+// @refresh reset
 import { useState } from 'react'
 import { Tooltip } from '@base-ui/react/tooltip'
 import { Toaster, toast } from 'sonner'
 import Home from './screens/Home'
+import ExamplePreview from './screens/ExamplePreview'
 import MapEditor from './screens/MapEditor'
 import ProjectDialog from './components/navigation/ProjectDialog'
 import { libraries, mockProjects } from './data/mockProjects'
@@ -9,7 +11,7 @@ import { emptySession } from './types/project'
 import type { Project, ProjectAction, ProjectSession } from './types/project'
 
 export default function App() {
-  const [screen, setScreen] = useState<'home' | 'editor'>('editor')
+  const [screen, setScreen] = useState<'home' | 'editor' | 'example'>('editor')
   const [projects, setProjects] = useState(mockProjects)
   const [projectId, setProjectId] = useState(mockProjects[0].id)
   const [sessions, setSessions] = useState<Record<string, ProjectSession>>({})
@@ -25,13 +27,14 @@ export default function App() {
   const updateSession = (changes: Partial<ProjectSession>) =>
     setSessions((current) => ({
       ...current,
-      [projectId]: { ...(current[projectId] ?? emptySession), ...changes },
+      [projectId]: { ...(current[projectId] ?? session), ...changes },
     }))
   const saveProject = (name: string, library: string) => {
     if (!name || !libraries.includes(library)) return
     if (projectAction === 'new' || projectAction === 'duplicate') {
       const next: Project = {
         ...project,
+        scenarioId: 'tandil',
         id: crypto.randomUUID(),
         name,
         library,
@@ -70,7 +73,7 @@ export default function App() {
       {/* Ocultar el editor conserva el mapa, su encuadre y la sesión al visitar Inicio. */}
       <div hidden={screen !== 'editor'} inert={screen !== 'editor'}>
         <MapEditor
-          key={projectId}
+          key={`${projectId}:${project.scenarioId}`}
           active={screen === 'editor'}
           project={project}
           projects={projects}
@@ -92,8 +95,12 @@ export default function App() {
           section={homeSection}
           onSection={setHomeSection}
           onOpen={openProject}
+          onExample={() => setScreen('example')}
           onNew={() => setProjectAction('new')}
         />
+      )}
+      {screen === 'example' && (
+        <ExamplePreview onClose={() => setScreen('home')} />
       )}
       <ProjectDialog
         action={projectAction}

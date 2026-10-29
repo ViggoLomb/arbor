@@ -1,8 +1,8 @@
 # Arbor
 
-MVP frontend de censo y gestión del arbolado urbano. Interfaz inspirada en Felt, con mapa de pantalla completa y una única barra superior.
+Prototipo frontend de censo urbano con React, TypeScript, Vite, Tailwind, MapLibre y MapillaryJS. Abre el editor completo sobre Tandil con resultados locales de agrotech. No necesita backend, agrotech en ejecución ni credenciales Mapillary.
 
-## Desarrollo
+## Ejecutar
 
 ```sh
 npm install
@@ -12,67 +12,52 @@ npm run dev
 ```sh
 npm run build
 npm run lint
-npm run preview
 ```
 
-React + TypeScript + Vite. Tailwind CSS con el plugin de Vite, Inter y Newsreader locales, MapLibre GL, Lucide, Base UI para menús, tooltips y diálogos accesibles, cmdk para búsqueda, Sonner para las confirmaciones, clsx y tailwind-merge.
+## Datos e interacción
 
-El worker de MapLibre 6 se importa con `?worker&url` y se configura con `setWorkerUrl`, siguiendo la [instalación oficial para Vite](https://maplibre.org/maplibre-gl-js/docs/#installation). Así queda disponible tanto en desarrollo como en el build de producción.
+Hay 124 candidatos activos de Grounding DINO Tiny: 36 de la campaña 2019 y 88 de 2018. Se inicia mostrando los 124 candidatos de ambas campañas. Capas permite consultar todas o filtrar por 2019/2018. Los candidatos de distintas épocas no equivalen a individuos únicos confirmados. Son detecciones con posiciones estimadas, todavía sin validación de individuos únicos; las observaciones repetidas no se suman como árboles nuevos. Los grupos sin resolver de agrotech no se convierten en individuos.
 
-- `src/screens`: Home y editor del mapa.
-- `src/components/navigation`: barra superior, menús, búsqueda y gestión de proyectos.
-- `src/components/home`: bibliotecas y tarjetas de proyectos.
-- `src/components/panels`: Capas, Análisis y tabla de árboles.
-- `src/components/ui`: controles y diálogos reutilizables.
-- `src/components/map`: integración MapLibre y módulos de capas.
-- `src/components/importer`: estados y etapas de las simulaciones de imágenes y YOLO.
-- `src/components/trees`: formulario de relevamiento mock.
-- `src/components/analysis`: Dashboard territorial con indicadores del mock.
-- `src/data`: proyectos/bibliotecas, detecciones YOLO mock y configuración de la imagen de muestra.
+El inventario sintético de Tesalónica y las 40 detecciones falsas anteriores fueron retirados. El mapa muestra puntos/clusters, selección y una única barra con las herramientas habituales. No hay marcadores de cámaras ni activación manual de Street View.
 
-La pantalla inicial muestra el mapa base CARTO Positron centrado en Buenos Aires y la barra horizontal de Arbor. Los paneles comienzan cerrados; Capas y Análisis se abren independientemente desde las herramientas centrales. «Importar» reúne los dos conectores y «Generar PDF» simula la exportación. El mapa base requiere conexión a Internet. Las 40 detecciones YOLO comienzan ocultas, con su switch deshabilitado hasta confirmar la ingesta simulada. Las reglas vigentes están en `AGENTS.md`; las skills están en `.agents/skills/`.
+Seleccionar un árbol abre una ficha con su recorte individual. Pulsar la foto abre la captura más cercana entre las observaciones vinculadas a ese mismo candidato. El recorte y la captura inicial corresponden a la misma observación. Se conserva la ficha y cualquier edición sin guardar al volver, junto con el encuadre del mapa. Búsqueda y tabla ofrecen el mismo acceso por ID, calle o especie relevada.
 
-## Conector YOLO de demostración
+Especie, DAP, estado sanitario e interferencias comienzan pendientes; las interferencias distinguen Sin evaluar, Presenta y No presenta. Guardar conserva campos censales en localStorage por proyecto y árbol. Los cambios aparecen en tabla, búsqueda y análisis; no confirman automáticamente la identidad o posición del candidato. Si el navegador impide guardar, la ficha conserva los campos abiertos y muestra un error.
 
-«Cargar Detecciones IA», en el menú Importar de la barra, abre un modal con el mismo diseño del importador de imágenes. Hacer clic o soltar un archivo en el área ficticia inicia dos etapas de 1 segundo:
+## Fotografías
 
-1. «Analizando FeatureCollection...».
-2. «Extrayendo métricas de confianza y estado sanitario...».
+`src/data/streetRoute.json` conserva metadata real de 89 capturas y sus posiciones, orientaciones, parámetros de lente, autor, fecha y secuencia. `public/streetview/` contiene las fotos originales sin cajas, copiadas sin modificación. `public/trees/` contiene los recortes individuales desde esos originales. Los archivos funcionan de manera independiente del directorio de agrotech.
 
-Después se muestra «¡40 entidades procesadas con éxito!». Solamente «Visualizar Detecciones» cierra el modal, habilita y enciende el switch, y muestra puntos, clusters y conteos. El switch permite luego ocultarlos y mostrarlos. Cerrar, cancelar o presionar Escape no modifica la visibilidad; al reabrir se comienza de nuevo. Los datos confirmados se conservan al ocultar y mostrar el panel de capas.
+MapillaryJS se carga al abrir una foto. El proveedor local no consulta la API ni expone un token. Usa la perspectiva y calibración reales; las fotos no son panoramas 360°. El modo Fill cubre el visor; arrastrar, zoom, restablecer y las flechas permiten explorar capturas reales de la misma secuencia. El minimapa muestra posición, dirección y recorrido, sin puntos de cámaras seleccionables. Mantiene créditos de autor / Mapillary, fecha y enlace a la fuente.
 
-No se lee ni parsea ningún JSON: siempre se usan las 40 entidades de `mockData.ts`, y la extracción de métricas es visual. No se agregan llamadas a un agente ni a un backend. La confirmación YOLO es independiente de la importación de imágenes.
+Para preparar otra vez los mismos recursos, usar Python con Pillow instalado:
 
-## Importador de demostración
+```sh
+python scripts/prepare-tandil.py /ruta/a/agrotech-main
+```
 
-«Importar Imagen» abre un modal. Hacer clic o soltar un archivo en el área indicada inicia tres etapas simuladas de 1,5 segundos: carga con progreso, validación de georreferenciación y generación de tiles. Al finalizar aparece «¡Importación exitosa!» y el botón «Ver en el mapa».
+El script lee la exportación `resultados/mapeo/exportaciones/manzana_tandil` y los originales/manifest de `resultados/manzana_constitucion_rivadavia_25mayo_alberdi`. Copia fotos y genera recortes con margen, limitados al tamaño original. Elige la observación de cada candidato por distancia geográfica entre cámara y posición estimada del árbol. No modifica agrotech ni vuelve a ejecutar el detector.
 
-Solamente ese botón activa el raster de muestra. La imagen es opaca y queda debajo de las detecciones YOLO. Cerrar, cancelar o presionar Escape detiene la simulación; al reabrir se comienza de nuevo. No hay lectura, procesamiento ni carga de archivos a un servidor; el archivo soltado no modifica la imagen de muestra. No hay GDAL ni backend.
+## Funciones de demostración
 
-La muestra local `src/assets/demo-orthomosaic.jpg` contiene imágenes de Buenos Aires obtenidas de [Esri World Imagery](https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer), con crédito a Esri, Vantor, Earthstar Geographics y GIS User Community. Representa el resultado simulado de la importación; no es una captura de dron aportada por el usuario. Las esquinas se derivaron de la extensión del recurso, y están en `src/data/demoImportedImage.ts`. No se llama al servicio de imágenes durante la simulación.
+- La barra mantiene Inicio, biblioteca/proyecto, herramientas, búsqueda, PDF, selector cartográfico y perfil. Capas, Análisis y tabla son paneles flotantes. Área de estudio y Muestreo siguen como Próximamente.
+- Inicio conserva el mapa al regresar al mismo proyecto. Crear, renombrar, mover y duplicar proyectos modifica la sesión en memoria. Todos usan el escenario de Tandil; sus fichas se guardan por proyecto.
+- Importar → Detecciones IA simula dos etapas de un segundo. Confirmar muestra los candidatos existentes de la campaña; no agrega entidades ficticias ni duplica el inventario.
+- Importar → Imagen simula tres etapas de 1,5 segundos y publica una muestra aérea local de la misma zona de Tandil, debajo de los árboles y solamente en Satélite. No procesa el archivo elegido. La muestra es Esri World Imagery, no un ortomosaico de dron real.
+- Análisis calcula candidatos, estado sanitario pendiente, área del bounding box y distribución sanitaria incluyendo Sin relevar. PDF simula dos segundos y muestra un alert; no produce un documento.
 
-El modal usa transiciones de opacidad y escala de 250 ms, progreso lineal de 1500 ms y una variante de movimiento reducido. Base UI gestiona el foco, el cierre con Escape y el bloqueo del fondo.
+Estándar/Claro/Oscuro usan OpenFreeMap; Satélite usa Esri con etiquetas vectoriales. Requieren Internet y mantienen sus atribuciones. El selector conserva encuadre, capas y selección; Satélite admite hasta zoom 19. La muestra aérea está en `references/tandil/`, con extensión y créditos. Las fotografías y fichas locales no necesitan servicios externos.
 
-## Ficha de relevamiento
+## Escenarios separados
 
-Después de cargar y visualizar las detecciones IA, hacer clic sobre un árbol individual abre la ficha contextual CIAFBA a la derecha. Los clusters no abren fichas; acercar el mapa permite ver sus árboles. El cursor cambia al pasar sobre puntos individuales.
+`data/scenarios.ts` declara Tandil (inventario funcional) y Tesalónica (ejemplo de solo lectura). Los proyectos tienen scenarioId; el Home muestra los ejemplos fuera de la lista de proyectos. `ExamplePreview` no monta MapEditor ni carga fichas o análisis. Nuevo y duplicar siguen como mocks sobre la plantilla de Tandil. El encuadre de Tandil incluye el área de estudio y todos los candidatos de la campaña, sin eliminar los puntos estimados fuera del rectángulo. La extensión de la imagen aérea sigue siendo independiente. App reinicia el estado durante Fast Refresh para no conservar proyectos de escenarios anteriores en desarrollo.
 
-La ficha muestra ID, latitud y longitud del punto, un espacio de foto simulado, especie y estado sanitario precargados, DAP en centímetros y checkboxes de interferencias (Cables, Vereda y Luminarias). DAP comienza vacío porque no está incluido en los datos YOLO mock. La ficha conserva el mapa disponible para seleccionar otro árbol y reinicia sus campos al cambiar de ejemplar.
+## Filtro de grupos pendientes
 
-«Guardar Ficha» cierra el panel y muestra una confirmación de demostración. No persiste los campos ni modifica el GeoJSON. Cerrar con la X o Escape descarta la edición; ocultar las detecciones cierra la ficha. El panel tiene scroll interno, un botón de guardado siempre visible y animaciones de entrada/salida de 250 ms, con una variante de movimiento reducido.
+Capas permite mostrar u ocultar 25 grupos pendientes con un switch apagado por defecto. Se dibujan como rombos violetas, separados de los 124 candidatos y excluidos de tabla, búsqueda y estadísticas censales. El filtro de campaña también se aplica a ellos: 19 de 2018 y 6 de 2019. `src/data/generated/tandil-groups.json` proviene de `grupos.geojson` de agrotech, con las mismas coordenadas. La aplicación sigue usando archivos locales; no consulta el servidor 8765. Cámaras e incertidumbre permanecen ocultas.
 
-## Análisis territorial y exportación
+## Distribución del repositorio
 
-El panel «Análisis» muestra indicadores calculados desde `mockData.ts`: 40 árboles y 8 con estado sanitario Malo. El área cubierta es un valor fijo de demostración: 12.4 ha. La barra sanitaria refleja la distribución del mismo dataset: Bueno 24 (60%), Regular 8 (20%) y Malo 8 (20%), con etiquetas y colores. Los menús se recorren con flechas y se cierran con Escape. Los indicadores resumen el mock completo aunque las detecciones estén ocultas.
+Se incluyen el código y configuración de la aplicación, lockfile de npm, datos preparados de Tandil, fotografías originales, recortes y las dos imágenes aéreas utilizadas por el prototipo. Las dependencias se instalan con `npm ci`; `dist/`, cachés, resultados de pruebas, entornos Python, credenciales y configuraciones locales del asistente quedan fuera de Git. No hace falta ejecutar el preparador de agrotech para iniciar el proyecto.
 
-«Generar PDF» cambia a «Generando...» con spinner y se deshabilita durante 2 segundos. Después restaura su texto y muestra el alert «Descarga completada». Es una simulación: no genera ni descarga un archivo real, y no invoca un backend. El temporizador se limpia al desmontar la barra.
-
-## Home y navegación de Arbor
-
-Arbor → Inicio abre un Home oscuro con recientes, borradores, bibliotecas General/Arbolado municipal y fuentes del proyecto activo. Permite buscar proyectos, alternar grilla/lista, crear, renombrar, mover a biblioteca y duplicar. Las miniaturas son ilustrativas; todos los proyectos usan el mismo escenario geográfico de Buenos Aires, con una sesión de importaciones independiente. La navegación móvil usa un diálogo accesible.
-
-Volver al mismo proyecto desde Inicio conserva la instancia y el encuadre del mapa, además de las importaciones confirmadas. Las sesiones y metadatos están solamente en memoria: recargar la página restablece la demostración. No hay cuentas, guardado remoto ni persistencia local.
-
-El menú Arbor reúne Archivo, Editar y Ver. Deshacer/Rehacer permanecen deshabilitados porque no existe un historial de edición real. Ver permite abrir capas/leyenda, análisis, tabla de árboles o encuadrar el mapa. La tabla y la búsqueda permiten seleccionar un árbol confirmado y abrir su ficha. La búsqueda se abre con la lupa, Acciones rápidas o Ctrl/Cmd K, y soporta flechas, Enter y Escape.
-
-Área de estudio y Muestreo de cobertura se muestran como «Próximamente» en escritorio: son accesos reservados para una futura iteración de evaluación territorial. Esta reorganización no incorpora cálculos de cobertura, beneficios ambientales ni procesamiento real de archivos.
+Los recursos de terceros conservan sus derechos y condiciones originales. Ver [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), [créditos de fotografías](public/streetview/ATTRIBUTION.md) y [créditos de recortes](public/trees/ATTRIBUTION.md). Publicar el repositorio no concede una licencia nueva sobre esos recursos ni sobre el código propio.

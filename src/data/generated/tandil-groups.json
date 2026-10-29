@@ -1,0 +1,370 @@
+[
+  {
+    "id": "09654991-c9bf-5281-93f7-9bd2ce002261",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14183122130526,
+      -37.33474938758984
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "09341c10-5415-515d-8616-6241bb7bf04c",
+      "0a4d4e97-d3d7-5e8c-882f-b5bf98e42165",
+      "86ea670f-e75a-5077-aa84-b007c69593a9",
+      "a8b159ac-9426-5c32-823e-5276bbf2881c",
+      "e2e3c71e-304d-51be-9310-05dba0e501ee"
+    ]
+  },
+  {
+    "id": "2fc3d014-9b67-58ef-ba56-af57f226bac7",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14059713944485,
+      -37.33376510238842
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "7e298e65-6c7f-5377-8257-7337c5dc9c60"
+    ]
+  },
+  {
+    "id": "3e3a3c86-e671-519e-af58-044272b47c3c",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14012266877803,
+      -37.3350189939066
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "7cf2bbc0-ce55-516c-b62c-ee3af2ee0acf"
+    ]
+  },
+  {
+    "id": "45bd18e5-c7f2-5d75-a882-255e8f066f72",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14121234150492,
+      -37.33536995677259
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "a5f8e5c4-dabd-5188-ac19-3adccfb34817"
+    ]
+  },
+  {
+    "id": "46437ce3-1bf6-5abf-8169-04e861336d71",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14064985857392,
+      -37.333972086651485
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "01c75f38-9b02-559d-8337-951046b096e4",
+      "376f4f27-f62d-5e92-b4cf-66b2726b2817",
+      "3bd045ed-7dcf-5726-936e-732d309913a2",
+      "4c618281-c59e-5bbb-b1d3-cfdfe1765725",
+      "991b4ce8-2894-537a-8949-e06433549003",
+      "a1fa2d14-2f9b-501e-b80f-c83fadd091a9",
+      "bbac3758-0c59-5a18-a622-466e8025d728",
+      "e0175b65-4539-5bdc-b96a-ed776d3bf75e",
+      "ecceddb6-6038-5686-92c7-8485d5c22c31",
+      "fb521557-6ae5-52b2-8b2c-5c113bfd078a",
+      "fcfb3bc2-8aa5-5656-81f7-42f1b11efc8c"
+    ]
+  },
+  {
+    "id": "53c9b72e-2a6f-5745-b1a1-7c294ccdb0ee",
+    "campaign": "2018",
+    "coordinates": [
+      -59.141242583543224,
+      -37.33559250106935
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "b079924f-4b96-5f76-826c-8463a0bd6d37"
+    ]
+  },
+  {
+    "id": "62b2857c-2103-5869-ab50-106c736b03d1",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14206381738142,
+      -37.33432669732808
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "8e19ed23-4dcd-5b88-b55b-c9fc104d4820",
+      "b8f4657e-1ac7-5ac0-aa16-fc305bb1ccbf",
+      "d29e4cd8-f60e-5e07-a8be-02b2fa89027c"
+    ]
+  },
+  {
+    "id": "75454f61-df74-5a27-9cf7-c8f1cfc3cf22",
+    "campaign": "2019",
+    "coordinates": [
+      -59.141634778407195,
+      -37.334160683346596
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "20f28c6c-766b-5a94-92f2-c1c6bf1138a4"
+    ]
+  },
+  {
+    "id": "77b3aea4-ced1-50ca-be4b-5e61c336b09c",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14027289120607,
+      -37.33465559150152
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "355ad83d-a5eb-5a5a-b0e1-438537d214d1",
+      "5e5cfb38-96a7-5236-b77f-a4ea457907ea",
+      "76d3e0f0-8778-5bf8-8bfc-adf2aec86316",
+      "868bf59d-9bf4-5f0c-a3d5-1d0db142443f",
+      "cb65855e-1fd4-5e39-827a-83f2b899477f"
+    ]
+  },
+  {
+    "id": "79ec49ba-6a25-5437-9834-39c37540506c",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14133083844456,
+      -37.33561718747821
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "1600db25-7ccb-5cc0-b742-bd595f8b6047",
+      "17854cb0-3424-5069-9d74-9184295a4316",
+      "2b8817fb-7f90-5e8b-8c3e-1d3c59cbcaca",
+      "3f05326e-bf9f-5994-9806-fd04a7777ceb",
+      "c51d10d5-db0c-52a7-b554-aae2848aee68"
+    ]
+  },
+  {
+    "id": "83104943-adb2-5374-9387-8273bedfbbff",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14064441500246,
+      -37.33514450976861
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "460dffc1-32b4-5864-adf1-d2f626c6d928",
+      "4cf2b1a4-dff8-5af1-a746-406cb59c379e",
+      "94315706-0eb2-571d-b325-2a4671f5262f",
+      "a1a31e50-22a9-5569-a54d-f519b6bb71f2",
+      "aca1e426-fd6e-5ec1-88f4-7b30f96e0665"
+    ]
+  },
+  {
+    "id": "9418cd2f-9e42-5e13-beb5-9442cb24cb1d",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14178242064205,
+      -37.33503508802207
+    ],
+    "reason": "contains_multiple_detections",
+    "observationIds": [
+      "32045cf1-72a2-5684-be8a-a52f8e7ca1f1"
+    ]
+  },
+  {
+    "id": "a5d39f17-d363-5f11-931c-f8ae79359543",
+    "campaign": "2019",
+    "coordinates": [
+      -59.141446217301656,
+      -37.334095713258094
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "09da39de-a628-51ba-8121-28fcabf101e0",
+      "0d05541e-ed2c-5f72-8c72-614aec4ee3ca",
+      "15122a13-b20d-5d92-ae78-7866c3be7679",
+      "6c17d7b1-7f8e-5ae0-b51f-cfa2e1de257e",
+      "92418bb4-d3b6-54fb-af73-d660b4fbbcfc",
+      "c1956811-0407-5e59-bad1-588fe975acec"
+    ]
+  },
+  {
+    "id": "a924a7ee-bddb-54c9-be1e-d8c06ddb4156",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14043894465889,
+      -37.33505790453185
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "acfe1389-0fea-54d1-9344-f7ae81e21657"
+    ]
+  },
+  {
+    "id": "ab70f9c8-6206-5242-8188-6ec683196134",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14033301797127,
+      -37.335071877704344
+    ],
+    "reason": "contains_multiple_detections",
+    "observationIds": [
+      "d23339a3-5053-571a-85c9-948b20e5dc18"
+    ]
+  },
+  {
+    "id": "abb557a8-6f3f-5372-a681-79ec099284b5",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140052754591686,
+      -37.3349941373425
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "79b9d2b2-145f-57a1-bed8-a40a05a8d523"
+    ]
+  },
+  {
+    "id": "ac842b7a-d8ca-5f36-bbf9-05a65e516b80",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14037671413304,
+      -37.3350336264357
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "31643b69-36bd-578c-b7cd-acc304b25c93"
+    ]
+  },
+  {
+    "id": "c5150c2a-439a-5146-b2b8-4a53e2dc00a2",
+    "campaign": "2019",
+    "coordinates": [
+      -59.141193844052516,
+      -37.3339961775543
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "f257ee68-b731-5bca-96b6-27139adc5bf9"
+    ]
+  },
+  {
+    "id": "c5a268b1-ff2a-5b4b-894b-4b6f03204b95",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14193590593923,
+      -37.33428220517083
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "13a81092-df90-57f8-8c77-59d18c7eac6f",
+      "2593006f-ba4d-57dc-bdfd-334f58bfc632",
+      "32176bd0-34e8-5898-98ba-a7c67ec25547",
+      "3534fd4a-3d0e-5d8f-9953-2c0650931937",
+      "3a93bc01-829d-5695-80e6-c50979b669fe",
+      "6d9ce0a4-6847-573d-9143-ef450e110232",
+      "6db80c75-70ad-574c-8a16-12354345b7b8",
+      "8b3c13e9-89db-5d23-81fb-c37a76e568c3",
+      "9b8c57cc-1212-51bf-9b84-bccaf761eb21",
+      "cc60399d-66cb-573c-a0c9-05d20bbd584a",
+      "dd4ff36c-f495-59e2-92e2-8177cae261aa",
+      "ec9ef3fb-4e7a-5e69-8440-918631cc13df"
+    ]
+  },
+  {
+    "id": "c65f8028-df69-5cd9-b99e-4551eaa9eb8e",
+    "campaign": "2019",
+    "coordinates": [
+      -59.140807310480525,
+      -37.33388845712111
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "0924efbe-b20e-509f-bdfd-280c4cc8e2c0",
+      "2049ea4a-1df8-5077-8a54-3d7e85c3c5e0",
+      "5fa6d16d-1c39-57f9-a829-2804841c0ab9",
+      "6b4dc8fa-cc65-5a0b-b879-85125909f233",
+      "a5971a84-8c02-5865-b78e-5a7bf4f540f4",
+      "a5f2f3b0-8c98-55a7-8f5f-36b2fa077b2f"
+    ]
+  },
+  {
+    "id": "ca8d63e0-8800-5b73-8976-cba24ca8e536",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14005994455229,
+      -37.33479141062995
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "05dc9bd5-7e65-55e5-b8dd-a5b23e207f40",
+      "08ba2a37-e3de-5359-b45b-d9c3119596e9",
+      "09b18a1e-65a0-5f2b-9794-63741b0d01f3",
+      "2a1473ee-f1b3-5340-b7e3-9514bf44e4fa",
+      "37540398-79fb-5c73-a107-69b81a0d6521",
+      "3e9b8815-32c1-5373-b636-960f3b6d1f68",
+      "5d609789-ea06-56db-8101-6edca9e8f0c1",
+      "613ff420-a734-5e87-bb50-6da0a966efef",
+      "80e25c68-8610-59c6-9efa-f8b074ff8d27",
+      "88bf16f2-b651-5c9c-b2fc-8d86838b39bd",
+      "8b1dc7fa-4b4c-5819-bd11-782ef374e157",
+      "9e721b93-d384-5099-bb2f-ac12fdc004b4",
+      "b95cb6f8-2832-51cf-92c2-89d9de6084df",
+      "c8bce39e-f637-565b-ba65-944da380b0c5",
+      "cb2f1d32-2271-50b6-8f07-c7fefb63b6fc",
+      "f0ae5140-f324-50f7-be8f-501c4e6b8a39",
+      "f5d43327-0537-5e4a-8f72-4f72088e091a"
+    ]
+  },
+  {
+    "id": "d0f7bd84-5987-5453-85dd-7ae85d2e3ee7",
+    "campaign": "2018",
+    "coordinates": [
+      -59.141454603989025,
+      -37.335642664235436
+    ],
+    "reason": "competing_correspondences",
+    "observationIds": [
+      "0abdaa2f-5909-5415-b6ac-76a2fec1c258",
+      "90db37bc-9ac6-5561-90a8-141fa4f6ad03",
+      "c8594cb6-e1ae-51c2-a10b-fe355362a9a7",
+      "f8941006-25d2-5cf3-9b7e-0fc0d100399e"
+    ]
+  },
+  {
+    "id": "d98cd332-4cc7-5115-8988-4909f51b146a",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14006375413456,
+      -37.334790169505276
+    ],
+    "reason": "contains_multiple_detections",
+    "observationIds": [
+      "b11317f5-a7aa-5b63-a1a1-3eb67c66923d"
+    ]
+  },
+  {
+    "id": "d9be264f-2b0b-5f65-a6ff-b95277b622ba",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14055373966291,
+      -37.335195633619584
+    ],
+    "reason": "wide_box_possible_group",
+    "observationIds": [
+      "2b395473-0804-5bf5-9804-8e17fafa9bb4"
+    ]
+  },
+  {
+    "id": "f58e2787-b3bb-57b6-9ba9-12ca256963bd",
+    "campaign": "2018",
+    "coordinates": [
+      -59.1399990084372,
+      -37.334932707393804
+    ],
+    "reason": "contains_multiple_detections",
+    "observationIds": [
+      "8ed281f2-83c5-5aad-ab7b-f5d5d1091b16"
+    ]
+  }
+]

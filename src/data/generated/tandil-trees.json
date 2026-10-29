@@ -1,0 +1,4924 @@
+[
+  {
+    "id": "03f586e0-aa5f-5b7e-91dd-db2db6712604",
+    "label": "ARB-2018-001",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140824355970146,
+      -37.33533517660237
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "4fecfd84-396f-5b22-b64d-c214bca2b455",
+    "photoPath": "trees/03f586e0-aa5f-5b7e-91dd-db2db6712604.jpg",
+    "observations": [
+      {
+        "id": "4fecfd84-396f-5b22-b64d-c214bca2b455",
+        "cameraId": "461149594996606",
+        "score": 0.4799226224422455,
+        "bbox": [
+          1824.76,
+          399.12,
+          2046.37,
+          980.64
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "04c2c798-d0d3-54ac-85e3-d77593e82259",
+    "label": "ARB-2018-002",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140097369885275,
+      -37.33502164232388
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "795e6a19-03e7-5ee9-bda9-195e330fc16d",
+    "photoPath": "trees/04c2c798-d0d3-54ac-85e3-d77593e82259.jpg",
+    "observations": [
+      {
+        "id": "795e6a19-03e7-5ee9-bda9-195e330fc16d",
+        "cameraId": "2996353730690117",
+        "score": 0.446804404258728,
+        "bbox": [
+          1889.82,
+          684.65,
+          2014.73,
+          916.09
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "0e83c29d-c7f8-53bb-94cf-64836bcc9d5d",
+    "label": "ARB-2018-003",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14111254059774,
+      -37.33534062084517
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "b7644123-c7dc-58e3-8cf4-91079e153e60",
+    "photoPath": "trees/0e83c29d-c7f8-53bb-94cf-64836bcc9d5d.jpg",
+    "observations": [
+      {
+        "id": "b7644123-c7dc-58e3-8cf4-91079e153e60",
+        "cameraId": "311820940548210",
+        "score": 0.7212340831756592,
+        "bbox": [
+          140.66,
+          445.24,
+          711.64,
+          1097.61
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "0f5d63f9-10e3-59fe-bd34-afb13f7119a9",
+    "label": "ARB-2018-004",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140780052521635,
+      -37.33346803173026
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "0cbbbd68-791d-5b66-a10c-a87ee9b11b2f",
+    "photoPath": "trees/0f5d63f9-10e3-59fe-bd34-afb13f7119a9.jpg",
+    "observations": [
+      {
+        "id": "0cbbbd68-791d-5b66-a10c-a87ee9b11b2f",
+        "cameraId": "126956006119395",
+        "score": 0.3669533431529999,
+        "bbox": [
+          1278.55,
+          394.36,
+          1853.95,
+          899.42
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "127751a9-af63-5371-abee-e7267a51078a",
+    "label": "ARB-2018-005",
+    "campaign": "2018",
+    "coordinates": [
+      -59.141669629356784,
+      -37.335225419031445
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "assumed_distance_along_ray",
+    "primaryObservationId": "bdf6d0cd-f3f0-5407-8a36-db410e6f84e2",
+    "photoPath": "trees/127751a9-af63-5371-abee-e7267a51078a.jpg",
+    "observations": [
+      {
+        "id": "bdf6d0cd-f3f0-5407-8a36-db410e6f84e2",
+        "cameraId": "503748167479527",
+        "score": 0.5139561891555786,
+        "bbox": [
+          3.71,
+          1.48,
+          831.63,
+          886.04
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "13630602-0e33-5e41-8222-459518147cda",
+    "label": "ARB-2018-006",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14173626655236,
+      -37.334814966218055
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "23052ece-123f-5dce-aff8-757a970f3e51",
+    "photoPath": "trees/13630602-0e33-5e41-8222-459518147cda.jpg",
+    "observations": [
+      {
+        "id": "23052ece-123f-5dce-aff8-757a970f3e51",
+        "cameraId": "506671577138551",
+        "score": 0.37015101313591003,
+        "bbox": [
+          1919.76,
+          0.73,
+          2045.81,
+          451.53
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "5489c6f2-f88b-5b10-80d5-2ada07650df0",
+        "cameraId": "298318311864344",
+        "score": 0.4068564474582672,
+        "bbox": [
+          1205.59,
+          507.36,
+          1450.95,
+          824.3
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "1996e1d6-98fe-52cb-8084-631f6aa5c2cc",
+    "label": "ARB-2018-007",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14002021822357,
+      -37.33492096955043
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "43c57e03-7528-56e3-850f-0623b130e6be",
+    "photoPath": "trees/1996e1d6-98fe-52cb-8084-631f6aa5c2cc.jpg",
+    "observations": [
+      {
+        "id": "43c57e03-7528-56e3-850f-0623b130e6be",
+        "cameraId": "1417530078639595",
+        "score": 0.4454249441623688,
+        "bbox": [
+          1566.71,
+          552.23,
+          1855.76,
+          865.24
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "1a644972-0d75-502b-b561-45bf31a13dbe",
+    "label": "ARB-2018-008",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140026830181235,
+      -37.33493108215579
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "57911657-5c43-5de2-ad97-ae0259593ee3",
+    "photoPath": "trees/1a644972-0d75-502b-b561-45bf31a13dbe.jpg",
+    "observations": [
+      {
+        "id": "57911657-5c43-5de2-ad97-ae0259593ee3",
+        "cameraId": "1417530078639595",
+        "score": 0.4203391671180725,
+        "bbox": [
+          1760.58,
+          587.78,
+          2043.97,
+          900.4
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "1ab53bf1-893c-5e3e-8663-9f401ff005e7",
+    "label": "ARB-2018-009",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14036798513325,
+      -37.33448324626979
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "0340fd98-97f2-5ff9-aca2-2cb700d5b9ed",
+    "photoPath": "trees/1ab53bf1-893c-5e3e-8663-9f401ff005e7.jpg",
+    "observations": [
+      {
+        "id": "0340fd98-97f2-5ff9-aca2-2cb700d5b9ed",
+        "cameraId": "142226107872905",
+        "score": 0.6677893400192261,
+        "bbox": [
+          504.88,
+          436.75,
+          1005.56,
+          966.23
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "1efe29dc-e671-5bc3-8f08-b3d004cbb0a9",
+    "label": "ARB-2018-010",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14042252141856,
+      -37.33438248449215
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "87828103-3169-5b62-87af-f3a053260cf3",
+    "photoPath": "trees/1efe29dc-e671-5bc3-8f08-b3d004cbb0a9.jpg",
+    "observations": [
+      {
+        "id": "87828103-3169-5b62-87af-f3a053260cf3",
+        "cameraId": "938906563539239",
+        "score": 0.4353080987930298,
+        "bbox": [
+          2.0,
+          6.06,
+          362.28,
+          1139.34
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "1fd69a3b-5087-53ad-9467-2c7f4e045a45",
+    "label": "ARB-2018-011",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140711048049695,
+      -37.33531213831961
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "4e0a0e1d-f3af-5c51-a272-1ae4516d1e44",
+    "photoPath": "trees/1fd69a3b-5087-53ad-9467-2c7f4e045a45.jpg",
+    "observations": [
+      {
+        "id": "4e0a0e1d-f3af-5c51-a272-1ae4516d1e44",
+        "cameraId": "1416258252042545",
+        "score": 0.3587738275527954,
+        "bbox": [
+          1152.19,
+          707.86,
+          1280.89,
+          935.2
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "249ba93e-5a12-53db-aa07-5bdf443713a7",
+    "label": "ARB-2018-012",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14086486701427,
+      -37.335356851710685
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "339026df-c393-5c46-a78d-472dcc627afb",
+    "photoPath": "trees/249ba93e-5a12-53db-aa07-5bdf443713a7.jpg",
+    "observations": [
+      {
+        "id": "339026df-c393-5c46-a78d-472dcc627afb",
+        "cameraId": "458855975344426",
+        "score": 0.6446307301521301,
+        "bbox": [
+          1569.12,
+          410.26,
+          2026.78,
+          1022.85
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "26a3e82f-31d7-59a9-89ba-267150af7181",
+    "label": "ARB-2018-013",
+    "campaign": "2018",
+    "coordinates": [
+      -59.1403258614605,
+      -37.33511165723302
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "d34f0a83-164e-5c8c-81cc-2ea43ed600bf",
+    "photoPath": "trees/26a3e82f-31d7-59a9-89ba-267150af7181.jpg",
+    "observations": [
+      {
+        "id": "d34f0a83-164e-5c8c-81cc-2ea43ed600bf",
+        "cameraId": "870050853581010",
+        "score": 0.5988823771476746,
+        "bbox": [
+          1385.8,
+          300.55,
+          2045.78,
+          1164.03
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "ff51fcc5-4e1e-5197-9510-19ad6c8fa233",
+        "cameraId": "476938636980232",
+        "score": 0.5161924958229065,
+        "bbox": [
+          1224.86,
+          574.5,
+          1645.76,
+          944.26
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "7e4e0892-2095-5ed1-9d9e-fad68734350d",
+        "cameraId": "1190333971418501",
+        "score": 0.4806014597415924,
+        "bbox": [
+          1115.86,
+          676.4,
+          1386.16,
+          894.97
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "1c1cd9c6-89e1-5609-8bd9-3f10978bf415",
+        "cameraId": "846016185983685",
+        "score": 0.3961494266986847,
+        "bbox": [
+          1086.06,
+          710.69,
+          1284.14,
+          876.21
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "c2f35eaf-e702-569e-a47c-10e329d5f781",
+        "cameraId": "324165962607252",
+        "score": 0.40976306796073914,
+        "bbox": [
+          1111.54,
+          743.71,
+          1260.3,
+          874.84
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "479b856c-d3ce-58a8-ab51-07ab05ce25da",
+        "cameraId": "1445099315844837",
+        "score": 0.3551449179649353,
+        "bbox": [
+          1088.1,
+          766.12,
+          1209.23,
+          876.61
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "1230611b-ff03-5343-bcbd-1b4c09dc76b9",
+        "cameraId": "461149594996606",
+        "score": 0.4018738865852356,
+        "bbox": [
+          1084.23,
+          626.45,
+          1298.03,
+          886.41
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "2c896560-efd9-54cf-a53a-95be953f40c4",
+        "cameraId": "458855975344426",
+        "score": 0.40968650579452515,
+        "bbox": [
+          1023.16,
+          692.84,
+          1212.44,
+          982.07
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "a7b10ff0-f728-5a41-9b20-198bc1fba26b",
+        "cameraId": "311820940548210",
+        "score": 0.41120174527168274,
+        "bbox": [
+          1175.42,
+          746.58,
+          1394.61,
+          953.39
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "27538b2f-6b69-5a80-aba4-e6101fc55a21",
+    "label": "ARB-2018-014",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14039613869239,
+      -37.33430292949696
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "57a7a899-8e62-52ca-8153-d5fb0d3b5691",
+    "photoPath": "trees/27538b2f-6b69-5a80-aba4-e6101fc55a21.jpg",
+    "observations": [
+      {
+        "id": "57a7a899-8e62-52ca-8153-d5fb0d3b5691",
+        "cameraId": "832783243984699",
+        "score": 0.5716357231140137,
+        "bbox": [
+          1381.21,
+          682.85,
+          1590.8,
+          1018.83
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "70e9edac-af0d-5175-a87c-f3f432f564cf",
+        "cameraId": "757577611790641",
+        "score": 0.40006738901138306,
+        "bbox": [
+          1028.31,
+          792.39,
+          1109.68,
+          891.76
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "2dc2c3c8-bf1c-5ec2-a367-2137fa836473",
+    "label": "ARB-2018-015",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14039019102732,
+      -37.334217214596286
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "a316fb11-4b53-5621-8610-9b660757ae33",
+    "photoPath": "trees/2dc2c3c8-bf1c-5ec2-a367-2137fa836473.jpg",
+    "observations": [
+      {
+        "id": "a316fb11-4b53-5621-8610-9b660757ae33",
+        "cameraId": "757577611790641",
+        "score": 0.47068825364112854,
+        "bbox": [
+          1342.61,
+          870.99,
+          1450.54,
+          1017.99
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "2fa065dc-7eff-5fbc-aa33-4b406bae8c58",
+    "label": "ARB-2018-016",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14034295238914,
+      -37.33430546082396
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "c744c147-9702-5916-b0d6-bfcb711706d4",
+    "photoPath": "trees/2fa065dc-7eff-5fbc-aa33-4b406bae8c58.jpg",
+    "observations": [
+      {
+        "id": "c744c147-9702-5916-b0d6-bfcb711706d4",
+        "cameraId": "757577611790641",
+        "score": 0.6870190501213074,
+        "bbox": [
+          1642.2,
+          490.33,
+          2045.37,
+          1178.19
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "2ffede8e-650f-50e2-bc46-2afa23f9e25a",
+    "label": "ARB-2018-017",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14080025439167,
+      -37.333426570675314
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "26355571-a72b-55de-a703-72d029a3a15c",
+    "photoPath": "trees/2ffede8e-650f-50e2-bc46-2afa23f9e25a.jpg",
+    "observations": [
+      {
+        "id": "26355571-a72b-55de-a703-72d029a3a15c",
+        "cameraId": "2286535231484060",
+        "score": 0.3999777138233185,
+        "bbox": [
+          1203.3,
+          517.48,
+          1502.54,
+          954.65
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "31e5b22e-c56d-5883-bd7d-8797233ebb11",
+    "label": "ARB-2018-018",
+    "campaign": "2018",
+    "coordinates": [
+      -59.1415619164918,
+      -37.335466439560804
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "e5dca55d-b6df-5067-bb42-fd90a24588c5",
+    "photoPath": "trees/31e5b22e-c56d-5883-bd7d-8797233ebb11.jpg",
+    "observations": [
+      {
+        "id": "e5dca55d-b6df-5067-bb42-fd90a24588c5",
+        "cameraId": "1111716799312611",
+        "score": 0.39131563901901245,
+        "bbox": [
+          4.82,
+          2.15,
+          924.23,
+          896.76
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "327ebccf-e5df-5c29-9fd4-7771f7928c3e",
+    "label": "ARB-2018-019",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140805184466004,
+      -37.33342281775841
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "aa5a5958-4222-593a-8feb-9a6e064240c5",
+    "photoPath": "trees/327ebccf-e5df-5c29-9fd4-7771f7928c3e.jpg",
+    "observations": [
+      {
+        "id": "aa5a5958-4222-593a-8feb-9a6e064240c5",
+        "cameraId": "501192154251791",
+        "score": 0.43212953209877014,
+        "bbox": [
+          1127.71,
+          646.9,
+          1362.03,
+          961.39
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "38f6f9d3-52a0-5435-a7ba-8585b807ab29",
+    "label": "ARB-2018-020",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14101492020706,
+      -37.333286202652864
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "c54f0637-d069-5a0d-9103-d5febc47b8fe",
+    "photoPath": "trees/38f6f9d3-52a0-5435-a7ba-8585b807ab29.jpg",
+    "observations": [
+      {
+        "id": "c54f0637-d069-5a0d-9103-d5febc47b8fe",
+        "cameraId": "126956006119395",
+        "score": 0.41350027918815613,
+        "bbox": [
+          605.69,
+          582.9,
+          876.46,
+          898.8
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "3a3fa9b2-1230-5023-994b-2e2b880dc24d",
+    "label": "ARB-2018-021",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14036329088027,
+      -37.33449492761056
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "12606fcf-642d-58ba-9609-5b46dca06fc5",
+    "photoPath": "trees/3a3fa9b2-1230-5023-994b-2e2b880dc24d.jpg",
+    "observations": [
+      {
+        "id": "12606fcf-642d-58ba-9609-5b46dca06fc5",
+        "cameraId": "319261133201442",
+        "score": 0.7453413605690002,
+        "bbox": [
+          263.02,
+          226.62,
+          1000.91,
+          1001.34
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "3ca882b9-c8fc-55dd-ae37-5c83fb3f3731",
+    "label": "ARB-2018-022",
+    "campaign": "2018",
+    "coordinates": [
+      -59.139254087025215,
+      -37.33455137662053
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "cd838785-bf0e-5446-ac74-cbda1b7edc5f",
+    "photoPath": "trees/3ca882b9-c8fc-55dd-ae37-5c83fb3f3731.jpg",
+    "observations": [
+      {
+        "id": "cd838785-bf0e-5446-ac74-cbda1b7edc5f",
+        "cameraId": "2996353730690117",
+        "score": 0.3688732385635376,
+        "bbox": [
+          894.65,
+          759.25,
+          993.56,
+          877.31
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "4442e486-d6d7-56af-a330-3c58c840d9fd",
+    "label": "ARB-2018-023",
+    "campaign": "2018",
+    "coordinates": [
+      -59.139811592729025,
+      -37.33477363817194
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "aa62eab6-737f-5a2a-87f6-0bd85b21be85",
+    "photoPath": "trees/4442e486-d6d7-56af-a330-3c58c840d9fd.jpg",
+    "observations": [
+      {
+        "id": "aa62eab6-737f-5a2a-87f6-0bd85b21be85",
+        "cameraId": "186003296676422",
+        "score": 0.3671584129333496,
+        "bbox": [
+          863.32,
+          706.77,
+          982.07,
+          920.78
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "46aaa3a4-b8b7-57cd-b6a7-e8d7a44922f0",
+    "label": "ARB-2018-024",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14007709722132,
+      -37.335000808126786
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "d1b8fa88-f5c2-5b73-88c8-f5985bbef41a",
+    "photoPath": "trees/46aaa3a4-b8b7-57cd-b6a7-e8d7a44922f0.jpg",
+    "observations": [
+      {
+        "id": "d1b8fa88-f5c2-5b73-88c8-f5985bbef41a",
+        "cameraId": "870050853581010",
+        "score": 0.36110514402389526,
+        "bbox": [
+          1111.96,
+          540.16,
+          1305.34,
+          876.26
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "47d58a22-bde3-5a2e-83fa-755632365209",
+    "label": "ARB-2018-025",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14162681217283,
+      -37.33532369271034
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "assumed_distance_along_ray",
+    "primaryObservationId": "f470dd30-2ccb-532c-b75b-ba8c85e82212",
+    "photoPath": "trees/47d58a22-bde3-5a2e-83fa-755632365209.jpg",
+    "observations": [
+      {
+        "id": "f470dd30-2ccb-532c-b75b-ba8c85e82212",
+        "cameraId": "298318311864344",
+        "score": 0.4964275062084198,
+        "bbox": [
+          2.09,
+          1.57,
+          536.92,
+          875.16
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "490828be-bf09-590d-8dc9-76b4fd66e5f9",
+    "label": "ARB-2018-026",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14026945618003,
+      -37.33504710253867
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "9bcb934a-7a43-57b8-8a73-da84701b1325",
+    "photoPath": "trees/490828be-bf09-590d-8dc9-76b4fd66e5f9.jpg",
+    "observations": [
+      {
+        "id": "9bcb934a-7a43-57b8-8a73-da84701b1325",
+        "cameraId": "286871449741145",
+        "score": 0.7243402004241943,
+        "bbox": [
+          943.38,
+          250.81,
+          1558.53,
+          868.0
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "b386d248-2b51-5b42-91f6-878d96a2fc27",
+        "cameraId": "500511691078373",
+        "score": 0.5407791137695312,
+        "bbox": [
+          956.51,
+          439.41,
+          1386.6,
+          878.86
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "5d7e2170-72a1-581d-816e-97730c6681b6",
+        "cameraId": "870050853581010",
+        "score": 0.38506340980529785,
+        "bbox": [
+          975.28,
+          540.04,
+          1157.9,
+          898.31
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "4ca454b2-51a6-5483-ae03-0775a3f8bd99",
+        "cameraId": "476938636980232",
+        "score": 0.46380698680877686,
+        "bbox": [
+          985.59,
+          602.97,
+          1260.35,
+          896.14
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "595dc895-6eef-5abe-bac5-2b3f0d9e12f8",
+        "cameraId": "1190333971418501",
+        "score": 0.3882647752761841,
+        "bbox": [
+          953.22,
+          642.63,
+          1182.16,
+          883.96
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "8e441953-5f22-5400-baee-dbfd98820e9f",
+        "cameraId": "846016185983685",
+        "score": 0.36880576610565186,
+        "bbox": [
+          954.13,
+          658.7,
+          1073.37,
+          864.14
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "7e83471d-a1b9-507c-9cee-7962d9a20363",
+        "cameraId": "324165962607252",
+        "score": 0.4072333574295044,
+        "bbox": [
+          999.76,
+          691.27,
+          1168.27,
+          876.2
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "38c603e3-0963-5895-9dee-a86ac71f061a",
+        "cameraId": "1445099315844837",
+        "score": 0.4202386736869812,
+        "bbox": [
+          996.45,
+          714.18,
+          1098.32,
+          877.54
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "67e900b2-8b14-554a-a144-f5aff499d831",
+        "cameraId": "145107770847913",
+        "score": 0.3525410294532776,
+        "bbox": [
+          1014.22,
+          743.36,
+          1153.63,
+          891.91
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "1def9ddf-21c8-5ffa-8630-b25dd0b9f8ef",
+        "cameraId": "461149594996606",
+        "score": 0.4320808947086334,
+        "bbox": [
+          1000.26,
+          758.22,
+          1090.04,
+          887.08
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "0b562a15-2389-5b8e-bdb4-e74d04525a9f",
+        "cameraId": "458855975344426",
+        "score": 0.41347965598106384,
+        "bbox": [
+          950.71,
+          797.43,
+          1034.82,
+          923.95
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "4e9c78ce-55e0-55de-8b95-5272fd451183",
+    "label": "ARB-2018-027",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14182573933134,
+      -37.3349611142425
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "695ae975-2112-574f-a1a7-4cdbafc4eff6",
+    "photoPath": "trees/4e9c78ce-55e0-55de-8b95-5272fd451183.jpg",
+    "observations": [
+      {
+        "id": "695ae975-2112-574f-a1a7-4cdbafc4eff6",
+        "cameraId": "506671577138551",
+        "score": 0.38564425706863403,
+        "bbox": [
+          1.37,
+          0.52,
+          257.48,
+          445.06
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "a58a3947-9879-5f6b-b3e9-bbf52dc0f00a",
+        "cameraId": "309670914027470",
+        "score": 0.39708849787712097,
+        "bbox": [
+          540.89,
+          654.72,
+          662.32,
+          845.01
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "4eeec71d-6eb3-542b-8313-e02c162615ba",
+    "label": "ARB-2018-028",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140071000281644,
+      -37.33480080950034
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "5f9d5977-8f02-5b42-9d24-40ae7ac8dba2",
+    "photoPath": "trees/4eeec71d-6eb3-542b-8313-e02c162615ba.jpg",
+    "observations": [
+      {
+        "id": "5f9d5977-8f02-5b42-9d24-40ae7ac8dba2",
+        "cameraId": "160982345941294",
+        "score": 0.5808500647544861,
+        "bbox": [
+          937.08,
+          676.82,
+          1146.01,
+          1151.06
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "4fbffef6-5c59-511e-99c8-bb57f577646c",
+    "label": "ARB-2018-029",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140285456658425,
+      -37.335251642376384
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "7af97604-e8f6-5b58-aa83-eca37ceb2dab",
+    "photoPath": "trees/4fbffef6-5c59-511e-99c8-bb57f577646c.jpg",
+    "observations": [
+      {
+        "id": "7af97604-e8f6-5b58-aa83-eca37ceb2dab",
+        "cameraId": "324165962607252",
+        "score": 0.43309855461120605,
+        "bbox": [
+          1828.94,
+          1.07,
+          2046.71,
+          692.83
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "43b75dc4-7893-5736-a0e6-78a60a0e019b",
+        "cameraId": "145107770847913",
+        "score": 0.4175022840499878,
+        "bbox": [
+          1495.73,
+          132.49,
+          2046.22,
+          1135.62
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "764f01b3-9c4d-5f28-83a2-780f2177a1f5",
+        "cameraId": "1162960817479137",
+        "score": 0.4134817123413086,
+        "bbox": [
+          1255.17,
+          659.59,
+          1441.09,
+          965.39
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "50ba27c1-fe76-51e4-a013-042acf4b83ca",
+    "label": "ARB-2018-030",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14042380279427,
+      -37.33414905207472
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "a2da3771-d848-5f4f-bd38-afabd72e9928",
+    "photoPath": "trees/50ba27c1-fe76-51e4-a013-042acf4b83ca.jpg",
+    "observations": [
+      {
+        "id": "a2da3771-d848-5f4f-bd38-afabd72e9928",
+        "cameraId": "757577611790641",
+        "score": 0.5013341307640076,
+        "bbox": [
+          1235.5,
+          766.63,
+          1355.26,
+          976.63
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "51d36432-74d9-557e-8929-6753c653ba2a",
+    "label": "ARB-2018-031",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14073379092922,
+      -37.335292838019754
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "33665bff-b4c8-544a-97fd-cebc9d9b8d72",
+    "photoPath": "trees/51d36432-74d9-557e-8929-6753c653ba2a.jpg",
+    "observations": [
+      {
+        "id": "33665bff-b4c8-544a-97fd-cebc9d9b8d72",
+        "cameraId": "461149594996606",
+        "score": 0.5120429992675781,
+        "bbox": [
+          1244.06,
+          482.1,
+          1706.16,
+          1004.11
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "53ae8688-7f44-54ce-a1e0-514fc393fe78",
+    "label": "ARB-2018-032",
+    "campaign": "2018",
+    "coordinates": [
+      -59.1399746688605,
+      -37.33487456798056
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "4610270d-628b-5bfb-a9c3-879f281df587",
+    "photoPath": "trees/53ae8688-7f44-54ce-a1e0-514fc393fe78.jpg",
+    "observations": [
+      {
+        "id": "4610270d-628b-5bfb-a9c3-879f281df587",
+        "cameraId": "286871449741145",
+        "score": 0.36845722794532776,
+        "bbox": [
+          814.74,
+          804.78,
+          884.93,
+          888.13
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "5aca6c47-aec9-5d09-b1a9-3247749a6be3",
+    "label": "ARB-2018-033",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14049677779064,
+      -37.334021974863596
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "314b0286-09fc-56f2-8d04-9cd22ee3e0f2",
+    "photoPath": "trees/5aca6c47-aec9-5d09-b1a9-3247749a6be3.jpg",
+    "observations": [
+      {
+        "id": "314b0286-09fc-56f2-8d04-9cd22ee3e0f2",
+        "cameraId": "319628862841089",
+        "score": 0.5267597436904907,
+        "bbox": [
+          1187.64,
+          620.9,
+          1418.2,
+          981.11
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "5f9fbc3e-a505-5eb4-a373-d91e13f1db16",
+    "label": "ARB-2018-034",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14212834949903,
+      -37.33439882761817
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "a5acc3e1-fbb2-5295-9653-b3d4ec263b0d",
+    "photoPath": "trees/5f9fbc3e-a505-5eb4-a373-d91e13f1db16.jpg",
+    "observations": [
+      {
+        "id": "a5acc3e1-fbb2-5295-9653-b3d4ec263b0d",
+        "cameraId": "153803503413974",
+        "score": 0.5210535526275635,
+        "bbox": [
+          759.65,
+          547.82,
+          966.63,
+          791.3
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "615b36ac-1bd6-5d28-af58-e8c0e1a70438",
+    "label": "ARB-2018-035",
+    "campaign": "2018",
+    "coordinates": [
+      -59.1404255169504,
+      -37.33439561289683
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "81501f2c-4f7e-5e81-90ff-6452aceba3c7",
+    "photoPath": "trees/615b36ac-1bd6-5d28-af58-e8c0e1a70438.jpg",
+    "observations": [
+      {
+        "id": "81501f2c-4f7e-5e81-90ff-6452aceba3c7",
+        "cameraId": "373450317263069",
+        "score": 0.49699974060058594,
+        "bbox": [
+          99.03,
+          291.95,
+          719.35,
+          937.96
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "66479137-063d-555d-aa22-4bc925cd76b9",
+    "label": "ARB-2018-036",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14073568795634,
+      -37.33371737130088
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "f25c9be7-1fd0-5783-987a-68cc05ebd9d8",
+    "photoPath": "trees/66479137-063d-555d-aa22-4bc925cd76b9.jpg",
+    "observations": [
+      {
+        "id": "f25c9be7-1fd0-5783-987a-68cc05ebd9d8",
+        "cameraId": "501192154251791",
+        "score": 0.38937246799468994,
+        "bbox": [
+          226.25,
+          675.05,
+          547.03,
+          929.17
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "689b8347-4795-5fdd-8085-ce3bb9320b19",
+        "cameraId": "830463430892125",
+        "score": 0.41634857654571533,
+        "bbox": [
+          790.47,
+          729.63,
+          941.65,
+          892.64
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "02952447-533e-5009-b53e-0d64decee165",
+        "cameraId": "154927706636328",
+        "score": 0.35021501779556274,
+        "bbox": [
+          827.43,
+          732.19,
+          954.03,
+          876.91
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "e6fc36ed-8bcf-57e9-b296-c10eae8bd5ab",
+        "cameraId": "993897441440951",
+        "score": 0.3591705560684204,
+        "bbox": [
+          886.76,
+          706.41,
+          1003.14,
+          826.92
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "fd3bd07e-8daa-5650-b668-28581052f941",
+        "cameraId": "213324267222795",
+        "score": 0.3697158098220825,
+        "bbox": [
+          901.44,
+          709.46,
+          1013.26,
+          822.14
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "672ad82a-ecb2-5ae4-9892-fb55a341a1d4",
+    "label": "ARB-2018-037",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14068294650606,
+      -37.33391897899915
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "21d04e62-07f0-55cb-a85d-bf80ce5a1dc9",
+    "photoPath": "trees/672ad82a-ecb2-5ae4-9892-fb55a341a1d4.jpg",
+    "observations": [
+      {
+        "id": "21d04e62-07f0-55cb-a85d-bf80ce5a1dc9",
+        "cameraId": "960621738018740",
+        "score": 0.4535134434700012,
+        "bbox": [
+          309.45,
+          677.59,
+          452.38,
+          1020.62
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "6fbec9ec-783a-5c22-ba9f-96edc1cad79c",
+    "label": "ARB-2018-038",
+    "campaign": "2018",
+    "coordinates": [
+      -59.13970755647243,
+      -37.33483364340438
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "96f34e92-1a9a-5064-9473-58417ab3bf4d",
+    "photoPath": "trees/6fbec9ec-783a-5c22-ba9f-96edc1cad79c.jpg",
+    "observations": [
+      {
+        "id": "96f34e92-1a9a-5064-9473-58417ab3bf4d",
+        "cameraId": "536573210698742",
+        "score": 0.3529845178127289,
+        "bbox": [
+          941.77,
+          673.56,
+          1173.52,
+          895.38
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "71141ecd-402c-570f-b106-f061019475c9",
+    "label": "ARB-2018-039",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14046004953492,
+      -37.3340906885384
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "b25f1ffd-df89-5a03-af60-d8095b2eea6e",
+    "photoPath": "trees/71141ecd-402c-570f-b106-f061019475c9.jpg",
+    "observations": [
+      {
+        "id": "b25f1ffd-df89-5a03-af60-d8095b2eea6e",
+        "cameraId": "502465284220120",
+        "score": 0.4511793553829193,
+        "bbox": [
+          1581.46,
+          18.79,
+          2045.55,
+          889.64
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "5c6d2960-2eb1-5830-9b69-40ec98fa0e4b",
+        "cameraId": "319628862841089",
+        "score": 0.5488148927688599,
+        "bbox": [
+          1338.17,
+          465.85,
+          1734.76,
+          1047.07
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "8c5dbc44-edc1-5c02-b5b4-0b948f967744",
+        "cameraId": "832783243984699",
+        "score": 0.4173663556575775,
+        "bbox": [
+          1198.31,
+          643.55,
+          1400.12,
+          965.07
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "23c0d1b0-1dcd-5f8c-b12c-e35d3f2f4a65",
+        "cameraId": "757577611790641",
+        "score": 0.48375946283340454,
+        "bbox": [
+          1132.85,
+          723.64,
+          1281.08,
+          948.86
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "248efa9c-4ed0-5c30-b281-f4173454c740",
+        "cameraId": "938906563539239",
+        "score": 0.4285776615142822,
+        "bbox": [
+          1081.03,
+          736.81,
+          1220.68,
+          927.01
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "55400425-2f7b-5a02-84ab-6a7e821b5f54",
+        "cameraId": "373450317263069",
+        "score": 0.41235485672950745,
+        "bbox": [
+          1034.52,
+          759.36,
+          1152.53,
+          908.16
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "87ab73e3-2772-5ce1-af15-4824cce78e90",
+        "cameraId": "319261133201442",
+        "score": 0.38696545362472534,
+        "bbox": [
+          1099.02,
+          797.75,
+          1188.95,
+          917.98
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "0e69b768-1daa-5ab5-88b8-f0fd59380117",
+        "cameraId": "160982345941294",
+        "score": 0.5928283333778381,
+        "bbox": [
+          2.18,
+          553.76,
+          333.05,
+          1033.74
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "73b15d5f-0295-5f9d-9f4d-03412f547f8c",
+    "label": "ARB-2018-040",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14216407503223,
+      -37.33466914505352
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "9c57b3be-ad35-509c-832c-c79693b23e41",
+    "photoPath": "trees/73b15d5f-0295-5f9d-9f4d-03412f547f8c.jpg",
+    "observations": [
+      {
+        "id": "9c57b3be-ad35-509c-832c-c79693b23e41",
+        "cameraId": "865981113954734",
+        "score": 0.36994829773902893,
+        "bbox": [
+          0.56,
+          21.41,
+          187.79,
+          860.3
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "5b8399e9-575b-5e9e-9c6a-322cfc35531c",
+        "cameraId": "506671577138551",
+        "score": 0.39315566420555115,
+        "bbox": [
+          135.82,
+          196.0,
+          418.84,
+          536.89
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "1bc61ad6-24d6-5fdd-9db0-e0aa93c6ab3f",
+        "cameraId": "309670914027470",
+        "score": 0.40082046389579773,
+        "bbox": [
+          207.74,
+          125.27,
+          659.09,
+          894.62
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "778a99b3-db33-5fe0-9c61-677bfc8c43f5",
+    "label": "ARB-2018-041",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140001672622176,
+      -37.334676591282
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "2e1917f1-e7a1-5d83-a8a5-cfd868dd9f57",
+    "photoPath": "trees/778a99b3-db33-5fe0-9c61-677bfc8c43f5.jpg",
+    "observations": [
+      {
+        "id": "2e1917f1-e7a1-5d83-a8a5-cfd868dd9f57",
+        "cameraId": "4048729631855105",
+        "score": 0.3884536921977997,
+        "bbox": [
+          1675.5,
+          457.4,
+          1938.78,
+          1227.26
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "dbba7ae2-cf48-5bbe-b4f8-720bf9c1a393",
+        "cameraId": "846016185983685",
+        "score": 0.5544668436050415,
+        "bbox": [
+          327.14,
+          380.02,
+          695.76,
+          876.35
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "035ddfc6-84b4-5938-b17f-ad0d77b7e4c6",
+        "cameraId": "1445099315844837",
+        "score": 0.4051774740219116,
+        "bbox": [
+          512.26,
+          760.76,
+          646.82,
+          994.43
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "7a6d7dc6-d4d8-5fc2-8049-834ef741c8cd",
+    "label": "ARB-2018-042",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14019872989684,
+      -37.33495701044123
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "aa6d3fd2-44e4-5fd0-ad7e-31b09906c3a9",
+    "photoPath": "trees/7a6d7dc6-d4d8-5fc2-8049-834ef741c8cd.jpg",
+    "observations": [
+      {
+        "id": "aa6d3fd2-44e4-5fd0-ad7e-31b09906c3a9",
+        "cameraId": "536573210698742",
+        "score": 0.39007723331451416,
+        "bbox": [
+          1.31,
+          97.35,
+          496.03,
+          938.96
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "7eb04a97-5bb8-5d4d-a5a7-5df2216880eb",
+    "label": "ARB-2018-043",
+    "campaign": "2018",
+    "coordinates": [
+      -59.1401586313644,
+      -37.33464186666483
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "725d8125-6468-5698-933b-5183b9dd2fba",
+    "photoPath": "trees/7eb04a97-5bb8-5d4d-a5a7-5df2216880eb.jpg",
+    "observations": [
+      {
+        "id": "725d8125-6468-5698-933b-5183b9dd2fba",
+        "cameraId": "483695476310724",
+        "score": 0.6363504528999329,
+        "bbox": [
+          1226.92,
+          1.28,
+          2044.3,
+          1103.8
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "8368f6e2-1c5e-5f15-87f4-25016cf945ae",
+    "label": "ARB-2018-044",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14193370781692,
+      -37.334934931494644
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "58ab8018-3aa0-51ea-ac1a-e09951e5ee9f",
+    "photoPath": "trees/8368f6e2-1c5e-5f15-87f4-25016cf945ae.jpg",
+    "observations": [
+      {
+        "id": "58ab8018-3aa0-51ea-ac1a-e09951e5ee9f",
+        "cameraId": "309670914027470",
+        "score": 0.36274999380111694,
+        "bbox": [
+          2.13,
+          0.74,
+          410.52,
+          901.95
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "546a0fb4-f443-54f8-b0ee-fe627d44b062",
+        "cameraId": "3573274879564256",
+        "score": 0.38305971026420593,
+        "bbox": [
+          4.15,
+          2.52,
+          777.95,
+          914.79
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "3742fbdf-4a53-567f-9c69-a0e66925125c",
+        "cameraId": "298318311864344",
+        "score": 0.4504557251930237,
+        "bbox": [
+          432.93,
+          249.62,
+          868.8,
+          873.95
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "58ea5b82-d9de-5278-9b39-9981ac4e09b3",
+        "cameraId": "887288155463015",
+        "score": 0.35253533720970154,
+        "bbox": [
+          719.03,
+          459.88,
+          900.71,
+          868.91
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "e29a0182-97ea-5cb0-823d-a36b222f34fa",
+        "cameraId": "4002530999813638",
+        "score": 0.3676026165485382,
+        "bbox": [
+          266.61,
+          516.84,
+          496.07,
+          879.33
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "88dd5fcc-d754-557c-b9d1-0ea6647ccaf6",
+    "label": "ARB-2018-045",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14049591878749,
+      -37.33399041877838
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "6fa6ef18-96ef-5fea-b3dd-15388e9db306",
+    "photoPath": "trees/88dd5fcc-d754-557c-b9d1-0ea6647ccaf6.jpg",
+    "observations": [
+      {
+        "id": "6fa6ef18-96ef-5fea-b3dd-15388e9db306",
+        "cameraId": "175323477689926",
+        "score": 0.5950823426246643,
+        "bbox": [
+          1675.09,
+          2.35,
+          2045.28,
+          1119.94
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "8993ce49-91ad-5855-8d6c-6d14cbde44b1",
+    "label": "ARB-2018-046",
+    "campaign": "2018",
+    "coordinates": [
+      -59.142185157712106,
+      -37.3341707885917
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "237795ff-391f-5bd5-9c7e-f46e38cc75d6",
+    "photoPath": "trees/8993ce49-91ad-5855-8d6c-6d14cbde44b1.jpg",
+    "observations": [
+      {
+        "id": "237795ff-391f-5bd5-9c7e-f46e38cc75d6",
+        "cameraId": "755587771790322",
+        "score": 0.6401910781860352,
+        "bbox": [
+          67.74,
+          1.53,
+          832.48,
+          888.96
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "8baaf651-76dc-56ef-8bfa-e8cbf4b9884c",
+    "label": "ARB-2018-047",
+    "campaign": "2018",
+    "coordinates": [
+      -59.13995698134285,
+      -37.33492590020127
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "91c72d8d-7ce9-535b-bf08-238b10428745",
+    "photoPath": "trees/8baaf651-76dc-56ef-8bfa-e8cbf4b9884c.jpg",
+    "observations": [
+      {
+        "id": "91c72d8d-7ce9-535b-bf08-238b10428745",
+        "cameraId": "186003296676422",
+        "score": 0.39354515075683594,
+        "bbox": [
+          1307.0,
+          662.09,
+          1514.11,
+          902.63
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "8e4314b6-0db1-5843-bac4-fe469417e48d",
+    "label": "ARB-2018-048",
+    "campaign": "2018",
+    "coordinates": [
+      -59.142086463159565,
+      -37.334551743958386
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "04b07475-b01f-57cd-b379-c5fc83536951",
+    "photoPath": "trees/8e4314b6-0db1-5843-bac4-fe469417e48d.jpg",
+    "observations": [
+      {
+        "id": "04b07475-b01f-57cd-b379-c5fc83536951",
+        "cameraId": "285688606494753",
+        "score": 0.6055058836936951,
+        "bbox": [
+          5.57,
+          272.16,
+          673.45,
+          916.11
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "2feeabe3-16fd-517f-8c0f-8c2eff86515b",
+        "cameraId": "459222228634464",
+        "score": 0.5583028793334961,
+        "bbox": [
+          290.96,
+          431.93,
+          727.12,
+          876.61
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "dbd71d06-2212-53fb-9c86-2a7418a04c65",
+        "cameraId": "153803503413974",
+        "score": 0.5751444697380066,
+        "bbox": [
+          490.81,
+          538.34,
+          775.67,
+          876.16
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "56cbedc8-7a8f-5d7e-a686-68dd960b0883",
+        "cameraId": "865981113954734",
+        "score": 0.518965482711792,
+        "bbox": [
+          617.84,
+          599.77,
+          822.46,
+          861.79
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "23155bd8-2b5a-564c-8387-9b674652f08f",
+        "cameraId": "506671577138551",
+        "score": 0.46033090353012085,
+        "bbox": [
+          698.78,
+          622.85,
+          894.03,
+          845.79
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "8ec6bd5c-eead-5ea9-ae5e-6442f0aee8e0",
+    "label": "ARB-2018-049",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14074164602584,
+      -37.3335392615523
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "7edde0fe-5e5a-5cb9-a37d-164af8f74370",
+    "photoPath": "trees/8ec6bd5c-eead-5ea9-ae5e-6442f0aee8e0.jpg",
+    "observations": [
+      {
+        "id": "7edde0fe-5e5a-5cb9-a37d-164af8f74370",
+        "cameraId": "2286535231484060",
+        "score": 0.3582671582698822,
+        "bbox": [
+          1557.35,
+          407.69,
+          1912.71,
+          1074.06
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "91d94269-144d-5ab0-ad88-d88cc86c3238",
+    "label": "ARB-2018-050",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14205833985489,
+      -37.33445824048104
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "ee37907d-2cb0-52fb-ba04-2aa1d2832aff",
+    "photoPath": "trees/91d94269-144d-5ab0-ad88-d88cc86c3238.jpg",
+    "observations": [
+      {
+        "id": "ee37907d-2cb0-52fb-ba04-2aa1d2832aff",
+        "cameraId": "999708080562137",
+        "score": 0.6175819635391235,
+        "bbox": [
+          632.13,
+          397.58,
+          955.56,
+          768.13
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "94166dd3-04c6-585d-9424-4ebb4b749f81",
+    "label": "ARB-2018-051",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14212513741907,
+      -37.33440564602565
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "dc00eba8-f588-56fb-876c-0d1024da1313",
+    "photoPath": "trees/94166dd3-04c6-585d-9424-4ebb4b749f81.jpg",
+    "observations": [
+      {
+        "id": "dc00eba8-f588-56fb-876c-0d1024da1313",
+        "cameraId": "459222228634464",
+        "score": 0.5559772253036499,
+        "bbox": [
+          728.17,
+          514.23,
+          966.1,
+          790.89
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "95cec516-da19-57a0-aedd-8ec5f934fc9c",
+    "label": "ARB-2018-052",
+    "campaign": "2018",
+    "coordinates": [
+      -59.13999514515207,
+      -37.3348826217153
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "dbf8fd98-f7be-5f92-aa02-c0c31fce9f73",
+    "photoPath": "trees/95cec516-da19-57a0-aedd-8ec5f934fc9c.jpg",
+    "observations": [
+      {
+        "id": "dbf8fd98-f7be-5f92-aa02-c0c31fce9f73",
+        "cameraId": "1417530078639595",
+        "score": 0.5740518569946289,
+        "bbox": [
+          1232.73,
+          646.0,
+          1375.13,
+          905.53
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "971346d2-afb5-5d9d-bbbe-e32e90ddb4d3",
+    "label": "ARB-2018-053",
+    "campaign": "2018",
+    "coordinates": [
+      -59.1400373675724,
+      -37.33498286723728
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "3d8792f7-a972-5415-a437-cb06455785b5",
+    "photoPath": "trees/971346d2-afb5-5d9d-bbbe-e32e90ddb4d3.jpg",
+    "observations": [
+      {
+        "id": "3d8792f7-a972-5415-a437-cb06455785b5",
+        "cameraId": "846016185983685",
+        "score": 0.36927565932273865,
+        "bbox": [
+          1046.66,
+          656.12,
+          1148.88,
+          867.79
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "97cebc63-f093-5934-90ca-8152a6d95983",
+    "label": "ARB-2018-054",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14172914339218,
+      -37.335138331044575
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "assumed_distance_along_ray",
+    "primaryObservationId": "6ee59c14-dc13-5dae-a930-30eabf26c21a",
+    "photoPath": "trees/97cebc63-f093-5934-90ca-8152a6d95983.jpg",
+    "observations": [
+      {
+        "id": "6ee59c14-dc13-5dae-a930-30eabf26c21a",
+        "cameraId": "3573274879564256",
+        "score": 0.3830253779888153,
+        "bbox": [
+          3.35,
+          1.98,
+          528.59,
+          917.3
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "983705ea-2fbc-5440-97ad-1b49108f5e42",
+    "label": "ARB-2018-055",
+    "campaign": "2018",
+    "coordinates": [
+      -59.13968995142873,
+      -37.334821582868436
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "c2fa80a1-8e2c-5c66-8786-53b9883a43af",
+    "photoPath": "trees/983705ea-2fbc-5440-97ad-1b49108f5e42.jpg",
+    "observations": [
+      {
+        "id": "c2fa80a1-8e2c-5c66-8786-53b9883a43af",
+        "cameraId": "2996353730690117",
+        "score": 0.5101656317710876,
+        "bbox": [
+          997.54,
+          652.57,
+          1236.14,
+          892.05
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "9969eef5-5ed3-5ea9-a0da-0e14201a59cd",
+    "label": "ARB-2018-056",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14035234937031,
+      -37.33428219882083
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "9e05dfa0-e06f-5198-b452-8f2eb9f31da3",
+    "photoPath": "trees/9969eef5-5ed3-5ea9-a0da-0e14201a59cd.jpg",
+    "observations": [
+      {
+        "id": "9e05dfa0-e06f-5198-b452-8f2eb9f31da3",
+        "cameraId": "373450317263069",
+        "score": 0.5065172910690308,
+        "bbox": [
+          1181.78,
+          725.35,
+          1332.48,
+          964.35
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "99da99a8-a127-5bf8-95a8-a2b57601a567",
+    "label": "ARB-2018-057",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14086660200758,
+      -37.3352342341023
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "441e67a8-63b7-5b13-8aaf-d71dfa908680",
+    "photoPath": "trees/99da99a8-a127-5bf8-95a8-a2b57601a567.jpg",
+    "observations": [
+      {
+        "id": "441e67a8-63b7-5b13-8aaf-d71dfa908680",
+        "cameraId": "458855975344426",
+        "score": 0.3799053430557251,
+        "bbox": [
+          200.97,
+          561.43,
+          630.13,
+          897.84
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "9ac5091d-052a-5a2c-810b-dec9cdc3d8f7",
+    "label": "ARB-2018-058",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140284763087685,
+      -37.33516358504291
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "93e9f42b-97f1-56c2-acd4-8f7e69a69854",
+    "photoPath": "trees/9ac5091d-052a-5a2c-810b-dec9cdc3d8f7.jpg",
+    "observations": [
+      {
+        "id": "93e9f42b-97f1-56c2-acd4-8f7e69a69854",
+        "cameraId": "476938636980232",
+        "score": 0.3949836790561676,
+        "bbox": [
+          1812.35,
+          0.66,
+          2045.75,
+          545.19
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "045e8335-ba16-5e75-80b9-2bd689069fc1",
+        "cameraId": "1190333971418501",
+        "score": 0.649292528629303,
+        "bbox": [
+          1294.53,
+          58.83,
+          2044.27,
+          848.94
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "26b25770-c751-587a-8cd6-e3bb10f16708",
+        "cameraId": "324165962607252",
+        "score": 0.66408371925354,
+        "bbox": [
+          1181.72,
+          216.41,
+          1824.61,
+          1024.12
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "8b122d93-42af-5848-bd0b-969ce8613bc3",
+        "cameraId": "145107770847913",
+        "score": 0.392040491104126,
+        "bbox": [
+          1125.75,
+          520.68,
+          1567.08,
+          1012.33
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "7267a685-75a8-5c57-baa1-66acf9b9f3ac",
+        "cameraId": "458855975344426",
+        "score": 0.48085665702819824,
+        "bbox": [
+          1166.95,
+          627.92,
+          1457.61,
+          1002.2
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "2ba73cc6-44f0-5b6c-ae70-95e881e6a0a3",
+        "cameraId": "1162960817479137",
+        "score": 0.4039160907268524,
+        "bbox": [
+          927.35,
+          692.36,
+          1261.86,
+          984.56
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "c5d3369f-5d86-54b5-9f68-31989fceba88",
+        "cameraId": "311820940548210",
+        "score": 0.3818148672580719,
+        "bbox": [
+          1379.59,
+          738.63,
+          1499.54,
+          929.35
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "9afe2fbe-6cb1-5124-bc47-6e8cf3a565d9",
+    "label": "ARB-2018-059",
+    "campaign": "2018",
+    "coordinates": [
+      -59.141187342701365,
+      -37.33541073646319
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "ce1be34d-3d43-5398-bccc-f91d52fc2c06",
+    "photoPath": "trees/9afe2fbe-6cb1-5124-bc47-6e8cf3a565d9.jpg",
+    "observations": [
+      {
+        "id": "ce1be34d-3d43-5398-bccc-f91d52fc2c06",
+        "cameraId": "1121021761743910",
+        "score": 0.37290525436401367,
+        "bbox": [
+          1287.4,
+          702.3,
+          1566.99,
+          1039.86
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "5869b23c-45e3-5e64-814b-008d522fd9b3",
+        "cameraId": "1105709096594518",
+        "score": 0.48555266857147217,
+        "bbox": [
+          1500.2,
+          1.83,
+          2045.45,
+          1203.73
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "9b7a1cc0-d0ef-5830-9077-25a34e8dd1c3",
+    "label": "ARB-2018-060",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14035197727259,
+      -37.334284379655855
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "afe355f7-949c-5585-9eba-eb948c62889a",
+    "photoPath": "trees/9b7a1cc0-d0ef-5830-9077-25a34e8dd1c3.jpg",
+    "observations": [
+      {
+        "id": "afe355f7-949c-5585-9eba-eb948c62889a",
+        "cameraId": "319261133201442",
+        "score": 0.35814711451530457,
+        "bbox": [
+          1180.49,
+          799.19,
+          1284.59,
+          941.81
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "a4daf8d0-caa3-5974-9809-b2dfe9a9ae5e",
+    "label": "ARB-2018-061",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14125446296548,
+      -37.33549665439713
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "7ecf8bf1-9468-5213-b063-edbecd3c428d",
+    "photoPath": "trees/a4daf8d0-caa3-5974-9809-b2dfe9a9ae5e.jpg",
+    "observations": [
+      {
+        "id": "7ecf8bf1-9468-5213-b063-edbecd3c428d",
+        "cameraId": "1105915583240058",
+        "score": 0.7097550630569458,
+        "bbox": [
+          1468.13,
+          213.06,
+          2044.48,
+          919.32
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "17de382f-4f85-599e-9919-4528e9d72a9d",
+        "cameraId": "4002530999813638",
+        "score": 0.38556450605392456,
+        "bbox": [
+          1796.85,
+          294.46,
+          2045.41,
+          827.81
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "feb2ae6a-0239-56e4-8d3f-f3e732d39364",
+        "cameraId": "119822900116818",
+        "score": 0.35970166325569153,
+        "bbox": [
+          1454.6,
+          1.21,
+          2045.64,
+          755.22
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "b4b782c5-930a-5823-8ed4-065fa94be8b5",
+        "cameraId": "1105709096594518",
+        "score": 0.5475693941116333,
+        "bbox": [
+          1135.61,
+          358.82,
+          1732.67,
+          987.96
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "a68ce362-a2ac-52c4-bd68-e705c4edbe81",
+    "label": "ARB-2018-062",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14056048915941,
+      -37.33519901024225
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "d91eba36-5efb-50f9-a9cb-0709af4a3f74",
+    "photoPath": "trees/a68ce362-a2ac-52c4-bd68-e705c4edbe81.jpg",
+    "observations": [
+      {
+        "id": "d91eba36-5efb-50f9-a9cb-0709af4a3f74",
+        "cameraId": "1445099315844837",
+        "score": 0.49169179797172546,
+        "bbox": [
+          1139.9,
+          425.78,
+          1465.03,
+          990.33
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "a8047eea-b3b4-581f-8c0c-f28319a4fe95",
+    "label": "ARB-2018-063",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14074419497854,
+      -37.333524168972396
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "0edd31bc-306a-5531-99e8-f04dcbea0195",
+    "photoPath": "trees/a8047eea-b3b4-581f-8c0c-f28319a4fe95.jpg",
+    "observations": [
+      {
+        "id": "0edd31bc-306a-5531-99e8-f04dcbea0195",
+        "cameraId": "126956006119395",
+        "score": 0.35317790508270264,
+        "bbox": [
+          1897.76,
+          302.63,
+          2045.48,
+          823.45
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "2baee7dc-25fc-5b23-8a46-d468202375bf",
+        "cameraId": "2286535231484060",
+        "score": 0.3632655143737793,
+        "bbox": [
+          1562.5,
+          411.77,
+          1814.98,
+          1077.06
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "4632c20f-5b2b-5faa-831f-80c9be4c6ff6",
+        "cameraId": "501192154251791",
+        "score": 0.39789441227912903,
+        "bbox": [
+          1341.85,
+          612.25,
+          1489.93,
+          979.74
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "11324cfe-0bd8-5cdd-b041-8e25067a66d1",
+        "cameraId": "3828072440580721",
+        "score": 0.45425987243652344,
+        "bbox": [
+          1196.43,
+          599.35,
+          1493.37,
+          938.58
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "47f7cfbc-b5e0-5da4-b725-0e4816522fb3",
+        "cameraId": "993897441440951",
+        "score": 0.5283470153808594,
+        "bbox": [
+          1189.71,
+          617.83,
+          1452.34,
+          914.06
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "4886e59c-85a7-5bf4-b23a-8e71a9087ecd",
+        "cameraId": "213324267222795",
+        "score": 0.4768570065498352,
+        "bbox": [
+          1116.45,
+          649.63,
+          1377.78,
+          890.96
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "30fc3f90-807b-5e39-bcb2-e22fe5079286",
+        "cameraId": "960621738018740",
+        "score": 0.45101407170295715,
+        "bbox": [
+          1026.22,
+          692.67,
+          1225.95,
+          889.84
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "c82520bc-b211-5b59-8929-80284467d9be",
+        "cameraId": "832783243984699",
+        "score": 0.3587735891342163,
+        "bbox": [
+          1046.29,
+          764.17,
+          1120.92,
+          878.33
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "aa79903c-455c-5e59-af7c-7f5644f212ff",
+    "label": "ARB-2018-064",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14017780336006,
+      -37.334591225837755
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "assumed_distance_along_ray",
+    "primaryObservationId": "24505247-9fa7-59ae-a472-b4364bf1a789",
+    "photoPath": "trees/aa79903c-455c-5e59-af7c-7f5644f212ff.jpg",
+    "observations": [
+      {
+        "id": "24505247-9fa7-59ae-a472-b4364bf1a789",
+        "cameraId": "142226107872905",
+        "score": 0.4625515937805176,
+        "bbox": [
+          1409.56,
+          1.05,
+          2045.68,
+          830.25
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "ac097eba-c5ba-533a-bbfe-d0262cb186c2",
+    "label": "ARB-2018-065",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140733257269545,
+      -37.333802223520145
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "d0264e97-13e9-5b93-b3b3-db076315e4cd",
+    "photoPath": "trees/ac097eba-c5ba-533a-bbfe-d0262cb186c2.jpg",
+    "observations": [
+      {
+        "id": "d0264e97-13e9-5b93-b3b3-db076315e4cd",
+        "cameraId": "832783243984699",
+        "score": 0.38818639516830444,
+        "bbox": [
+          807.85,
+          659.67,
+          904.05,
+          871.08
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "ade047a0-ca51-571e-84c6-03afa8176887",
+    "label": "ARB-2018-066",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14077347863061,
+      -37.33374846946715
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "2be3fa15-0cb4-5ab5-bda8-24955a7179d6",
+    "photoPath": "trees/ade047a0-ca51-571e-84c6-03afa8176887.jpg",
+    "observations": [
+      {
+        "id": "2be3fa15-0cb4-5ab5-bda8-24955a7179d6",
+        "cameraId": "757577611790641",
+        "score": 0.39561885595321655,
+        "bbox": [
+          834.86,
+          692.06,
+          896.94,
+          860.43
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "afc7a5d0-d6d1-5945-a5cd-da472cbc59f6",
+    "label": "ARB-2018-067",
+    "campaign": "2018",
+    "coordinates": [
+      -59.139915876129706,
+      -37.33485392416765
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "2a4180fa-afa8-557a-81ab-7bdb03bd3223",
+    "photoPath": "trees/afc7a5d0-d6d1-5945-a5cd-da472cbc59f6.jpg",
+    "observations": [
+      {
+        "id": "2a4180fa-afa8-557a-81ab-7bdb03bd3223",
+        "cameraId": "286871449741145",
+        "score": 0.3717593252658844,
+        "bbox": [
+          841.42,
+          777.48,
+          921.72,
+          871.34
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "b0deab3f-eadf-5c25-8fbb-c32488af9e60",
+    "label": "ARB-2018-068",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14048465473286,
+      -37.334027283861154
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "14badc45-d535-57f1-8963-7283ffeab30f",
+    "photoPath": "trees/b0deab3f-eadf-5c25-8fbb-c32488af9e60.jpg",
+    "observations": [
+      {
+        "id": "14badc45-d535-57f1-8963-7283ffeab30f",
+        "cameraId": "502465284220120",
+        "score": 0.6404649615287781,
+        "bbox": [
+          1279.21,
+          464.76,
+          1817.01,
+          1047.2
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "b1a7a82e-7cb9-5f9e-a8d0-3fdb4988591d",
+    "label": "ARB-2018-069",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140957732338926,
+      -37.33345166832084
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "92dd7b76-9f3b-5c58-af63-500313cae829",
+    "photoPath": "trees/b1a7a82e-7cb9-5f9e-a8d0-3fdb4988591d.jpg",
+    "observations": [
+      {
+        "id": "92dd7b76-9f3b-5c58-af63-500313cae829",
+        "cameraId": "126956006119395",
+        "score": 0.4248473644256592,
+        "bbox": [
+          158.66,
+          153.59,
+          656.77,
+          944.24
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "a8ce9f92-2ea7-5351-abe0-62867212efad",
+        "cameraId": "2286535231484060",
+        "score": 0.568566083908081,
+        "bbox": [
+          314.55,
+          257.64,
+          707.97,
+          837.36
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "3f65fce7-996e-5ece-aa54-a3219c7989d2",
+        "cameraId": "501192154251791",
+        "score": 0.5562865734100342,
+        "bbox": [
+          451.96,
+          394.23,
+          760.06,
+          865.9
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "c6e52ae5-a0b2-5498-a516-fd64fe05d993",
+        "cameraId": "830463430892125",
+        "score": 0.5212350487709045,
+        "bbox": [
+          560.48,
+          492.09,
+          811.54,
+          896.71
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "65204971-4130-5fe8-954a-7dac09dbdaab",
+        "cameraId": "154927706636328",
+        "score": 0.5006475448608398,
+        "bbox": [
+          654.53,
+          517.58,
+          834.4,
+          879.58
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "6cd4f8d0-8fd1-5aec-8ad2-a36d4bd2eb6d",
+        "cameraId": "3828072440580721",
+        "score": 0.5210473537445068,
+        "bbox": [
+          706.13,
+          533.13,
+          870.85,
+          867.7
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "54c1be28-e913-5cd2-803d-caf07b0c1f0e",
+        "cameraId": "993897441440951",
+        "score": 0.48805662989616394,
+        "bbox": [
+          727.14,
+          521.88,
+          906.08,
+          853.34
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "3d032fd9-3913-51a2-9932-5bc2d824f261",
+        "cameraId": "213324267222795",
+        "score": 0.43780288100242615,
+        "bbox": [
+          758.65,
+          541.99,
+          919.18,
+          869.38
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "8f86b7f2-98b8-536f-9791-5d4272822c52",
+        "cameraId": "960621738018740",
+        "score": 0.422128826379776,
+        "bbox": [
+          702.43,
+          586.05,
+          846.46,
+          883.74
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "29c1b09f-8842-5276-9cb8-d96fd3f2a42d",
+        "cameraId": "175323477689926",
+        "score": 0.41752389073371887,
+        "bbox": [
+          708.06,
+          611.38,
+          824.44,
+          888.03
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "ad959d2d-fc2c-5892-aa7e-de748679517a",
+        "cameraId": "319628862841089",
+        "score": 0.35202932357788086,
+        "bbox": [
+          766.74,
+          638.89,
+          894.07,
+          878.17
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "b2d00cbd-5c47-5e3d-880b-a391e98e3391",
+    "label": "ARB-2018-070",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14041062737097,
+      -37.33515016767808
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "2d95412c-a587-5692-93ff-6e26a21c978a",
+    "photoPath": "trees/b2d00cbd-5c47-5e3d-880b-a391e98e3391.jpg",
+    "observations": [
+      {
+        "id": "2d95412c-a587-5692-93ff-6e26a21c978a",
+        "cameraId": "846016185983685",
+        "score": 0.4461978077888489,
+        "bbox": [
+          1190.07,
+          303.49,
+          1518.17,
+          844.07
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "b2d65815-b517-5639-b5ad-40a9c40bdf36",
+    "label": "ARB-2018-071",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14100722291418,
+      -37.333291868977994
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "6e062360-6961-5de9-a715-108f24eff31e",
+    "photoPath": "trees/b2d65815-b517-5639-b5ad-40a9c40bdf36.jpg",
+    "observations": [
+      {
+        "id": "6e062360-6961-5de9-a715-108f24eff31e",
+        "cameraId": "2286535231484060",
+        "score": 0.4773818850517273,
+        "bbox": [
+          670.03,
+          611.36,
+          896.67,
+          897.84
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "b3233716-f2c7-58dd-81f7-df1b22ce5676",
+    "label": "ARB-2018-072",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14046872343813,
+      -37.3343175448634
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "86df0057-445d-5eb5-897e-314c8f5cbd8c",
+    "photoPath": "trees/b3233716-f2c7-58dd-81f7-df1b22ce5676.jpg",
+    "observations": [
+      {
+        "id": "86df0057-445d-5eb5-897e-314c8f5cbd8c",
+        "cameraId": "938906563539239",
+        "score": 0.3557519018650055,
+        "bbox": [
+          336.57,
+          710.13,
+          546.68,
+          907.98
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "bb1cdabb-372e-5d75-aba0-5e88d6ee2a6d",
+    "label": "ARB-2018-073",
+    "campaign": "2018",
+    "coordinates": [
+      -59.141394010407474,
+      -37.33554038751309
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "0cf4313f-6a87-5738-8b32-15a3609506a2",
+    "photoPath": "trees/bb1cdabb-372e-5d75-aba0-5e88d6ee2a6d.jpg",
+    "observations": [
+      {
+        "id": "0cf4313f-6a87-5738-8b32-15a3609506a2",
+        "cameraId": "119822900116818",
+        "score": 0.36768266558647156,
+        "bbox": [
+          3.39,
+          184.07,
+          672.81,
+          916.23
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "be14b109-2fe7-5427-8458-c0f329052196",
+    "label": "ARB-2018-074",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14064449498275,
+      -37.335251873085234
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "8d788c37-0dbf-5039-a32c-a4b991831072",
+    "photoPath": "trees/be14b109-2fe7-5427-8458-c0f329052196.jpg",
+    "observations": [
+      {
+        "id": "8d788c37-0dbf-5039-a32c-a4b991831072",
+        "cameraId": "1445099315844837",
+        "score": 0.5987808704376221,
+        "bbox": [
+          1380.54,
+          188.41,
+          2045.18,
+          928.25
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "bff9eb9f-45db-55db-b40f-ac6831207047",
+    "label": "ARB-2018-075",
+    "campaign": "2018",
+    "coordinates": [
+      -59.13989990897639,
+      -37.33488938490886
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "b14ba1b9-9566-5e45-8ab6-0a4e90bac138",
+    "photoPath": "trees/bff9eb9f-45db-55db-b40f-ac6831207047.jpg",
+    "observations": [
+      {
+        "id": "b14ba1b9-9566-5e45-8ab6-0a4e90bac138",
+        "cameraId": "186003296676422",
+        "score": 0.39237624406814575,
+        "bbox": [
+          1168.31,
+          616.91,
+          1380.08,
+          878.07
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "c01770a3-532f-5836-9b4a-2afd9c733dd8",
+    "label": "ARB-2018-076",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14209253068705,
+      -37.3344487054849
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "9a980bb2-bafa-528a-8269-d2837e8e43b7",
+    "photoPath": "trees/c01770a3-532f-5836-9b4a-2afd9c733dd8.jpg",
+    "observations": [
+      {
+        "id": "9a980bb2-bafa-528a-8269-d2837e8e43b7",
+        "cameraId": "285688606494753",
+        "score": 0.5416553616523743,
+        "bbox": [
+          694.51,
+          462.68,
+          965.0,
+          774.73
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "c34d8b5c-f2bd-5fe5-8d13-5a2d1a1a098c",
+    "label": "ARB-2018-077",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14024064733555,
+      -37.33448503442814
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "331cd36a-99f7-5617-abd5-d5dd94d791d0",
+    "photoPath": "trees/c34d8b5c-f2bd-5fe5-8d13-5a2d1a1a098c.jpg",
+    "observations": [
+      {
+        "id": "331cd36a-99f7-5617-abd5-d5dd94d791d0",
+        "cameraId": "319261133201442",
+        "score": 0.5780554413795471,
+        "bbox": [
+          1311.73,
+          613.8,
+          1694.43,
+          1030.26
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "ca3808ea-c16b-5ed0-852e-72bbfdcac800",
+    "label": "ARB-2018-078",
+    "campaign": "2018",
+    "coordinates": [
+      -59.13970059497543,
+      -37.334810735054525
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "945b13f4-274b-597a-8ac7-9016b3b27942",
+    "photoPath": "trees/ca3808ea-c16b-5ed0-852e-72bbfdcac800.jpg",
+    "observations": [
+      {
+        "id": "945b13f4-274b-597a-8ac7-9016b3b27942",
+        "cameraId": "286871449741145",
+        "score": 0.43044501543045044,
+        "bbox": [
+          925.26,
+          696.64,
+          1137.17,
+          900.48
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "cbd61d2f-39a0-5bde-aa5f-135f3e7aaad0",
+    "label": "ARB-2018-079",
+    "campaign": "2018",
+    "coordinates": [
+      -59.13979451516951,
+      -37.33476407496691
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "ce26a354-fbc7-51f7-98ab-824a718f8304",
+    "photoPath": "trees/cbd61d2f-39a0-5bde-aa5f-135f3e7aaad0.jpg",
+    "observations": [
+      {
+        "id": "ce26a354-fbc7-51f7-98ab-824a718f8304",
+        "cameraId": "2996353730690117",
+        "score": 0.44134876132011414,
+        "bbox": [
+          738.79,
+          743.26,
+          833.79,
+          919.33
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "cf56df6e-099a-53b4-8627-4b9238a6d8eb",
+    "label": "ARB-2018-080",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14036803653919,
+      -37.33405716083534
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "d951dd86-a75f-5192-8345-d161d3a089fd",
+    "photoPath": "trees/cf56df6e-099a-53b4-8627-4b9238a6d8eb.jpg",
+    "observations": [
+      {
+        "id": "d951dd86-a75f-5192-8345-d161d3a089fd",
+        "cameraId": "832783243984699",
+        "score": 0.6035700440406799,
+        "bbox": [
+          1751.3,
+          843.73,
+          2021.65,
+          1166.68
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "732c568c-7b34-560e-a5ee-82f124fa6cb5",
+        "cameraId": "938906563539239",
+        "score": 0.5633795857429504,
+        "bbox": [
+          1337.54,
+          653.43,
+          1617.95,
+          1027.29
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "ad991c2d-5275-566e-be4a-ae99ca98c1a3",
+        "cameraId": "373450317263069",
+        "score": 0.409274697303772,
+        "bbox": [
+          1344.58,
+          772.22,
+          1469.91,
+          1030.7
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "d6735600-b91b-53b3-82d8-d8b878d7e395",
+        "cameraId": "142226107872905",
+        "score": 0.5806640386581421,
+        "bbox": [
+          1241.37,
+          685.05,
+          1494.04,
+          980.18
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "7c22e2fa-ebed-53ae-a93f-53420deb8144",
+        "cameraId": "483695476310724",
+        "score": 0.41677039861679077,
+        "bbox": [
+          1180.36,
+          718.42,
+          1389.67,
+          905.42
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "6ff3309c-38c3-58eb-88a8-993742215426",
+        "cameraId": "4048729631855105",
+        "score": 0.5382241606712341,
+        "bbox": [
+          451.44,
+          490.93,
+          815.49,
+          951.49
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "cf738879-c4fe-5c9b-a5ab-254a88b5214c",
+    "label": "ARB-2018-081",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140513234516945,
+      -37.33400345952407
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "08a3f326-2f96-5899-8ae8-7745a6cf8f4c",
+    "photoPath": "trees/cf738879-c4fe-5c9b-a5ab-254a88b5214c.jpg",
+    "observations": [
+      {
+        "id": "08a3f326-2f96-5899-8ae8-7745a6cf8f4c",
+        "cameraId": "757577611790641",
+        "score": 0.38632261753082275,
+        "bbox": [
+          1101.96,
+          762.04,
+          1185.46,
+          936.79
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "d94cce37-8c6c-5e30-9fc8-80f3112f927c",
+    "label": "ARB-2018-082",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14106693354093,
+      -37.333194521918195
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "66ac6c07-59d8-5e10-9585-0c9746a4c7d5",
+    "photoPath": "trees/d94cce37-8c6c-5e30-9fc8-80f3112f927c.jpg",
+    "observations": [
+      {
+        "id": "66ac6c07-59d8-5e10-9585-0c9746a4c7d5",
+        "cameraId": "501192154251791",
+        "score": 0.4474134147167206,
+        "bbox": [
+          722.39,
+          678.35,
+          911.78,
+          879.78
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "d98795d4-546e-5590-9773-84e65778b021",
+    "label": "ARB-2018-083",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14007401706257,
+      -37.33490945188962
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "352239a0-51e7-558b-9b71-ab09a592e2d4",
+    "photoPath": "trees/d98795d4-546e-5590-9773-84e65778b021.jpg",
+    "observations": [
+      {
+        "id": "352239a0-51e7-558b-9b71-ab09a592e2d4",
+        "cameraId": "286871449741145",
+        "score": 0.3697139024734497,
+        "bbox": [
+          734.89,
+          781.73,
+          802.57,
+          909.28
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "db21c5b5-6692-5c78-9e05-8e755ef27dbb",
+    "label": "ARB-2018-084",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140692449061625,
+      -37.33349316997835
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "7cb0fa49-405a-5cb9-b909-bb24b9514d06",
+    "photoPath": "trees/db21c5b5-6692-5c78-9e05-8e755ef27dbb.jpg",
+    "observations": [
+      {
+        "id": "7cb0fa49-405a-5cb9-b909-bb24b9514d06",
+        "cameraId": "501192154251791",
+        "score": 0.5725372433662415,
+        "bbox": [
+          1543.05,
+          2.79,
+          2045.3,
+          733.76
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "ed8da92c-0482-5fd2-b899-6e44f146565d",
+        "cameraId": "830463430892125",
+        "score": 0.36968979239463806,
+        "bbox": [
+          1305.16,
+          410.81,
+          1899.64,
+          850.84
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "6095a07e-da1e-5025-a5cf-7b6ddccbb1fb",
+        "cameraId": "832783243984699",
+        "score": 0.458444744348526,
+        "bbox": [
+          1131.56,
+          704.98,
+          1278.17,
+          943.0
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "e0754e6b-cc6f-5b34-851f-5336fa140bda",
+    "label": "ARB-2018-085",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14226520006658,
+      -37.33407350006093
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "bab72179-6689-5de9-bf8b-84bae4d1b9de",
+    "photoPath": "trees/e0754e6b-cc6f-5b34-851f-5336fa140bda.jpg",
+    "observations": [
+      {
+        "id": "bab72179-6689-5de9-bf8b-84bae4d1b9de",
+        "cameraId": "474773977068611",
+        "score": 0.37652236223220825,
+        "bbox": [
+          3.55,
+          0.79,
+          703.54,
+          838.37
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "e3221383-d25b-5bfd-a9b1-c3cd5c6f9a99",
+    "label": "ARB-2018-086",
+    "campaign": "2018",
+    "coordinates": [
+      -59.140008467166886,
+      -37.33490299698395
+    ],
+    "calle": "Alberdi",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "ca4a0887-e5a0-52cd-bd09-6ce9e5f756ef",
+    "photoPath": "trees/e3221383-d25b-5bfd-a9b1-c3cd5c6f9a99.jpg",
+    "observations": [
+      {
+        "id": "ca4a0887-e5a0-52cd-bd09-6ce9e5f756ef",
+        "cameraId": "1417530078639595",
+        "score": 0.355406254529953,
+        "bbox": [
+          1424.93,
+          712.6,
+          1532.12,
+          840.2
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "f310761d-dff9-58d5-8724-4de7ca5aab66",
+    "label": "ARB-2018-087",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14186993548138,
+      -37.33481306839721
+    ],
+    "calle": "Avenida Rivadavia",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "c30f16a9-84e1-5434-8cf2-49acc6f3fab3",
+    "photoPath": "trees/f310761d-dff9-58d5-8724-4de7ca5aab66.jpg",
+    "observations": [
+      {
+        "id": "c30f16a9-84e1-5434-8cf2-49acc6f3fab3",
+        "cameraId": "153803503413974",
+        "score": 0.37963953614234924,
+        "bbox": [
+          152.33,
+          497.34,
+          461.7,
+          843.26
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "bb9af475-3bb8-5d48-a17f-e2dbfe630c80",
+        "cameraId": "865981113954734",
+        "score": 0.477336049079895,
+        "bbox": [
+          798.19,
+          582.92,
+          976.72,
+          796.65
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "71b96069-08d5-51b6-a3e2-27f973f6f72f",
+        "cameraId": "506671577138551",
+        "score": 0.4640623927116394,
+        "bbox": [
+          842.34,
+          591.82,
+          1003.43,
+          787.37
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "af4606fc-6505-5c3b-82ac-35e73c4bd1d2",
+        "cameraId": "309670914027470",
+        "score": 0.3888055086135864,
+        "bbox": [
+          860.48,
+          605.91,
+          1006.58,
+          780.23
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "f875a609-3a2b-5bd7-bf57-afa7557bb0e2",
+    "label": "ARB-2018-088",
+    "campaign": "2018",
+    "coordinates": [
+      -59.14137367204433,
+      -37.33553335724296
+    ],
+    "calle": "Constitución",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "47566496-1e82-5539-896c-8336388ee638",
+    "photoPath": "trees/f875a609-3a2b-5bd7-bf57-afa7557bb0e2.jpg",
+    "observations": [
+      {
+        "id": "47566496-1e82-5539-896c-8336388ee638",
+        "cameraId": "4002530999813638",
+        "score": 0.3713513910770416,
+        "bbox": [
+          1.63,
+          339.46,
+          289.05,
+          904.1
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "0e5f6f6f-efac-5b92-a6e4-65c5c8c1ccf5",
+    "label": "ARB-2019-001",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14104004459611,
+      -37.33393604462164
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "4c4921cd-7a10-5b67-b5e2-8888410ff708",
+    "photoPath": "trees/0e5f6f6f-efac-5b92-a6e4-65c5c8c1ccf5.jpg",
+    "observations": [
+      {
+        "id": "4c4921cd-7a10-5b67-b5e2-8888410ff708",
+        "cameraId": "142581291222782",
+        "score": 0.45456352829933167,
+        "bbox": [
+          1503.86,
+          809.66,
+          1838.33,
+          1113.25
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "14733d8a-ca89-54bf-920b-f29f383d2988",
+    "label": "ARB-2019-002",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14230626850074,
+      -37.33399351579356
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "ead759b7-9a9c-540b-9b42-b31506050d29",
+    "photoPath": "trees/14733d8a-ca89-54bf-920b-f29f383d2988.jpg",
+    "observations": [
+      {
+        "id": "ead759b7-9a9c-540b-9b42-b31506050d29",
+        "cameraId": "1776118365901888",
+        "score": 0.4641658067703247,
+        "bbox": [
+          1010.9,
+          797.51,
+          1122.09,
+          1009.48
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "1ecb4501-0290-5543-9e51-73a32ebf4799",
+    "label": "ARB-2019-003",
+    "campaign": "2019",
+    "coordinates": [
+      -59.142182181000315,
+      -37.33445984679186
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "f8369f04-55cd-5f4c-a3fb-130ad2ffcad4",
+    "photoPath": "trees/1ecb4501-0290-5543-9e51-73a32ebf4799.jpg",
+    "observations": [
+      {
+        "id": "f8369f04-55cd-5f4c-a3fb-130ad2ffcad4",
+        "cameraId": "819038589039857",
+        "score": 0.39102688431739807,
+        "bbox": [
+          395.27,
+          644.74,
+          736.45,
+          993.39
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "1f190e08-7bb9-50e6-8d4d-420c7331846f",
+    "label": "ARB-2019-004",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14078986922736,
+      -37.33390826171944
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "71a02fa6-6e14-5022-97e1-ff24d9258497",
+    "photoPath": "trees/1f190e08-7bb9-50e6-8d4d-420c7331846f.jpg",
+    "observations": [
+      {
+        "id": "71a02fa6-6e14-5022-97e1-ff24d9258497",
+        "cameraId": "2562651520707392",
+        "score": 0.6462196707725525,
+        "bbox": [
+          1164.98,
+          315.43,
+          1802.32,
+          1165.07
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "27aed2b7-97cc-5c75-a740-bd24b7e190af",
+    "label": "ARB-2019-005",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14254736911392,
+      -37.33371692902186
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "e5f93cd7-1181-5885-ab9d-2079b3f361bf",
+    "photoPath": "trees/27aed2b7-97cc-5c75-a740-bd24b7e190af.jpg",
+    "observations": [
+      {
+        "id": "e5f93cd7-1181-5885-ab9d-2079b3f361bf",
+        "cameraId": "845919839332719",
+        "score": 0.4385518729686737,
+        "bbox": [
+          752.36,
+          782.38,
+          886.29,
+          1008.25
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "2eb2ce85-3960-5941-94bb-d94e9f440b7b",
+    "label": "ARB-2019-006",
+    "campaign": "2019",
+    "coordinates": [
+      -59.142145454328336,
+      -37.33409638706677
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "18997305-aa94-5c3e-aadf-0db0522e6f75",
+    "photoPath": "trees/2eb2ce85-3960-5941-94bb-d94e9f440b7b.jpg",
+    "observations": [
+      {
+        "id": "18997305-aa94-5c3e-aadf-0db0522e6f75",
+        "cameraId": "845919839332719",
+        "score": 0.37466028332710266,
+        "bbox": [
+          1612.32,
+          665.29,
+          1835.0,
+          918.63
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "3805e8ef-d4d3-50b2-9914-9bb2878f65ee",
+    "label": "ARB-2019-007",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14267092087049,
+      -37.33402687062468
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "2c92dc2c-b2f7-5f6f-a9a7-e422a1f445d7",
+    "photoPath": "trees/3805e8ef-d4d3-50b2-9914-9bb2878f65ee.jpg",
+    "observations": [
+      {
+        "id": "2c92dc2c-b2f7-5f6f-a9a7-e422a1f445d7",
+        "cameraId": "1235130840236785",
+        "score": 0.35283970832824707,
+        "bbox": [
+          470.05,
+          723.56,
+          741.37,
+          867.09
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "3d67cf0c-0119-5f6e-ad90-d4a018c73df6",
+    "label": "ARB-2019-008",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14184598442007,
+      -37.33432328240808
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "8955790d-146c-557d-9f00-5e67a6e561ef",
+    "photoPath": "trees/3d67cf0c-0119-5f6e-ad90-d4a018c73df6.jpg",
+    "observations": [
+      {
+        "id": "8955790d-146c-557d-9f00-5e67a6e561ef",
+        "cameraId": "819038589039857",
+        "score": 0.36382851004600525,
+        "bbox": [
+          2.05,
+          594.93,
+          332.15,
+          1108.88
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "825ca461-51b4-5d3d-9b44-5d4f77188061",
+        "cameraId": "1235411700247993",
+        "score": 0.3512013852596283,
+        "bbox": [
+          434.48,
+          702.57,
+          539.74,
+          999.78
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "f82d8a22-6557-5ef2-874a-58d122d680fb",
+        "cameraId": "2960657547503093",
+        "score": 0.35218143463134766,
+        "bbox": [
+          572.03,
+          833.3,
+          664.95,
+          989.7
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "499a6167-ac59-51ae-b7b9-bbfeff283d93",
+    "label": "ARB-2019-009",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14108103018948,
+      -37.334073189576955
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "8b79c7d6-5908-583f-bb2a-5f5f57054bf9",
+    "photoPath": "trees/499a6167-ac59-51ae-b7b9-bbfeff283d93.jpg",
+    "observations": [
+      {
+        "id": "8b79c7d6-5908-583f-bb2a-5f5f57054bf9",
+        "cameraId": "142581291222782",
+        "score": 0.5555907487869263,
+        "bbox": [
+          47.36,
+          763.69,
+          187.19,
+          1115.0
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "4a1a773f-5237-57df-b8a4-e30f018374cf",
+    "label": "ARB-2019-010",
+    "campaign": "2019",
+    "coordinates": [
+      -59.141326695452285,
+      -37.33416388281158
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "fed36e38-0aaf-5845-93d3-ba3f6932e274",
+    "photoPath": "trees/4a1a773f-5237-57df-b8a4-e30f018374cf.jpg",
+    "observations": [
+      {
+        "id": "fed36e38-0aaf-5845-93d3-ba3f6932e274",
+        "cameraId": "543918590095055",
+        "score": 0.3574611246585846,
+        "bbox": [
+          217.15,
+          781.64,
+          361.19,
+          1045.85
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "580f4ac2-57e8-515b-8655-d4396666c1b4",
+    "label": "ARB-2019-011",
+    "campaign": "2019",
+    "coordinates": [
+      -59.142331522236816,
+      -37.33401192430457
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "eb260332-7fe2-5793-8eeb-bcc0cf0bfd0e",
+    "photoPath": "trees/580f4ac2-57e8-515b-8655-d4396666c1b4.jpg",
+    "observations": [
+      {
+        "id": "eb260332-7fe2-5793-8eeb-bcc0cf0bfd0e",
+        "cameraId": "1918783648286685",
+        "score": 0.5094095468521118,
+        "bbox": [
+          14.44,
+          467.12,
+          532.53,
+          1034.6
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "00097843-dda5-59ba-a920-2694aef9564a",
+        "cameraId": "845919839332719",
+        "score": 0.5034675002098083,
+        "bbox": [
+          482.81,
+          631.99,
+          790.21,
+          1046.76
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "b460c5ee-b94b-56b7-92b4-8e6fadb3b9ae",
+        "cameraId": "1776118365901888",
+        "score": 0.5110135674476624,
+        "bbox": [
+          779.57,
+          688.55,
+          1030.34,
+          1034.12
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "ec772dd3-103f-5d8a-af34-49b8d4172cd2",
+        "cameraId": "1235130840236785",
+        "score": 0.5081337094306946,
+        "bbox": [
+          1226.24,
+          738.82,
+          1473.72,
+          1060.54
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "00325abc-41f8-590f-b0f3-eac6812bce94",
+        "cameraId": "1017273085470683",
+        "score": 0.5773788690567017,
+        "bbox": [
+          1290.67,
+          221.73,
+          2041.91,
+          1253.73
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "5e8fb583-05aa-5f2b-a2b7-3a833e426957",
+    "label": "ARB-2019-012",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14261633742315,
+      -37.33454499281122
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "6c31e947-c0dc-58a7-9cd8-34bd9687ac70",
+    "photoPath": "trees/5e8fb583-05aa-5f2b-a2b7-3a833e426957.jpg",
+    "observations": [
+      {
+        "id": "6c31e947-c0dc-58a7-9cd8-34bd9687ac70",
+        "cameraId": "819038589039857",
+        "score": 0.3529089689254761,
+        "bbox": [
+          778.42,
+          819.82,
+          842.37,
+          980.65
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "7f9a065f-274b-57ac-88bf-a492e13bbd1e",
+    "label": "ARB-2019-013",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14255167120657,
+      -37.33452431190458
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "ff590da9-ad78-5105-b5f8-0f06af125152",
+    "photoPath": "trees/7f9a065f-274b-57ac-88bf-a492e13bbd1e.jpg",
+    "observations": [
+      {
+        "id": "ff590da9-ad78-5105-b5f8-0f06af125152",
+        "cameraId": "1235411700247993",
+        "score": 0.358349084854126,
+        "bbox": [
+          769.16,
+          835.77,
+          826.34,
+          982.91
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "81f30cf8-2ea5-56bb-98fc-8b5c985aa562",
+    "label": "ARB-2019-014",
+    "campaign": "2019",
+    "coordinates": [
+      -59.140594584888795,
+      -37.333842530354424
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "c42ad546-e876-5222-bcef-63a2a56413aa",
+    "photoPath": "trees/81f30cf8-2ea5-56bb-98fc-8b5c985aa562.jpg",
+    "observations": [
+      {
+        "id": "c42ad546-e876-5222-bcef-63a2a56413aa",
+        "cameraId": "393899311681249",
+        "score": 0.3795674741268158,
+        "bbox": [
+          1084.97,
+          560.71,
+          1371.12,
+          965.84
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "8cad4c74-d047-5188-a452-7fc0a661bb79",
+    "label": "ARB-2019-015",
+    "campaign": "2019",
+    "coordinates": [
+      -59.142738855531526,
+      -37.33461026876546
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "99c9f3ec-6108-5739-a74b-9bd6edcffeb9",
+    "photoPath": "trees/8cad4c74-d047-5188-a452-7fc0a661bb79.jpg",
+    "observations": [
+      {
+        "id": "99c9f3ec-6108-5739-a74b-9bd6edcffeb9",
+        "cameraId": "1235411700247993",
+        "score": 0.35861673951148987,
+        "bbox": [
+          720.76,
+          842.85,
+          781.74,
+          967.88
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "944dfdd4-ad20-5f45-9687-e9717c5b1ef5",
+    "label": "ARB-2019-016",
+    "campaign": "2019",
+    "coordinates": [
+      -59.142090649213316,
+      -37.33422351027173
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "de97d1ed-1aba-5bf8-98a8-5141583ffa74",
+    "photoPath": "trees/944dfdd4-ad20-5f45-9687-e9717c5b1ef5.jpg",
+    "observations": [
+      {
+        "id": "de97d1ed-1aba-5bf8-98a8-5141583ffa74",
+        "cameraId": "1776118365901888",
+        "score": 0.3512240946292877,
+        "bbox": [
+          1738.97,
+          709.8,
+          1925.79,
+          953.05
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "8106aae0-a679-505d-8c22-a6976a72303e",
+        "cameraId": "1235130840236785",
+        "score": 0.45103704929351807,
+        "bbox": [
+          1479.16,
+          825.62,
+          1606.37,
+          1043.42
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "29e3aa80-1f7f-57f5-934d-b2d476e05e64",
+        "cameraId": "1235411700247993",
+        "score": 0.6465275287628174,
+        "bbox": [
+          1356.51,
+          2.32,
+          2045.79,
+          1289.4
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "a6dfbf48-9643-50e1-8792-11bd321cf1ea",
+        "cameraId": "509285256776297",
+        "score": 0.7033143043518066,
+        "bbox": [
+          1075.52,
+          427.78,
+          1764.24,
+          1143.9
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "5b825aeb-7da4-59a7-bb7e-cefb232ea82b",
+        "cameraId": "501006261324314",
+        "score": 0.6652452349662781,
+        "bbox": [
+          928.81,
+          388.55,
+          1388.04,
+          950.04
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "0a8c7baa-5624-57a5-a663-06ab9a40c892",
+        "cameraId": "2960657547503093",
+        "score": 0.4430387020111084,
+        "bbox": [
+          960.29,
+          769.89,
+          1127.04,
+          1001.67
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "15f7b825-6883-52f4-b379-f63f5d013aaa",
+        "cameraId": "543918590095055",
+        "score": 0.4471960961818695,
+        "bbox": [
+          938.51,
+          734.33,
+          1083.1,
+          1054.48
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "96171b73-cb1a-5f67-83e3-42e2d1f37d16",
+    "label": "ARB-2019-017",
+    "campaign": "2019",
+    "coordinates": [
+      -59.141139266337575,
+      -37.33399490313594
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "d6f27b42-13a0-5ff6-b060-a442d2b097e6",
+    "photoPath": "trees/96171b73-cb1a-5f67-83e3-42e2d1f37d16.jpg",
+    "observations": [
+      {
+        "id": "d6f27b42-13a0-5ff6-b060-a442d2b097e6",
+        "cameraId": "313620030363368",
+        "score": 0.5929455757141113,
+        "bbox": [
+          989.35,
+          491.75,
+          1367.73,
+          1043.06
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "921e9ee6-6f27-52f9-9eea-d6a5f976ce9f",
+        "cameraId": "142581291222782",
+        "score": 0.35033687949180603,
+        "bbox": [
+          897.92,
+          649.21,
+          1117.5,
+          968.53
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "98c25ae7-07bc-5264-8711-03145a99c945",
+    "label": "ARB-2019-018",
+    "campaign": "2019",
+    "coordinates": [
+      -59.1411102581337,
+      -37.333957534815994
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "6bde9442-eb0e-5ce9-ae6d-7cae1e69f5ad",
+    "photoPath": "trees/98c25ae7-07bc-5264-8711-03145a99c945.jpg",
+    "observations": [
+      {
+        "id": "6bde9442-eb0e-5ce9-ae6d-7cae1e69f5ad",
+        "cameraId": "313620030363368",
+        "score": 0.43319272994995117,
+        "bbox": [
+          1494.98,
+          4.14,
+          2044.79,
+          899.17
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "9a26020e-fea3-5576-b377-d297e2af9653",
+        "cameraId": "142581291222782",
+        "score": 0.36634042859077454,
+        "bbox": [
+          1067.57,
+          579.81,
+          1513.95,
+          980.62
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "286054b0-15f0-5549-ab62-2c71ef334e79",
+        "cameraId": "935780077260456",
+        "score": 0.3524487316608429,
+        "bbox": [
+          746.16,
+          633.37,
+          1145.95,
+          909.74
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "9d60c7d4-1667-53e7-845d-5712dc99536f",
+    "label": "ARB-2019-019",
+    "campaign": "2019",
+    "coordinates": [
+      -59.141996086917196,
+      -37.33436988465848
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "9eba60e6-07b5-5008-b0f5-62d84936f877",
+    "photoPath": "trees/9d60c7d4-1667-53e7-845d-5712dc99536f.jpg",
+    "observations": [
+      {
+        "id": "9eba60e6-07b5-5008-b0f5-62d84936f877",
+        "cameraId": "158608926269453",
+        "score": 0.3769398629665375,
+        "bbox": [
+          299.18,
+          544.15,
+          757.87,
+          1014.36
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "9f6e5717-839c-55b5-8a42-77e40e4a3bea",
+    "label": "ARB-2019-020",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14219590532785,
+      -37.3344654632024
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "13f42746-8067-551f-b74c-6a7adfabd96d",
+    "photoPath": "trees/9f6e5717-839c-55b5-8a42-77e40e4a3bea.jpg",
+    "observations": [
+      {
+        "id": "13f42746-8067-551f-b74c-6a7adfabd96d",
+        "cameraId": "3775185412610418",
+        "score": 0.41762450337409973,
+        "bbox": [
+          368.85,
+          621.06,
+          742.69,
+          1000.93
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "aa25ea03-8feb-53d5-93e2-fe4e20ca9539",
+    "label": "ARB-2019-021",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14210085647865,
+      -37.33418221296084
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "010e5542-fdcc-5039-aa5e-3cf4b10f11e9",
+    "photoPath": "trees/aa25ea03-8feb-53d5-93e2-fe4e20ca9539.jpg",
+    "observations": [
+      {
+        "id": "010e5542-fdcc-5039-aa5e-3cf4b10f11e9",
+        "cameraId": "1235130840236785",
+        "score": 0.3517122268676758,
+        "bbox": [
+          1831.29,
+          822.23,
+          2006.33,
+          1027.05
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "bf30b17e-f65e-5eaf-ae33-075bdd180195",
+    "label": "ARB-2019-022",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14219728436577,
+      -37.33446584462936
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "0a985a67-b6aa-5239-9ec1-7fc9c77337ab",
+    "photoPath": "trees/bf30b17e-f65e-5eaf-ae33-075bdd180195.jpg",
+    "observations": [
+      {
+        "id": "0a985a67-b6aa-5239-9ec1-7fc9c77337ab",
+        "cameraId": "981048899304382",
+        "score": 0.4704177677631378,
+        "bbox": [
+          336.76,
+          579.73,
+          741.63,
+          1000.97
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "c1008ec7-c61d-55ec-871b-da807b009c94",
+    "label": "ARB-2019-023",
+    "campaign": "2019",
+    "coordinates": [
+      -59.141447109903055,
+      -37.334201524970396
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "55480e74-8369-5240-a64b-fe98a42d06ad",
+    "photoPath": "trees/c1008ec7-c61d-55ec-871b-da807b009c94.jpg",
+    "observations": [
+      {
+        "id": "55480e74-8369-5240-a64b-fe98a42d06ad",
+        "cameraId": "463608934730948",
+        "score": 0.38184693455696106,
+        "bbox": [
+          3.04,
+          310.2,
+          509.87,
+          1120.74
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "c44a78ba-b103-53c9-b303-4759a9c6d26e",
+    "label": "ARB-2019-024",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14146979026342,
+      -37.334213706862045
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "robust_bearing_intersection",
+    "primaryObservationId": "cce0223f-552d-5864-adf5-78b10546c4af",
+    "photoPath": "trees/c44a78ba-b103-53c9-b303-4759a9c6d26e.jpg",
+    "observations": [
+      {
+        "id": "cce0223f-552d-5864-adf5-78b10546c4af",
+        "cameraId": "463608934730948",
+        "score": 0.3602409362792969,
+        "bbox": [
+          24.63,
+          415.16,
+          500.89,
+          1112.22
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "e928e484-1d22-5991-bc18-dd0bab6512c3",
+        "cameraId": "2960657547503093",
+        "score": 0.6084027886390686,
+        "bbox": [
+          219.4,
+          581.35,
+          561.13,
+          1073.59
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "8893cecb-954c-57fd-86a9-8ad578232ccf",
+        "cameraId": "543918590095055",
+        "score": 0.38861241936683655,
+        "bbox": [
+          365.94,
+          727.76,
+          577.34,
+          1027.81
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "98235eec-41ad-5b42-859a-69152edca6ee",
+        "cameraId": "313620030363368",
+        "score": 0.38130226731300354,
+        "bbox": [
+          437.17,
+          783.95,
+          587.12,
+          1028.87
+        ],
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "id": "75c04a2f-ab07-52f7-af18-06f743c369a1",
+        "cameraId": "142581291222782",
+        "score": 0.37889134883880615,
+        "bbox": [
+          477.91,
+          816.1,
+          584.16,
+          1017.53
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "c61c3161-30ec-5322-9b0b-b51bb9b81d17",
+    "label": "ARB-2019-025",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14236325461464,
+      -37.33406916173557
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "128a5d99-aa78-52f6-9260-9b1634168734",
+    "photoPath": "trees/c61c3161-30ec-5322-9b0b-b51bb9b81d17.jpg",
+    "observations": [
+      {
+        "id": "128a5d99-aa78-52f6-9260-9b1634168734",
+        "cameraId": "1235130840236785",
+        "score": 0.7081092596054077,
+        "bbox": [
+          718.69,
+          326.82,
+          1315.55,
+          1075.4
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "c9ffe13c-4717-50be-a69d-b2f3fc739794",
+    "label": "ARB-2019-026",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14259523256317,
+      -37.33453829206047
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "fc98db91-4361-5549-85ab-27532cffae78",
+    "photoPath": "trees/c9ffe13c-4717-50be-a69d-b2f3fc739794.jpg",
+    "observations": [
+      {
+        "id": "fc98db91-4361-5549-85ab-27532cffae78",
+        "cameraId": "3775185412610418",
+        "score": 0.35361889004707336,
+        "bbox": [
+          784.27,
+          812.02,
+          854.33,
+          985.97
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "cacf855d-9438-5ca4-901e-2734681913f6",
+    "label": "ARB-2019-027",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14213253300698,
+      -37.334132622716
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "f882528c-2dfa-5379-8428-72f9d39e1d27",
+    "photoPath": "trees/cacf855d-9438-5ca4-901e-2734681913f6.jpg",
+    "observations": [
+      {
+        "id": "f882528c-2dfa-5379-8428-72f9d39e1d27",
+        "cameraId": "1776118365901888",
+        "score": 0.3697003722190857,
+        "bbox": [
+          1568.81,
+          704.48,
+          1680.35,
+          935.86
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "d81e300f-0bfc-568c-aa4e-aed3f9c09554",
+    "label": "ARB-2019-028",
+    "campaign": "2019",
+    "coordinates": [
+      -59.142177742750526,
+      -37.33404712413279
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "27101149-230a-5171-a65a-ee75df5a352a",
+    "photoPath": "trees/d81e300f-0bfc-568c-aa4e-aed3f9c09554.jpg",
+    "observations": [
+      {
+        "id": "27101149-230a-5171-a65a-ee75df5a352a",
+        "cameraId": "1918783648286685",
+        "score": 0.41293615102767944,
+        "bbox": [
+          1742.47,
+          533.52,
+          2043.53,
+          1110.44
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "d8b6b98f-1303-5eeb-9b06-2d0c8f78b920",
+    "label": "ARB-2019-029",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14202307110988,
+      -37.33436405723397
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "d3d344df-e263-52c2-81fe-f08c430e81a7",
+    "photoPath": "trees/d8b6b98f-1303-5eeb-9b06-2d0c8f78b920.jpg",
+    "observations": [
+      {
+        "id": "d3d344df-e263-52c2-81fe-f08c430e81a7",
+        "cameraId": "158608926269453",
+        "score": 0.35842350125312805,
+        "bbox": [
+          807.14,
+          790.38,
+          887.6,
+          993.43
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "e029420f-12a8-5894-b3eb-c74c2b174f1b",
+    "label": "ARB-2019-030",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14216669337578,
+      -37.334453285475846
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "7a73984a-a24d-5fff-92bc-e3ad9634cca9",
+    "photoPath": "trees/e029420f-12a8-5894-b3eb-c74c2b174f1b.jpg",
+    "observations": [
+      {
+        "id": "7a73984a-a24d-5fff-92bc-e3ad9634cca9",
+        "cameraId": "1235411700247993",
+        "score": 0.3725202679634094,
+        "bbox": [
+          433.09,
+          691.51,
+          728.64,
+          998.4
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "e2c6066a-0221-538b-8327-0cccc9a0e6a2",
+    "label": "ARB-2019-031",
+    "campaign": "2019",
+    "coordinates": [
+      -59.142337476151084,
+      -37.33408691292963
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "f2e591e6-d870-5e8a-ae20-a47dd8eaf4f6",
+    "photoPath": "trees/e2c6066a-0221-538b-8327-0cccc9a0e6a2.jpg",
+    "observations": [
+      {
+        "id": "f2e591e6-d870-5e8a-ae20-a47dd8eaf4f6",
+        "cameraId": "1776118365901888",
+        "score": 0.6849547624588013,
+        "bbox": [
+          129.77,
+          150.61,
+          890.56,
+          1067.97
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "e3a52429-7f18-5497-9e20-579bc2fc0531",
+    "label": "ARB-2019-032",
+    "campaign": "2019",
+    "coordinates": [
+      -59.142015757586485,
+      -37.33436563664103
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "8a4b6dac-e9d0-51c9-9055-f5c1c33babe3",
+    "photoPath": "trees/e3a52429-7f18-5497-9e20-579bc2fc0531.jpg",
+    "observations": [
+      {
+        "id": "8a4b6dac-e9d0-51c9-9055-f5c1c33babe3",
+        "cameraId": "158608926269453",
+        "score": 0.37056589126586914,
+        "bbox": [
+          727.0,
+          824.48,
+          823.03,
+          972.82
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "e6cdc3a7-3a48-5fbc-9397-1c96f4590964",
+    "label": "ARB-2019-033",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14129609175207,
+      -37.334052959315656
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "f5763149-a466-584c-a945-ba152e9e5f65",
+    "photoPath": "trees/e6cdc3a7-3a48-5fbc-9397-1c96f4590964.jpg",
+    "observations": [
+      {
+        "id": "f5763149-a466-584c-a945-ba152e9e5f65",
+        "cameraId": "313620030363368",
+        "score": 0.4596632421016693,
+        "bbox": [
+          891.79,
+          787.03,
+          1008.02,
+          1043.57
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "e7b093fb-880b-58e4-a3ec-4130c52e1c7b",
+    "label": "ARB-2019-034",
+    "campaign": "2019",
+    "coordinates": [
+      -59.142187697620706,
+      -37.334034882328076
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_ground_plane",
+    "primaryObservationId": "ae3b9a62-d48b-57fd-8880-4314a3931a45",
+    "photoPath": "trees/e7b093fb-880b-58e4-a3ec-4130c52e1c7b.jpg",
+    "observations": [
+      {
+        "id": "ae3b9a62-d48b-57fd-8880-4314a3931a45",
+        "cameraId": "1918783648286685",
+        "score": 0.3734259605407715,
+        "bbox": [
+          1557.02,
+          402.83,
+          1846.22,
+          1130.15
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "ed0855df-4d1d-51ce-91c4-e7fb9c983f13",
+    "label": "ARB-2019-035",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14253959030619,
+      -37.333689503950524
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "675dd94b-0a99-5851-910e-fb553f4df18d",
+    "photoPath": "trees/ed0855df-4d1d-51ce-91c4-e7fb9c983f13.jpg",
+    "observations": [
+      {
+        "id": "675dd94b-0a99-5851-910e-fb553f4df18d",
+        "cameraId": "1918783648286685",
+        "score": 0.360215425491333,
+        "bbox": [
+          490.43,
+          741.15,
+          794.07,
+          998.83
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  },
+  {
+    "id": "ffcb3d4a-5cdd-5183-a435-ba48e8b9e00e",
+    "label": "ARB-2019-036",
+    "campaign": "2019",
+    "coordinates": [
+      -59.14089812084211,
+      -37.33387844418673
+    ],
+    "calle": "25 de Mayo",
+    "identityStatus": "candidate",
+    "positionMethod": "bbox_assumed_tree_height",
+    "primaryObservationId": "a1d6a782-cc1a-55e6-ac91-62fe4c1d676c",
+    "photoPath": "trees/ffcb3d4a-5cdd-5183-a435-ba48e8b9e00e.jpg",
+    "observations": [
+      {
+        "id": "a1d6a782-cc1a-55e6-ac91-62fe4c1d676c",
+        "cameraId": "4001399279953466",
+        "score": 0.4170500338077545,
+        "bbox": [
+          1329.27,
+          254.88,
+          2040.06,
+          956.84
+        ],
+        "width": 2048,
+        "height": 1536
+      }
+    ]
+  }
+]

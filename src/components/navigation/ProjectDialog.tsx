@@ -55,7 +55,8 @@ export default function ProjectDialog({
                 </Dialog.Close>
               </div>
               <Dialog.Description className="mt-2 text-xs leading-5 text-slate-600">
-                Los cambios se conservan durante esta sesión de demostración.
+                Plantilla de Tandil. Los proyectos de demostración comparten sus
+                detecciones; los cambios se conservan durante esta sesión.
               </Dialog.Description>
               <form
                 key={`${action}-${project.id}`}

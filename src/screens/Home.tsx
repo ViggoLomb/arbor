@@ -1,3 +1,4 @@
+import { scenarios } from '../data/scenarios'
 import { useRef, useState } from 'react'
 import { LayoutGrid, List, Menu, Plus, Search } from 'lucide-react'
 import type { Project, ProjectSession } from '../types/project'
@@ -12,6 +13,7 @@ type HomeProps = {
   section: string
   onSection: (section: string) => void
   onOpen: (project: Project) => void
+  onExample: () => void
   onNew: () => void
 }
 
@@ -23,6 +25,7 @@ export default function Home({
   onSection,
   onOpen,
   onNew,
+  onExample,
 }: HomeProps) {
   const [query, setQuery] = useState('')
   const [list, setList] = useState(false)
@@ -167,10 +170,29 @@ export default function Home({
                   </p>
                 </div>
               )}
+              <section aria-label="Ejemplos" className="mt-8">
+                <h2 className="mb-4 text-sm text-slate-300">Ejemplos</h2>
+                <button
+                  onClick={onExample}
+                  className="w-72 overflow-hidden rounded-xl border border-slate-700 text-left focus-visible:outline-2 focus-visible:outline-emerald-300"
+                >
+                  <img
+                    src={scenarios.thessaloniki.image}
+                    alt=""
+                    className="h-36 w-full object-cover"
+                  />
+                  <span className="block p-4 text-sm">
+                    Tesalónica · Ejemplo
+                    <span className="mt-1 block text-xs text-slate-400">
+                      Solo lectura
+                    </span>
+                  </span>
+                </button>
+              </section>
               <p className="mt-10 border-t border-slate-800 pt-5 text-[11px] leading-5 text-slate-400">
                 {filtered.length} proyectos · Sesión de demostración. Las
-                miniaturas son ilustrativas y los proyectos comparten un
-                escenario de Buenos Aires.
+                miniaturas de mapas son ilustrativas. El proyecto usa
+                detecciones de agrotech en Tandil.
               </p>
             </>
           )}
