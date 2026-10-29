@@ -12,6 +12,7 @@ export default function ProjectPreview({
     <svg
       viewBox="0 0 400 240"
       aria-hidden="true"
+      preserveAspectRatio="xMidYMid slice"
       className="h-full w-full object-cover"
     >
       <rect width="400" height="240" fill="#e9e9df" />
