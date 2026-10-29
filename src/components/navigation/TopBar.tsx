@@ -5,7 +5,6 @@ import ArborMenu from './ArborMenu'
 import ProjectBreadcrumb from './ProjectBreadcrumb'
 import MapToolbar from './MapToolbar'
 import ExportButton from './ExportButton'
-import useSimulatedExport from './useSimulatedExport'
 import ToolButton from '../ui/ToolButton'
 import BasemapMenu from './BasemapMenu'
 import type { BasemapId } from '../../data/basemaps'
@@ -24,6 +23,7 @@ type TopBarProps = {
   onPanel: (panel: EditorPanel) => void
   onImport: (type: 'image' | 'yolo') => void
   onFit: () => void
+  onReport: () => void
 }
 
 export default function TopBar({
@@ -39,8 +39,8 @@ export default function TopBar({
   onPanel,
   onImport,
   onFit,
+  onReport,
 }: TopBarProps) {
-  const { generating, generate } = useSimulatedExport()
   return (
     <header
       aria-label="Barra principal de Arbor"
@@ -54,8 +54,8 @@ export default function TopBar({
           onImport={() => onImport('image')}
           onPanel={onPanel}
           onFit={onFit}
-          onExport={generate}
-          exporting={generating}
+          onExport={onReport}
+          exporting={false}
         />
         <ProjectBreadcrumb
           project={project}
@@ -72,7 +72,7 @@ export default function TopBar({
           onClick={onSearch}
           className="hidden sm:flex"
         />
-        <ExportButton generating={generating} onGenerate={generate} />
+        <ExportButton generating={false} onGenerate={onReport} />
         <BasemapMenu
           value={basemap}
           labels={basemapLabels}

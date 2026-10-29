@@ -1,0 +1,37 @@
+{
+  "name": "Constitución · Rivadavia · 25 de Mayo · Alberdi",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -59.1413854,
+          -37.33554550000001
+        ],
+        [
+          -59.1420885,
+          -37.3343869
+        ],
+        [
+          -59.140668100000006,
+          -37.3338591
+        ],
+        [
+          -59.13996890000001,
+          -37.335024
+        ],
+        [
+          -59.1413854,
+          -37.33554550000001
+        ]
+      ]
+    ]
+  },
+  "source": "OpenStreetMap · Cruces de calles",
+  "streets": [
+    "Constitución",
+    "Avenida Rivadavia",
+    "25 de Mayo",
+    "Alberdi"
+  ]
+}

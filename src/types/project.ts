@@ -18,7 +18,7 @@ export type ProjectSession = {
   groupsVisible: boolean
   imageImported: boolean
 }
-export type EditorPanel = 'layers' | 'analysis' | 'table' | null
+export type EditorPanel = 'layers' | 'analysis' | 'table' | 'study' | null
 export type ProjectAction = 'new' | 'rename' | 'move' | 'duplicate'
 export const emptySession: ProjectSession = {
   basemap: 'standard',

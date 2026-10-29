@@ -21,6 +21,12 @@ Los mapas vectoriales y los estilos JSON de `src/data/basemapStyles/` proceden d
 - [OpenFreeMap](https://openfreemap.org/attribution/)
 - [OpenStreetMap copyright / ODbL](https://www.openstreetmap.org/copyright)
 
+## Parcelario municipal
+
+`public/data/tandil-blocks.geojson` se deriva de la capa `ws_10_catastro:parcelario_urbano` del [servicio WFS de IDE Tandil](https://mapa.tandil.gov.ar/geoserver/ows), Municipalidad de Tandil. El preparador agrupa parcelas por identificación de manzana y calcula envolventes convexas. Se conserva la fuente, fecha, método y atribución en los metadatos del archivo. Esta preparación no modifica los derechos ni las condiciones de la fuente municipal.
+
+`src/data/studyDefaultBlock.json` conserva la delimitación preparada desde cruces de calles de OpenStreetMap; se mantienen sus condiciones y créditos indicados arriba.
+
 ## Datos preparados
 
 `src/data/generated/tandil-trees.json` y `tandil-groups.json` se prepararon a partir de la exportación local de agrotech. Representan candidatos y asociaciones sin validación definitiva. `src/data/streetRoute.json` conserva los metadatos de procedencia de Mapillary. Estos archivos no otorgan derechos adicionales sobre fuentes, fotografías o información de terceros.
@@ -36,6 +42,7 @@ Las dependencias no se copian como node_modules al repositorio; se instalan desd
 | `@fontsource-variable/newsreader` | 5.3.0 | OFL-1.1 |
 | `clsx` | 2.1.1 | MIT |
 | `cmdk` | 1.1.1 | MIT |
+| `jspdf` | 4.2.1 | MIT |
 | `lucide-react` | 1.63.0 | ISC |
 | `mapillary-js` | 4.1.2 | MIT |
 | `maplibre-gl` | 6.16.0 | BSD-3-Clause |

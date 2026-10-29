@@ -13,6 +13,12 @@ import TreeDetailsPanel from '../components/ui/TreeDetailsPanel'
 import { getAvailableTrees, nearestTreeCamera } from '../data/trees'
 import type { StreetCamera } from '../data/streetCamera'
 import useTreeCensus from '../hooks/useTreeCensus'
+import useStudyArea from '../hooks/useStudyArea'
+import useBlockCatalog from '../hooks/useBlockCatalog'
+import useStudySelection from '../hooks/useStudySelection'
+import { summarizeStudy } from '../data/studyAnalysis'
+import StudyAreaPanel from '../components/panels/StudyAreaPanel'
+import type { StudyArea } from '../types/study'
 import type { CensusFields, SelectedTree } from '../types/tree'
 import type {
   EditorPanel,
@@ -21,6 +27,7 @@ import type {
   ProjectSession,
 } from '../types/project'
 const StreetView = lazy(() => import('../components/street/StreetView'))
+const ReportDialog = lazy(() => import('../components/reports/ReportDialog'))
 type Props = {
   active: boolean
   project: Project
@@ -49,12 +56,24 @@ export default function MapEditor({
   const [treeOpen, setTreeOpen] = useState(false)
   const [camera, setCamera] = useState<StreetCamera | null>(null)
   const { saved, save } = useTreeCensus(project.id)
-  const trees = getAvailableTrees(session.campaign, saved)
+  const trees = useMemo(() => getAvailableTrees(session.campaign, saved), [session.campaign, saved])
   const streetTrees = useMemo(() => getAvailableTrees('all', saved), [saved])
+  const { area, saveArea } = useStudyArea(project.id)
+  const { catalog, error: catalogError, retry } = useBlockCatalog(panel === 'study' || !!area)
+  const selection = useStudySelection(catalog)
+  const stopStudy = selection.stop
+  const [reportOpen, setReportOpen] = useState(false)
+  const summary = useMemo(() => area ? summarizeStudy(area, trees, session.campaign) : null, [area, trees, session.campaign])
   const selectedTree = trees.find((tree) => tree.id === selectedId) ?? null
   useEffect(() => {
     if (!active) return
     const handleKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && panel === 'study' && !document.querySelector('[role="dialog"]')) {
+        event.preventDefault()
+        stopStudy()
+        setPanel(null)
+        return
+      }
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
         event.preventDefault()
         if (
@@ -67,15 +86,45 @@ export default function MapEditor({
     }
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
-  }, [active])
+  }, [active, panel, stopStudy])
   const closeTree = () => setTreeOpen(false)
   const openPanel = (next: EditorPanel) => {
     closeTree()
+    if (next === 'analysis' && (!area || (panel === 'study' && (selection.mode || selection.draft !== area)))) {
+      if (panel !== 'study') selection.begin(area)
+      setPanel('study')
+      toast.info('Seleccioná y confirmá un área de estudio para analizarla')
+      return
+    }
+    selection.stop()
+    if (next === 'study') selection.begin(area)
     setPanel(next)
   }
+  const openReport = () => {
+    if (!area || (panel === 'study' && (selection.mode || selection.draft !== area))) {
+      openPanel('analysis')
+      return
+    }
+    setReportOpen(true)
+  }
+  const confirmArea = () => {
+    if (!selection.draft || selection.mode) return
+    try {
+      saveArea(selection.draft)
+      selection.stop()
+      setPanel('analysis')
+      map.current?.fitStudy(selection.draft)
+    } catch { toast.error('No se pudo guardar el área', { description: 'El almacenamiento del navegador no está disponible. La selección sigue abierta.' }) }
+  }
+  const removeArea = () => {
+    try { saveArea(null); selection.begin(null) }
+    catch { toast.error('No se pudo quitar el área guardada') }
+  }
+  const fitSelection = (next: StudyArea | null) => { if (next) map.current?.fitStudy(next) }
   const showTree = (tree: SelectedTree, locate = false) => {
     setSelectedId(tree.id)
     setTreeOpen(true)
+    selection.stop()
     setPanel(null)
     if (locate) {
       onSession({ detectionsVisible: true })
@@ -84,6 +133,7 @@ export default function MapEditor({
   }
   const goHome = (library?: string) => {
     closeTree()
+    selection.stop()
     setPanel(null)
     onHome(library)
   }
@@ -121,6 +171,8 @@ export default function MapEditor({
         detectionsVisible={session.detectionsVisible}
         groupsVisible={session.groupsVisible}
         imageImported={session.imageImported}
+        study={{ area: panel === 'study' ? selection.draft : area, mode: panel === 'study' ? selection.mode : null,
+          vertices: selection.vertices, blocks: catalog, onPoint: selection.onPoint, onFinish: selection.finish }}
         onTreeSelect={(id) => {
           const tree = trees.find((tree) => tree.id === id)
           if (tree) showTree(tree)
@@ -141,7 +193,17 @@ export default function MapEditor({
             onPanel={openPanel}
             onImport={openImport}
             onFit={() => map.current?.fitProject()}
+            onReport={openReport}
           />
+          {panel === 'study' && <StudyAreaPanel
+            area={selection.draft} mode={selection.mode} vertices={selection.vertices}
+            catalog={catalog} catalogError={catalogError} campaign={session.campaign} trees={trees}
+            onMode={selection.changeMode} onKnown={() => fitSelection(selection.chooseKnown())}
+            onChooseBlock={(id) => fitSelection(selection.chooseBlock(id))}
+            onUndo={selection.undo} onFinish={selection.finish} onChange={selection.setDraft}
+            onConfirm={confirmArea} onRemove={removeArea} onClose={() => openPanel(null)}
+            onCampaign={(campaign) => onSession({ campaign })} onRetry={retry}
+          />}
           {panel === 'layers' && (
             <LayersPanel
               session={session}
@@ -160,9 +222,12 @@ export default function MapEditor({
               onClose={() => setPanel(null)}
             />
           )}
-          {panel === 'analysis' && (
-            <AnalysisPanel trees={trees} onClose={() => setPanel(null)} />
+          {panel === 'analysis' && summary && (
+            <AnalysisPanel summary={summary} onClose={() => openPanel(null)} onReport={openReport} onEditArea={() => openPanel('study')} />
           )}
+          {reportOpen && summary && <Suspense fallback={<p role="status" className="absolute bottom-6 left-4 z-40 rounded-xl bg-slate-50/95 p-3 text-sm">Abriendo informe…</p>}>
+            <ReportDialog project={project.name} summary={summary} basemap={session.basemap} blocks={catalog} onClose={() => setReportOpen(false)} />
+          </Suspense>}
           {panel === 'table' && (
             <TreeTablePanel
               trees={trees}
@@ -218,6 +283,7 @@ export default function MapEditor({
             onTree={(tree) => showTree(tree, true)}
             onAction={(action) => {
               if (action === 'home') goHome()
+              else if (action === 'report') openReport()
               else if (action === 'image' || action === 'yolo')
                 openImport(action)
               else openPanel(action)

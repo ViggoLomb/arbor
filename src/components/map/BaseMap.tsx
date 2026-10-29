@@ -1,5 +1,8 @@
 import { useEffect, useImperativeHandle, useRef } from 'react'
 import type { Ref } from 'react'
+import type { StudyArea, StudyMapState } from '../../types/study'
+import { studyBounds } from '../../data/studyGeometry'
+import { addStudyLayers, updateStudyLayers } from './studyLayers'
 import { AttributionControl, Map, setWorkerUrl } from 'maplibre-gl'
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
@@ -58,6 +61,7 @@ export type MapActions = {
   zoomOut: () => void
   fitProject: () => void
   locateTree: (coordinates: [number, number]) => void
+  fitStudy: (area: StudyArea) => void
 }
 type BaseMapProps = {
   scenario: typeof scenarios.tandil
@@ -70,6 +74,7 @@ type BaseMapProps = {
   detectionsVisible: boolean
   imageImported: boolean
   onTreeSelect: (id: string) => void
+  study: StudyMapState
 }
 export default function BaseMap({
   scenario,
@@ -82,6 +87,7 @@ export default function BaseMap({
   groupsVisible,
   imageImported,
   onTreeSelect,
+  study,
 }: BaseMapProps) {
   const mapRef = useRef<Map | null>(null)
   const readyRef = useRef(false)
@@ -95,6 +101,7 @@ export default function BaseMap({
     groupsVisible,
     imageImported,
     onTreeSelect,
+    study,
   })
   const container = useRef<HTMLDivElement>(null)
   const duration = () =>
@@ -117,12 +124,17 @@ export default function BaseMap({
         ),
       locateTree: (coordinates) =>
         mapRef.current?.jumpTo({ center: coordinates, zoom: 18.5 }),
+      fitStudy: (area) => mapRef.current?.fitBounds(studyBounds(area), { padding: { top: 100, left: window.innerWidth > 640 ? 350 : 30, right: 30, bottom: 80 }, duration: 0 }),
     }),
     [],
   )
   useEffect(() => {
     initial.current.onTreeSelect = onTreeSelect
   }, [onTreeSelect])
+  useEffect(() => {
+    initial.current.study = study
+    if (mapRef.current && readyRef.current) updateStudyLayers(mapRef.current, study)
+  }, [study])
   useEffect(() => {
     initial.current.basemap = basemap
     initial.current.basemapLabels = basemapLabels
@@ -135,7 +147,7 @@ export default function BaseMap({
       setTreeCampaign(mapRef.current, campaign)
       setGroupsCampaign(mapRef.current, campaign)
       mapRef.current.fitBounds(
-        campaignBounds(campaign, initial.current.groupsVisible),
+        initial.current.study.area ? studyBounds(initial.current.study.area) : campaignBounds(campaign, initial.current.groupsVisible),
         { padding: { top: 100, bottom: 60, left: 40, right: 40 }, duration: 0 },
       )
     }
@@ -167,7 +179,7 @@ export default function BaseMap({
       container: container.current,
       style: createBasemapStyle(props.basemap, props.basemapLabels),
       center: props.center,
-      bounds: campaignBounds(props.campaign, props.groupsVisible),
+      bounds: props.study.area ? studyBounds(props.study.area) : campaignBounds(props.campaign, props.groupsVisible),
       fitBoundsOptions: {
         padding: { top: 100, bottom: 60, left: 40, right: 40 },
       },
@@ -200,7 +212,9 @@ export default function BaseMap({
     updateScale()
     mapRef.current = map
     let removeInteractions: (() => void) | undefined
-    map.on('load', () => {
+    let removeStudyInteractions: (() => void) | undefined
+    // Editing overlays can be ready while remote basemap tiles are still loading.
+    map.on('style.load', () => {
       readyRef.current = true
       const current = initial.current
       setBasemap(map, current.basemap, current.basemapLabels)
@@ -213,7 +227,9 @@ export default function BaseMap({
       addGroupLayers(map, current.campaign, current.groupsVisible)
       removeInteractions = bindTreeInteractions(map, (id) =>
         initial.current.onTreeSelect(id),
+        () => !initial.current.study.mode,
       )
+      removeStudyInteractions = addStudyLayers(map, () => initial.current.study)
       if (current.imageImported) showImportedImage(map)
     })
     const observer = new ResizeObserver(() => map.resize())
@@ -224,6 +240,7 @@ export default function BaseMap({
       map.off('resize', updateScale)
       scale.remove()
       removeInteractions?.()
+      removeStudyInteractions?.()
       readyRef.current = false
       mapRef.current = null
       map.remove()

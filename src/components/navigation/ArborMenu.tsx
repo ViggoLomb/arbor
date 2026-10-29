@@ -132,6 +132,9 @@ export default function ArborMenu({
             <ChevronRight size={15} className="ml-auto" />
           </Menu.SubmenuTrigger>
           <MenuSurface submenu>
+            <Menu.Item className="menu-item" onClick={() => onPanel('study')}>
+              Área de estudio
+            </Menu.Item>
             <Menu.Item className="menu-item" onClick={() => onPanel('layers')}>
               Capas y leyenda
             </Menu.Item>

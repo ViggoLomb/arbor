@@ -20,7 +20,7 @@ type CommandDialogProps = {
   onClose: () => void
   projects: Project[]
   trees: SelectedTree[]
-  onAction: (action: 'home' | 'image' | 'yolo' | 'layers' | 'analysis') => void
+  onAction: (action: 'home' | 'image' | 'yolo' | 'layers' | 'analysis' | 'study' | 'report') => void
   onProject: (project: Project) => void
   onTree: (tree: SelectedTree) => void
 }
@@ -48,6 +48,8 @@ export default function CommandDialog({
     { id: 'image', label: 'Importar Imagen', icon: Image },
     { id: 'yolo', label: 'Cargar Detecciones IA', icon: Cpu },
     { id: 'layers', label: 'Abrir capas y leyenda', icon: Layers },
+    { id: 'study', label: 'Seleccionar área de estudio', icon: Map },
+    { id: 'report', label: 'Generar informe PDF', icon: ChartNoAxesColumn },
     {
       id: 'analysis',
       label: 'Ver análisis territorial',

@@ -37,6 +37,28 @@ El índice contiene 314 etiquetas distribuidas entre las 89 fotos: 226 observaci
 
 El minimapa muestra círculos en las posiciones de las fotos y destaca la captura actual, sin líneas de conexión. Conserva controles y créditos. Si WebGL falla o el visor interactivo supera el tiempo de carga, la foto estática conserva etiquetas y navegación. Los puntos del minimapa también tienen una representación sin WebGL.
 
+## Área de estudio e informes
+
+1. Abrí **Área de estudio** en la barra. Elegí una manzana haciendo clic en su interior, buscala por código catastral o usá **Manzana del relevamiento** para probar el inventario disponible.
+2. **Cuadra** marca el lado más cercano al clic y una franja de 40 m para calle y veredas. **Dibujar** permite marcar un polígono; cerralo con doble clic o **Finalizar dibujo**. Deshacer quita el último vértice. Para reemplazar un contorno usá Redibujar.
+3. Ajustá el nombre, la franja exterior de 0 a 30 m y la campaña. **Revisar registros incluidos** permite excluir registros de borde o añadir otros del proyecto.
+4. Pulsá **Confirmar área y analizar**. El área se guarda por proyecto en `arbor:study:v1:…`. Sin un área confirmada, Análisis y Generar PDF abren el selector; también desde el menú y Ctrl/Cmd K.
+5. Desde **Ver informe** o **Generar PDF**, revisá el mapa y el detalle. Podés incluir hasta seis fotografías de referencia. **Descargar PDF** crea un documento A4 con mapa, estadísticas, registros y créditos.
+
+La superficie y el perímetro se calculan sobre el polígono delimitado; la franja exterior amplía la selección de registros sin alterar esa superficie. La densidad usa solamente registros interiores y se presenta por campaña. Los registros de años distintos pueden corresponder al mismo individuo. Las fichas pendientes se contabilizan como pendientes, sin asignarles especie, DAP o salud. Una zona fuera del inventario informa que no hay relevamiento disponible.
+
+Análisis refleja las fichas guardadas y la campaña activa. Cada informe conserva una instantánea al abrirse; cerrarlo y volverlo a abrir incorpora los últimos cambios. El mapa exportado contiene únicamente el área, los registros seleccionados, leyenda sanitaria, norte, escala y créditos. Si el proveedor de mapas o WebGL no están disponibles, se genera un plano local con las mismas coordenadas y el catálogo de manzanas.
+
+`public/data/tandil-blocks.geojson` contiene 3.515 delimitaciones derivadas de 57.390 parcelas de IDE Tandil. Se agrupan por identificación catastral de manzana y se calcula su envolvente convexa; no constituye una garantía de cobertura completa ni de límites jurídicos exactos, especialmente en manzanas irregulares o incompletas. El dibujo libre permite adaptar la selección. La manzana del relevamiento conserva el polígono preparado desde los cruces de OpenStreetMap. El inventario de árboles sigue limitado al relevamiento distribuido: disponer de cartografía municipal no implica tener censados todos los árboles de Tandil.
+
+Para actualizar el catálogo local (requiere Internet, sin dependencias Python adicionales):
+
+```sh
+python3 -B scripts/prepare_tandil_blocks.py
+```
+
+`npm run test:study` verifica geometría, catálogo, selección, campañas, persistencia y producción del PDF.
+
 ## Preparar recursos
 
 Los archivos distribuidos permiten iniciar la aplicación sin ejecutar agrotech. `src/data/generated/` contiene el inventario y etiquetas; `src/data/streetRoute.json` conserva las cámaras. `public/streetview/` y `public/trees/` contienen fotos y recortes locales.
@@ -63,7 +85,7 @@ Estándar, Claro y Oscuro usan OpenFreeMap; Satélite usa Esri con etiquetas vec
 
 Inicio conserva el mapa al volver al mismo proyecto. Crear, renombrar, mover y duplicar proyectos modifica la sesión en memoria. Las fichas se guardan por proyecto. Tesalónica se mantiene como un escenario de solo lectura separado del editor de Tandil.
 
-Los conectores de imagen e IA y el botón PDF mantienen el flujo frontend con temporizadores; no procesan archivos ni generan documentos. Área de estudio y Muestreo siguen como Próximamente. La imagen aérea local de Tandil proviene de Esri World Imagery.
+Los conectores de imagen e IA mantienen el flujo frontend con temporizadores; no procesan archivos. Muestreo sigue como Próximamente. La imagen aérea local de Tandil proviene de Esri World Imagery.
 
 ## Recursos de terceros
 

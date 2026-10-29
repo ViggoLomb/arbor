@@ -43,10 +43,12 @@ export default function MapToolbar({
         className="hidden lg:flex"
       />
       <ToolButton
-        label="Área de estudio · Próximamente"
+        label="Área de estudio"
         icon={Pentagon}
-        onClick={() => upcoming('Área de estudio')}
-        className="hidden text-slate-500 lg:flex"
+        active={panel === 'study'}
+        aria-expanded={panel === 'study'}
+        aria-controls="study-panel"
+        onClick={() => onPanel(panel === 'study' ? null : 'study')}
       />
       <span
         className="mx-1 hidden h-5 w-px bg-slate-200 lg:block"

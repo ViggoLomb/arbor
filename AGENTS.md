@@ -17,7 +17,7 @@ Mapa z-0, controles z-10, paneles z-20, barra z-30, vista de calle z-40, diálog
 
 `App` coordina Inicio/editor, bibliotecas, proyectos y sesiones en memoria. `MapEditor` es el único editor, con la barra completa `TopBar`/`MapToolbar`. No restaurar `CameraTestEditor`, la variante cameraOnly, tarjetas de prueba ni accesos manuales a cámaras.
 
-La barra conserva Arbor, biblioteca/proyecto, Explorar, Área de estudio, Capas, Importar, Muestreo, Análisis, búsqueda, PDF, selector de mapa base y perfil. Área de estudio y Muestreo siguen como «Próximamente». Capas, Análisis y tabla comienzan cerrados. Mantener crear/renombrar/mover/duplicar, grilla/lista, búsquedas, Ctrl/Cmd K y conservación del mapa al ir a Inicio.
+La barra conserva Arbor, biblioteca/proyecto, Explorar, Área de estudio, Capas, Importar, Muestreo, Análisis, búsqueda, PDF, selector de mapa base y perfil. Área de estudio permite manzana, cuadra y dibujo libre; solamente Muestreo sigue como «Próximamente». Capas, Análisis y tabla comienzan cerrados. Mantener crear/renombrar/mover/duplicar, grilla/lista, búsquedas, Ctrl/Cmd K y conservación del mapa al ir a Inicio.
 
 Todos los proyectos de esta demostración usan el conjunto real de Tandil. No reintroducir árboles sintéticos de Grecia, las 40 detecciones falsas ni sus estadísticas. Los datos del proyecto se pasan a tabla, búsqueda y análisis; no importar un inventario independiente desde esos componentes.
 
@@ -47,7 +47,7 @@ Cada candidato tiene una altura inicial y una corrección censal opcional `altur
 
 Los importadores siguen siendo teatro de UI con temporizadores limpiados al cancelar/desmontar. IA simula dos etapas de 1 segundo, muestra la cantidad de candidatos de la campaña y activa la misma capa real al confirmar; no generar 40 puntos ni diagnósticos. Imagen simula carga/CRS/tiles de 1,5 segundos, luego publica una muestra aérea local de Tandil debajo de los árboles y visible solamente en Satélite. No leer/procesar/subir archivos ni agregar GDAL. La muestra proviene de Esri y conserva créditos; no presentarla como un dron real.
 
-Análisis usa la campaña activa y los campos censales guardados: candidatos, estado sanitario pendiente, área del bounding box y distribución incluyendo Sin relevar. No inventar salud ni riesgo. PDF sigue simulado (2 segundos, spinner, alert), sin documento real.
+Análisis requiere un área confirmada, usa su polígono y franja exterior, la campaña activa y los campos censales guardados. Mantener los registros de campañas diferentes separados; la densidad usa solamente registros interiores sobre la superficie del polígono. Conservar Sin relevar y sin mediciones; no inventar salud ni riesgo. `useStudyArea` guarda la zona y las excepciones por proyecto en `arbor:study:v1:…`. El catálogo local contiene 3.515 envolventes de manzanas derivadas del parcelario de IDE Tandil, no límites jurídicos exactos ni una garantía de cobertura total. El informe muestra un recorte cartográfico o un plano local cuando el mapa base no está disponible, con norte, escala, leyenda y créditos. jsPDF produce el PDF real con estadísticas, detalle y fotografías opcionales atribuidas. La selección es obligatoria también al entrar por menú o búsqueda. Conservar la instantánea del informe abierto y actualizar al reabrirlo.
 
 ## Mapas base y comprobación
 
