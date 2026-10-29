@@ -30,18 +30,35 @@ export type TreeRecord = {
   primaryObservationId: string
   photoPath: string
   observations: TreeObservation[]
+  heightEstimate: {
+    valueM: number
+    method: 'geometry' | 'visual' | 'fallback'
+    isSimulated: true
+    observationIds: string[]
+    version: string
+    cameraHeightM?: number
+  }
 }
 export type CensusFields = {
   especie: string
   dap_cm: number | null
+  altura_m: number | null
   estado_sanitario: EstadoSanitario | null
   interferencias: Record<'Cables' | 'Vereda' | 'Luminarias', boolean | null>
   observaciones: string
 }
-export type SelectedTree = TreeRecord & { census: CensusFields }
+export type TreeHeight = {
+  valueM: number
+  source: 'simulated' | 'entered'
+}
+export type SelectedTree = TreeRecord & {
+  census: CensusFields
+  height: TreeHeight
+}
 export const emptyCensus: CensusFields = {
   especie: '',
   dap_cm: null,
+  altura_m: null,
   estado_sanitario: null,
   interferencias: { Cables: null, Vereda: null, Luminarias: null },
   observaciones: '',

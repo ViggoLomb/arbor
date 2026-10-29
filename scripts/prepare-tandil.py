@@ -5,6 +5,8 @@ import math
 import pathlib
 import shutil
 from PIL import Image
+from tree_heights import load_reviews, prepare_heights
+from prepare_street_labels import prepare as prepare_street_labels
 
 parser = argparse.ArgumentParser()
 parser.add_argument("agrotech", type=pathlib.Path)
@@ -70,6 +72,7 @@ for feature in sorted(features, key=lambda f: (f["properties"]["epoch"], f["id"]
 
 generated = app / "src/data/generated"
 generated.mkdir(parents=True, exist_ok=True)
+prepare_heights(trees, route, load_reviews())
 (generated / "tandil-trees.json").write_text(json.dumps(trees, ensure_ascii=False, indent=2) + "\n")
 (app / "src/data/streetRoute.json").write_text(json.dumps(route, ensure_ascii=False, indent=2) + "\n")
 print(f"Prepared {len(trees)} active candidates ({counts}), {len(route)} original photos and {len(trees)} individual crops.")
@@ -82,3 +85,4 @@ groups = [{"id": f["id"], "campaign": f["properties"]["epoch"],
           for f in group_features if f["properties"].get("active", True)
           and (f.get("geometry") or {}).get("type") == "Point"]
 (generated / "tandil-groups.json").write_text(json.dumps(groups, ensure_ascii=False, indent=2) + "\n")
+prepare_street_labels(args.agrotech)

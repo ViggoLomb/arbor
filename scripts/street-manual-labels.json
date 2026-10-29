@@ -1,0 +1,8 @@
+[
+  {
+    "cameraId": "741548099844678",
+    "bboxNormalized": [0.41, 0.515, 0.505, 0.69],
+    "heightM": 5,
+    "note": "Tree beside the yellow corner house, visible in the local photograph but absent from the detector output. Box reviewed on the full image."
+  }
+]

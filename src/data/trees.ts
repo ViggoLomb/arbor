@@ -8,6 +8,7 @@ import type {
 } from '../types/tree'
 import { emptyCensus, matchesCampaign } from '../types/tree'
 import { streetCameras } from './streetCamera'
+import { resolveTreeHeight } from './treeHeight'
 
 export const treeRecords = records as unknown as TreeRecord[]
 export const treeById = new Map(treeRecords.map((tree) => [tree.id, tree]))
@@ -17,7 +18,10 @@ export function getAvailableTrees(
 ): SelectedTree[] {
   return treeRecords
     .filter((tree) => matchesCampaign(tree.campaign, campaign))
-    .map((tree) => ({ ...tree, census: saved[tree.id] ?? emptyCensus }))
+    .map((tree) => {
+      const census = saved[tree.id] ?? emptyCensus
+      return { ...tree, census, height: resolveTreeHeight(tree, census) }
+    })
 }
 export function treesGeoJSON(
   campaign: CampaignFilter,

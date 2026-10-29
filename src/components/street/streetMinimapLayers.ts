@@ -1,5 +1,6 @@
 import type { Map } from 'maplibre-gl'
-import { getStreetSequence, type StreetCamera } from '../../data/streetCamera'
+import { streetCameras, type StreetCamera } from '../../data/streetCamera'
+import { photoPointsData } from '../../data/streetNavigation'
 
 export function viewCone(camera: StreetCamera, bearing: number) {
   const [lng, lat] = camera.coordinates
@@ -29,18 +30,6 @@ export function viewCone(camera: StreetCamera, bearing: number) {
   }
 }
 
-export function routeData(camera: StreetCamera) {
-  return {
-    type: 'Feature' as const,
-    properties: {},
-    geometry: {
-      type: 'LineString' as const,
-      coordinates: getStreetSequence(camera.sequence).map(
-        (item) => item.coordinates,
-      ),
-    },
-  }
-}
 export function positionData(camera: StreetCamera) {
   return {
     type: 'Feature' as const,
@@ -53,12 +42,13 @@ export function addStreetMinimapLayers(
   camera: StreetCamera,
   bearing: number,
 ) {
-  map.addSource('street-route', { type: 'geojson', data: routeData(camera) })
+  map.addSource('street-photos', { type: 'geojson', data: photoPointsData(streetCameras) })
   map.addLayer({
-    id: 'street-line',
-    type: 'line',
-    source: 'street-route',
-    paint: { 'line-color': '#ec4899', 'line-width': 3 },
+    id: 'street-photos', type: 'circle', source: 'street-photos',
+    paint: {
+      'circle-radius': 4, 'circle-color': '#64748b', 'circle-opacity': .8,
+      'circle-stroke-color': '#f8fafc', 'circle-stroke-width': 1.5,
+    },
   })
   map.addSource('street-cone', {
     type: 'geojson',
@@ -68,7 +58,7 @@ export function addStreetMinimapLayers(
     id: 'street-cone',
     type: 'fill',
     source: 'street-cone',
-    paint: { 'fill-color': '#f59e0b', 'fill-opacity': 0.35 },
+    paint: { 'fill-color': '#059669', 'fill-opacity': 0.12 },
   })
   map.addSource('street-position', {
     type: 'geojson',
@@ -80,7 +70,7 @@ export function addStreetMinimapLayers(
     source: 'street-position',
     paint: {
       'circle-radius': 7,
-      'circle-color': '#f59e0b',
+      'circle-color': '#059669',
       'circle-stroke-color': '#f8fafc',
       'circle-stroke-width': 2,
     },

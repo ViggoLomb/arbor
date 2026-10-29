@@ -24,7 +24,7 @@ export default function ProjectSources({
           {
             name: 'Imágenes aéreas',
             detail: session.imageImported
-              ? 'Imagen de muestra publicada'
+              ? 'Imagen publicada'
               : 'Sin imágenes importadas',
             icon: Image,
           },
@@ -35,7 +35,7 @@ export default function ProjectSources({
           },
           {
             name: 'Relevamientos',
-            detail: 'Fichas CIAFBA de demostración',
+            detail: 'Fichas CIAFBA',
             icon: FilePlus2,
           },
         ].map(({ name, detail, icon: Icon }) => (

@@ -22,7 +22,7 @@ function ImportFlow({ open, onViewMap }: ModalImportadorProps) {
   }, [success])
 
   const announcement = {
-    idle: 'Listo para importar una imagen de demostración.',
+    idle: 'Listo para importar una imagen.',
     uploading: 'Cargando archivo...',
     validating: 'Validando georreferenciación (CRS)...',
     tiling: 'Generando tiles visuales...',
@@ -38,9 +38,9 @@ function ImportFlow({ open, onViewMap }: ModalImportadorProps) {
         success={success}
         onStart={start}
         idleText="Arrastrá el ortomosaico (.tif) aquí"
-        filename="ortomosaico_demo.tif"
+        filename="ortomosaico_tandil.tif"
         successText="¡Importación exitosa!"
-        processingHint="Preparando la imagen de demostración"
+        processingHint="Preparando la imagen"
         successHint="La imagen está lista para visualizarse."
         fileIcon={FileImage}
       />
@@ -76,7 +76,7 @@ export default function ModalImportador({ open, onViewMap }: ModalImportadorProp
   return (
     <ImportDialog
       title="Importar imagen"
-      description="Probá la importación con una imagen de ejemplo. No se suben archivos."
+      description="Importá imágenes georreferenciadas para incorporarlas al mapa."
       initialFocusId="import-drop-zone"
       closeLabel="Cerrar importador"
     >

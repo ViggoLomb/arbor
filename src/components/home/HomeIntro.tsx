@@ -24,7 +24,7 @@ export default function HomeIntro({
         </div>
         <span className="flex items-center gap-2 rounded-full border border-slate-700/70 px-3 py-1.5 text-[11px] text-slate-400">
           <span className="size-1.5 rounded-full bg-emerald-400" />
-          Escenarios de demostración
+          Otros proyectos
         </span>
       </div>
       <div className="mb-8 grid gap-3 sm:grid-cols-2">

@@ -88,7 +88,7 @@ export default function TopBar({
           </Menu.Trigger>
           <MenuSurface>
             <p className="px-3 py-2 text-xs text-slate-500">
-              Espacio municipal · Demostración
+              Espacio municipal
             </p>
             <Menu.Item className="menu-item" onClick={() => onHome()}>
               Ver mis proyectos

@@ -1,6 +1,6 @@
 import { useEffect, useImperativeHandle, useRef } from 'react'
 import type { Ref } from 'react'
-import { Map, setWorkerUrl } from 'maplibre-gl'
+import { AttributionControl, Map, setWorkerUrl } from 'maplibre-gl'
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import {
@@ -173,8 +173,31 @@ export default function BaseMap({
       },
       maxZoom: getBasemapMaxZoom(props.basemap),
       trackResize: true,
-      attributionControl: { compact: false },
+      attributionControl: false,
     })
+    map.addControl(new AttributionControl({ compact: false }), 'bottom-left')
+    const scale = document.createElement('div')
+    scale.className = 'arbor-map-scale'
+    scale.setAttribute('role', 'img')
+    const updateScale = () => {
+      const y = map.getContainer().clientHeight / 2
+      const x = map.getContainer().clientWidth / 2
+      const targetWidth = Math.min(240, map.getContainer().clientWidth * 0.45)
+      const meters = map.unproject([x, y]).distanceTo(map.unproject([x + targetWidth, y]))
+      if (!Number.isFinite(meters) || meters <= 0) return
+      const magnitude = 10 ** Math.floor(Math.log10(meters))
+      const distance = [1, 2, 2.5, 5, 10]
+        .map((n) => n * magnitude)
+        .reduce((closest, n) => Math.abs(n - meters) < Math.abs(closest - meters) ? n : closest)
+      const label = (n: number) => n >= 1000 ? `${n / 1000} km` : `${n} m`
+      scale.style.width = `${targetWidth * distance / meters}px`
+      scale.innerHTML = `<span>0</span><span>${label(distance / 2)}</span><span>${label(distance)}</span><i></i><i></i>`
+      scale.setAttribute('aria-label', `Escala: ${label(distance)}`)
+    }
+    map.getContainer().append(scale)
+    map.on('move', updateScale)
+    map.on('resize', updateScale)
+    updateScale()
     mapRef.current = map
     let removeInteractions: (() => void) | undefined
     map.on('load', () => {
@@ -197,6 +220,9 @@ export default function BaseMap({
     observer.observe(container.current)
     return () => {
       observer.disconnect()
+      map.off('move', updateScale)
+      map.off('resize', updateScale)
+      scale.remove()
       removeInteractions?.()
       readyRef.current = false
       mapRef.current = null

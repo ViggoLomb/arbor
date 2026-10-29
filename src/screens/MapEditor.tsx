@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useRef, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { toast } from 'sonner'
 import { scenarios } from '../data/scenarios'
 import BaseMap, { type MapActions } from '../components/map/BaseMap'
@@ -50,6 +50,7 @@ export default function MapEditor({
   const [camera, setCamera] = useState<StreetCamera | null>(null)
   const { saved, save } = useTreeCensus(project.id)
   const trees = getAvailableTrees(session.campaign, saved)
+  const streetTrees = useMemo(() => getAvailableTrees('all', saved), [saved])
   const selectedTree = trees.find((tree) => tree.id === selectedId) ?? null
   useEffect(() => {
     if (!active) return
@@ -179,9 +180,9 @@ export default function MapEditor({
               href="https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer"
               target="_blank"
               rel="noreferrer"
-              className="absolute right-2 bottom-10 z-10 rounded-lg bg-slate-50/90 px-2 py-1 text-[10px] text-slate-500 backdrop-blur-md"
+              className="absolute left-3 bottom-24 z-10 max-w-[min(26rem,calc(100%-1.5rem))] rounded-lg bg-slate-100/70 px-2 py-1 text-[11px] text-slate-700 backdrop-blur-md"
             >
-              Imagen de muestra: Esri, Vantor, Earthstar Geographics y GIS User
+              Imagen: Esri, Vantor, Earthstar Geographics y GIS User
               Community
             </a>
           )}
@@ -235,6 +236,7 @@ export default function MapEditor({
             >
               <StreetView
                 camera={camera}
+                trees={streetTrees}
                 onCameraChange={setCamera}
                 onClose={() => setCamera(null)}
               />

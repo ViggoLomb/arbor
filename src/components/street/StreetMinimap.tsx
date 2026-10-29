@@ -3,10 +3,10 @@ import { Map, type GeoJSONSource } from 'maplibre-gl'
 import { Expand, MapPinned, Minus, Plus, Shrink } from 'lucide-react'
 import { createBasemapStyle } from '../../data/basemaps'
 import type { StreetCamera } from '../../data/streetCamera'
+import StreetPhotoPoints from './StreetPhotoPoints'
 import {
   addStreetMinimapLayers,
   viewCone,
-  routeData,
   positionData,
 } from './streetMinimapLayers'
 
@@ -22,14 +22,14 @@ export default function StreetMinimap({
   const current = useRef({ camera, bearing })
   const [collapsed, setCollapsed] = useState(false)
   const [expanded, setExpanded] = useState(false)
+  const [mapReady, setMapReady] = useState(false)
   useEffect(() => {
     current.current = { camera, bearing }
     const map = mapRef.current
-    if (!map?.getSource('street-route')) return
+    if (!map?.getSource('street-photos')) return
     ;(map.getSource('street-cone') as GeoJSONSource).setData(
       viewCone(camera, bearing),
     )
-    ;(map.getSource('street-route') as GeoJSONSource).setData(routeData(camera))
     ;(map.getSource('street-position') as GeoJSONSource).setData(
       positionData(camera),
     )
@@ -54,7 +54,9 @@ export default function StreetMinimap({
         current.current.camera,
         current.current.bearing,
       )
+      setMapReady(true)
     })
+    map.on('webglcontextlost', () => setMapReady(false))
     const observer = new ResizeObserver(() => map.resize())
     observer.observe(container.current)
     return () => {
@@ -65,8 +67,9 @@ export default function StreetMinimap({
   }, [])
   return (
     <section
-      aria-label="Minimapa del recorrido"
-      className="absolute bottom-5 left-5 z-10 overflow-hidden rounded-xl border border-slate-200/30 bg-slate-900/90 shadow-xl backdrop-blur-md"
+      aria-label="Minimapa de fotografías"
+      data-street-minimap-mode="photos"
+      className="absolute bottom-5 left-5 z-10 overflow-hidden rounded-xl border border-slate-200/80 bg-slate-50/95 shadow-xl shadow-slate-900/10 backdrop-blur-md"
     >
       <div className={collapsed ? 'hidden' : 'relative'}>
         <div
@@ -75,6 +78,7 @@ export default function StreetMinimap({
           aria-label="Ubicación y orientación en Tandil"
           className={expanded ? 'h-80 w-128' : 'h-64 w-96'}
         />
+        {!mapReady && <StreetPhotoPoints camera={camera} />}
         <div className="absolute top-2 right-2 flex gap-1">
           <button
             type="button"
@@ -117,13 +121,13 @@ export default function StreetMinimap({
           </a>
         </div>
       </div>
-      <div className="flex items-center gap-3 px-3 py-2 text-[11px] text-slate-100">
+      <div className="flex items-center gap-3 px-3 py-2 text-[11px] text-slate-700">
         <button
           type="button"
           aria-expanded={!collapsed}
           aria-label={collapsed ? 'Mostrar minimapa' : 'Ocultar minimapa'}
           onClick={() => setCollapsed(!collapsed)}
-          className="rounded p-1 hover:bg-slate-700 focus-visible:outline-2 focus-visible:outline-emerald-300"
+          className="rounded p-1 hover:bg-slate-200/80 focus-visible:outline-2 focus-visible:outline-emerald-700"
         >
           {collapsed ? <MapPinned size={16} /> : <Minus size={16} />}
         </button>
@@ -148,7 +152,7 @@ export default function StreetMinimap({
         href="https://creativecommons.org/licenses/by-sa/4.0/"
         target="_blank"
         rel="noreferrer"
-        className="block px-3 pb-2 text-right text-[10px] text-slate-300 underline focus-visible:outline-2 focus-visible:outline-emerald-300"
+        className="block px-3 pb-2 text-right text-[10px] text-slate-500 underline focus-visible:outline-2 focus-visible:outline-emerald-300"
       >
         Fotografías · CC BY-SA 4.0
       </a>

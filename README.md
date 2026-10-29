@@ -1,63 +1,70 @@
 # Arbor
 
-Prototipo frontend de censo urbano con React, TypeScript, Vite, Tailwind, MapLibre y MapillaryJS. Abre el editor completo sobre Tandil con resultados locales de agrotech. No necesita backend, agrotech en ejecución ni credenciales Mapillary.
+Aplicación frontend de censo de arbolado urbano con React, TypeScript, Vite, Tailwind, MapLibre y MapillaryJS. Usa fotografías, detecciones y datos preparados de Tandil, sin backend ni credenciales Mapillary.
 
 ## Ejecutar
 
 ```sh
-npm install
+npm ci
 npm run dev
 ```
 
+Abrir la dirección indicada por Vite, normalmente http://localhost:5173. Para comprobar el proyecto:
+
 ```sh
+npm test
 npm run build
 npm run lint
 ```
 
-## Datos e interacción
+Las pruebas usan Python 3 y Node 22.15 o posterior con eliminación de tipos de TypeScript; no necesitan descargar modelos, fotografías ni librerías de pruebas adicionales.
 
-Hay 124 candidatos activos de Grounding DINO Tiny: 36 de la campaña 2019 y 88 de 2018. Se inicia mostrando los 124 candidatos de ambas campañas. Capas permite consultar todas o filtrar por 2019/2018. Los candidatos de distintas épocas no equivalen a individuos únicos confirmados. Son detecciones con posiciones estimadas, todavía sin validación de individuos únicos; las observaciones repetidas no se suman como árboles nuevos. Los grupos sin resolver de agrotech no se convierten en individuos.
+## Inventario y fichas
 
-El inventario sintético de Tesalónica y las 40 detecciones falsas anteriores fueron retirados. El mapa muestra puntos/clusters, selección y una única barra con las herramientas habituales. No hay marcadores de cámaras ni activación manual de Street View.
+El conjunto distribuido contiene 124 candidatos de Grounding DINO Tiny: 88 de 2018 y 36 de 2019. Capas permite consultar todas las campañas o filtrar por año. Los 25 grupos pendientes se muestran aparte y no se suman al inventario individual.
 
-Seleccionar un árbol abre una ficha con su recorte individual. Pulsar la foto abre la captura más cercana entre las observaciones vinculadas a ese mismo candidato. El recorte y la captura inicial corresponden a la misma observación. Se conserva la ficha y cualquier edición sin guardar al volver, junto con el encuadre del mapa. Búsqueda y tabla ofrecen el mismo acceso por ID, calle o especie relevada.
+Seleccionar un árbol desde el mapa, la tabla o Ctrl/Cmd K abre su ficha. La foto abre la captura más cercana entre las observaciones vinculadas a ese candidato. Al regresar de Street View se conservan selección, encuadre, foco y campos sin guardar.
 
-Especie, DAP, estado sanitario e interferencias comienzan pendientes; las interferencias distinguen Sin evaluar, Presenta y No presenta. Guardar conserva campos censales en localStorage por proyecto y árbol. Los cambios aparecen en tabla, búsqueda y análisis; no confirman automáticamente la identidad o posición del candidato. Si el navegador impide guardar, la ficha conserva los campos abiertos y muestra un error.
+Cada registro tiene una altura inicial estable. La ficha permite corregirla y guardarla; vaciar el campo o pulsar «Restablecer altura» recupera el valor inicial. Tabla y análisis comparten el mismo valor. Especie, DAP, estado sanitario, interferencias y notas se guardan por proyecto e ID en `localStorage`, bajo `arbor:census:v1:…`. Las fichas anteriores siguen siendo compatibles. El guardado conserva los campos abiertos si el navegador bloquea el almacenamiento.
 
-## Fotografías
+## Street View
 
-`src/data/streetRoute.json` conserva metadata real de 89 capturas y sus posiciones, orientaciones, parámetros de lente, autor, fecha y secuencia. `public/streetview/` contiene las fotos originales sin cajas, copiadas sin modificación. `public/trees/` contiene los recortes individuales desde esos originales. Los archivos funcionan de manera independiente del directorio de agrotech.
+Las 89 fotografías locales conservan su perspectiva y calibración. Las flechas Chevron eligen la cámara más cercana en cada dirección, dentro de 40 metros, sin filtrar por fecha o secuencia. Las flechas laterales permiten doblar; la fecha de cada captura queda visible. Todas las cámaras son alcanzables desde cualquier punto de entrada.
 
-MapillaryJS se carga al abrir una foto. El proveedor local no consulta la API ni expone un token. Usa la perspectiva y calibración reales; las fotos no son panoramas 360°. El modo Fill cubre el visor; arrastrar, zoom, restablecer y las flechas permiten explorar capturas reales de la misma secuencia. El minimapa muestra posición, dirección y recorrido, sin puntos de cámaras seleccionables. Mantiene créditos de autor / Mapillary, fecha y enlace a la fuente.
+Las etiquetas se ubican sobre las detecciones de la foto actual, incluso cuando parte de la caja queda fuera del encuadre. Pulsarlas despliega altura y datos censales guardados. El botón Árboles permite ocultarlas. Zoom, desplazamiento y redimensionado actualizan la proyección. Escape cierra primero la tarjeta del árbol y después la vista de calle, sin reemplazar la ficha original.
 
-Para preparar otra vez los mismos recursos, usar Python con Pillow instalado:
+El índice contiene 314 etiquetas distribuidas entre las 89 fotos: 226 observaciones de candidatos, 79 detecciones individuales adicionales, 8 referencias de arbolado y una anotación de revisión. Se omiten seis cajas de grupo ya cubiertas por detecciones individuales. Las observaciones adicionales tienen su propio ID de fotografía y no se cuentan como nuevos individuos del mapa.
+
+El minimapa muestra círculos en las posiciones de las fotos y destaca la captura actual, sin líneas de conexión. Conserva controles y créditos. Si WebGL falla o el visor interactivo supera el tiempo de carga, la foto estática conserva etiquetas y navegación. Los puntos del minimapa también tienen una representación sin WebGL.
+
+## Preparar recursos
+
+Los archivos distribuidos permiten iniciar la aplicación sin ejecutar agrotech. `src/data/generated/` contiene el inventario y etiquetas; `src/data/streetRoute.json` conserva las cámaras. `public/streetview/` y `public/trees/` contienen fotos y recortes locales.
+
+Para preparar recursos desde otra exportación de agrotech se necesita Python con Pillow:
 
 ```sh
-python scripts/prepare-tandil.py /ruta/a/agrotech-main
+python3 -B scripts/prepare-tandil.py /ruta/a/agrotech
 ```
 
-El script lee la exportación `resultados/mapeo/exportaciones/manzana_tandil` y los originales/manifest de `resultados/manzana_constitucion_rivadavia_25mayo_alberdi`. Copia fotos y genera recortes con margen, limitados al tamaño original. Elige la observación de cada candidato por distancia geográfica entre cámara y posición estimada del árbol. No modifica agrotech ni vuelve a ejecutar el detector.
+El preparador lee resultados existentes, copia fotografías, genera recortes e incorpora alturas, grupos y etiquetas. No ejecuta el detector ni modifica agrotech. Para actualizar etapas individuales desde los datos disponibles:
 
-## Funciones de demostración
+```sh
+python3 -B scripts/tree_heights.py
+python3 -B scripts/tree_heights.py --check
+python3 -B scripts/prepare_street_labels.py /ruta/a/agrotech
+```
 
-- La barra mantiene Inicio, biblioteca/proyecto, herramientas, búsqueda, PDF, selector cartográfico y perfil. Capas, Análisis y tabla son paneles flotantes. Área de estudio y Muestreo siguen como Próximamente.
-- Inicio conserva el mapa al regresar al mismo proyecto. Crear, renombrar, mover y duplicar proyectos modifica la sesión en memoria. Todos usan el escenario de Tandil; sus fichas se guardan por proyecto.
-- Importar → Detecciones IA simula dos etapas de un segundo. Confirmar muestra los candidatos existentes de la campaña; no agrega entidades ficticias ni duplica el inventario.
-- Importar → Imagen simula tres etapas de 1,5 segundos y publica una muestra aérea local de la misma zona de Tandil, debajo de los árboles y solamente en Satélite. No procesa el archivo elegido. La muestra es Esri World Imagery, no un ortomosaico de dron real.
-- Análisis calcula candidatos, estado sanitario pendiente, área del bounding box y distribución sanitaria incluyendo Sin relevar. PDF simula dos segundos y muestra un alert; no produce un documento.
+`height-reviews.json` conserva las asignaciones de altura vinculadas a observaciones. `street-manual-labels.json` conserva las anotaciones revisadas en fotografías. La preparación de etiquetas informa su resumen en la terminal.
 
-Estándar/Claro/Oscuro usan OpenFreeMap; Satélite usa Esri con etiquetas vectoriales. Requieren Internet y mantienen sus atribuciones. El selector conserva encuadre, capas y selección; Satélite admite hasta zoom 19. La muestra aérea está en `references/tandil/`, con extensión y créditos. Las fotografías y fichas locales no necesitan servicios externos.
+## Mapas, proyectos y herramientas
 
-## Escenarios separados
+Estándar, Claro y Oscuro usan OpenFreeMap; Satélite usa Esri con etiquetas vectoriales. Los mapas base necesitan Internet y mantienen sus créditos. Cambiarlos conserva capas, selección y encuadre. El mapa principal mantiene escala y controles de navegación; los créditos se ubican abajo a la izquierda.
 
-`data/scenarios.ts` declara Tandil (inventario funcional) y Tesalónica (ejemplo de solo lectura). Los proyectos tienen scenarioId; el Home muestra los ejemplos fuera de la lista de proyectos. `ExamplePreview` no monta MapEditor ni carga fichas o análisis. Nuevo y duplicar siguen como mocks sobre la plantilla de Tandil. El encuadre de Tandil incluye el área de estudio y todos los candidatos de la campaña, sin eliminar los puntos estimados fuera del rectángulo. La extensión de la imagen aérea sigue siendo independiente. App reinicia el estado durante Fast Refresh para no conservar proyectos de escenarios anteriores en desarrollo.
+Inicio conserva el mapa al volver al mismo proyecto. Crear, renombrar, mover y duplicar proyectos modifica la sesión en memoria. Las fichas se guardan por proyecto. Tesalónica se mantiene como un escenario de solo lectura separado del editor de Tandil.
 
-## Filtro de grupos pendientes
+Los conectores de imagen e IA y el botón PDF mantienen el flujo frontend con temporizadores; no procesan archivos ni generan documentos. Área de estudio y Muestreo siguen como Próximamente. La imagen aérea local de Tandil proviene de Esri World Imagery.
 
-Capas permite mostrar u ocultar 25 grupos pendientes con un switch apagado por defecto. Se dibujan como rombos violetas, separados de los 124 candidatos y excluidos de tabla, búsqueda y estadísticas censales. El filtro de campaña también se aplica a ellos: 19 de 2018 y 6 de 2019. `src/data/generated/tandil-groups.json` proviene de `grupos.geojson` de agrotech, con las mismas coordenadas. La aplicación sigue usando archivos locales; no consulta el servidor 8765. Cámaras e incertidumbre permanecen ocultas.
+## Recursos de terceros
 
-## Distribución del repositorio
-
-Se incluyen el código y configuración de la aplicación, lockfile de npm, datos preparados de Tandil, fotografías originales, recortes y las dos imágenes aéreas utilizadas por el prototipo. Las dependencias se instalan con `npm ci`; `dist/`, cachés, resultados de pruebas, entornos Python, credenciales y configuraciones locales del asistente quedan fuera de Git. No hace falta ejecutar el preparador de agrotech para iniciar el proyecto.
-
-Los recursos de terceros conservan sus derechos y condiciones originales. Ver [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), [créditos de fotografías](public/streetview/ATTRIBUTION.md) y [créditos de recortes](public/trees/ATTRIBUTION.md). Publicar el repositorio no concede una licencia nueva sobre esos recursos ni sobre el código propio.
+Los recursos conservan sus derechos y condiciones originales. Ver [avisos de terceros](THIRD_PARTY_NOTICES.md), [créditos de fotografías](public/streetview/ATTRIBUTION.md) y [créditos de recortes](public/trees/ATTRIBUTION.md).

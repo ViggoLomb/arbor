@@ -28,7 +28,7 @@ export default function ImportDialog({
         <div className="flex items-start justify-between gap-4">
           <div>
             <span className="mb-3 inline-flex rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-500">
-              Demostración
+              Fuentes de datos
             </span>
             <Dialog.Title className="text-xl font-semibold tracking-tight">
               {title}

@@ -1,26 +1,10 @@
 import { useState } from 'react'
 import type { CensusFields } from '../types/tree'
+import { parseCensus } from '../data/censusStorage'
 
 function readCensus(key: string): Record<string, CensusFields> {
   try {
-    const parsed: unknown = JSON.parse(localStorage.getItem(key) ?? '{}')
-    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed))
-      return {}
-    return Object.fromEntries(
-      Object.entries(parsed).filter(
-        ([, value]) =>
-          value &&
-          typeof value.especie === 'string' &&
-          (value.dap_cm === null ||
-            (Number.isFinite(value.dap_cm) && value.dap_cm > 0)) &&
-          [null, 'Bueno', 'Regular', 'Malo'].includes(value.estado_sanitario) &&
-          typeof value.observaciones === 'string' &&
-          value.interferencias &&
-          ['Cables', 'Vereda', 'Luminarias'].every((name) =>
-            [null, true, false].includes(value.interferencias[name]),
-          ),
-      ),
-    )
+    return parseCensus(localStorage.getItem(key))
   } catch {
     return {}
   }

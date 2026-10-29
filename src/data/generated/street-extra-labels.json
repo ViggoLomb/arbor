@@ -1,0 +1,1851 @@
+[
+  {
+    "id": "street:301045408155594:1",
+    "label": "Arbolado 001",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "group",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:301045408155594:1",
+      "cameraId": "301045408155594",
+      "score": 0.7606496214866638,
+      "bbox": [
+        985.29,
+        214.9,
+        1921.93,
+        1030.77
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:907590459808217:1",
+    "label": "OBS-2019-001",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:907590459808217:1",
+      "cameraId": "907590459808217",
+      "score": 0.6178252696990967,
+      "bbox": [
+        1431.49,
+        1.96,
+        2044.51,
+        1342.81
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:4001399279953466:1",
+    "label": "OBS-2019-002",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:4001399279953466:1",
+      "cameraId": "4001399279953466",
+      "score": 0.4617096185684204,
+      "bbox": [
+        956.91,
+        582.94,
+        1287.42,
+        989.18
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:2562651520707392:2",
+    "label": "OBS-2019-003",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:2562651520707392:2",
+      "cameraId": "2562651520707392",
+      "score": 0.4248439371585846,
+      "bbox": [
+        839.73,
+        737.96,
+        1042.07,
+        974.02
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:2562651520707392:3",
+    "label": "OBS-2019-004",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 4.5,
+    "observation": {
+      "id": "mapillary:2562651520707392:3",
+      "cameraId": "2562651520707392",
+      "score": 0.37557315826416016,
+      "bbox": [
+        238.01,
+        846.5,
+        333.7,
+        1077.61
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:2562651520707392:4",
+    "label": "OBS-2019-005",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 4.5,
+    "observation": {
+      "id": "mapillary:2562651520707392:4",
+      "cameraId": "2562651520707392",
+      "score": 0.3883725702762604,
+      "bbox": [
+        358.72,
+        853.54,
+        436.01,
+        991.29
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:2562651520707392:5",
+    "label": "OBS-2019-006",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:2562651520707392:5",
+      "cameraId": "2562651520707392",
+      "score": 0.35417407751083374,
+      "bbox": [
+        482.6,
+        851.44,
+        576.21,
+        1008.16
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:142581291222782:3",
+    "label": "OBS-2019-007",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:142581291222782:3",
+      "cameraId": "142581291222782",
+      "score": 0.3784899115562439,
+      "bbox": [
+        863.45,
+        812.66,
+        947.3,
+        1027.57
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:313620030363368:4",
+    "label": "OBS-2019-008",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:313620030363368:4",
+      "cameraId": "313620030363368",
+      "score": 0.3834901750087738,
+      "bbox": [
+        781.84,
+        824.58,
+        887.33,
+        972.96
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:543918590095055:2",
+    "label": "Arbolado 002",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "group",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:543918590095055:2",
+      "cameraId": "543918590095055",
+      "score": 0.6795440316200256,
+      "bbox": [
+        1174.56,
+        54.38,
+        2042.99,
+        1212.89
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:543918590095055:4",
+    "label": "OBS-2019-009",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:543918590095055:4",
+      "cameraId": "543918590095055",
+      "score": 0.3874928653240204,
+      "bbox": [
+        792.77,
+        798.81,
+        912.85,
+        960.77
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:2960657547503093:1",
+    "label": "OBS-2019-010",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:2960657547503093:1",
+      "cameraId": "2960657547503093",
+      "score": 0.586398184299469,
+      "bbox": [
+        1061.08,
+        498.4,
+        1399.46,
+        1019.53
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:2960657547503093:3",
+    "label": "OBS-2019-011",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:2960657547503093:3",
+      "cameraId": "2960657547503093",
+      "score": 0.5276776552200317,
+      "bbox": [
+        806.47,
+        765.94,
+        977.06,
+        970.64
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:463608934730948:1",
+    "label": "OBS-2019-012",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:463608934730948:1",
+      "cameraId": "463608934730948",
+      "score": 0.5575900077819824,
+      "bbox": [
+        817.84,
+        705.89,
+        1037.18,
+        951.81
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:463608934730948:4",
+    "label": "OBS-2019-013",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:463608934730948:4",
+      "cameraId": "463608934730948",
+      "score": 0.41643571853637695,
+      "bbox": [
+        1028.79,
+        577.44,
+        1400.21,
+        1105.46
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1017273085470683:2",
+    "label": "OBS-2019-014",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:1017273085470683:2",
+      "cameraId": "1017273085470683",
+      "score": 0.5192211866378784,
+      "bbox": [
+        837.21,
+        633.08,
+        1136.86,
+        955.08
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:501006261324314:2",
+    "label": "OBS-2019-015",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:501006261324314:2",
+      "cameraId": "501006261324314",
+      "score": 0.4902097284793854,
+      "bbox": [
+        817.64,
+        780.97,
+        997.59,
+        985.41
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:3650702221706337:1",
+    "label": "Arbolado 003",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "group",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:3650702221706337:1",
+      "cameraId": "3650702221706337",
+      "score": 0.6716479063034058,
+      "bbox": [
+        1095.12,
+        1.29,
+        1988.84,
+        1036.85
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:3650702221706337:2",
+    "label": "OBS-2019-016",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:3650702221706337:2",
+      "cameraId": "3650702221706337",
+      "score": 0.5315589904785156,
+      "bbox": [
+        842.81,
+        741.44,
+        1102.64,
+        1050.39
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:4030685080343085:1",
+    "label": "OBS-2019-017",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:4030685080343085:1",
+      "cameraId": "4030685080343085",
+      "score": 0.6552249789237976,
+      "bbox": [
+        946.52,
+        620.6,
+        1343.52,
+        1077.17
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1235411700247993:2",
+    "label": "OBS-2019-018",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:1235411700247993:2",
+      "cameraId": "1235411700247993",
+      "score": 0.5141204595565796,
+      "bbox": [
+        1046.16,
+        632.96,
+        1450.63,
+        1122.28
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:819038589039857:1",
+    "label": "OBS-2019-019",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:819038589039857:1",
+      "cameraId": "819038589039857",
+      "score": 0.5953901410102844,
+      "bbox": [
+        1426.69,
+        214.43,
+        2044.69,
+        1272.22
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:3775185412610418:1",
+    "label": "OBS-2019-020",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:3775185412610418:1",
+      "cameraId": "3775185412610418",
+      "score": 0.377947598695755,
+      "bbox": [
+        1700.49,
+        530.81,
+        1970.76,
+        1283.93
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1235130840236785:3",
+    "label": "OBS-2019-021",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:1235130840236785:3",
+      "cameraId": "1235130840236785",
+      "score": 0.49520382285118103,
+      "bbox": [
+        1089.61,
+        711.12,
+        1284.27,
+        1065.39
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1776118365901888:3",
+    "label": "OBS-2019-022",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:1776118365901888:3",
+      "cameraId": "1776118365901888",
+      "score": 0.5189796686172485,
+      "bbox": [
+        620.52,
+        643.46,
+        842.03,
+        1045.46
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:845919839332719:1",
+    "label": "OBS-2019-023",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:845919839332719:1",
+      "cameraId": "845919839332719",
+      "score": 0.5460844039916992,
+      "bbox": [
+        2.16,
+        1.34,
+        623.41,
+        1105.79
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:845919839332719:3",
+    "label": "OBS-2019-024",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:845919839332719:3",
+      "cameraId": "845919839332719",
+      "score": 0.5181373953819275,
+      "bbox": [
+        289.34,
+        563.2,
+        573.04,
+        1066.98
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1105709096594518:3",
+    "label": "OBS-2018-001",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:1105709096594518:3",
+      "cameraId": "1105709096594518",
+      "score": 0.3696165084838867,
+      "bbox": [
+        1.42,
+        17.95,
+        266.19,
+        743.52
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:469531677614208:1",
+    "label": "Arbolado 001",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "group",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:469531677614208:1",
+      "cameraId": "469531677614208",
+      "score": 0.6561787724494934,
+      "bbox": [
+        1230.53,
+        25.71,
+        2044.66,
+        1120.6
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:119822900116818:2",
+    "label": "OBS-2018-002",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:119822900116818:2",
+      "cameraId": "119822900116818",
+      "score": 0.39885640144348145,
+      "bbox": [
+        876.14,
+        546.18,
+        1256.05,
+        892.02
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:4002530999813638:1",
+    "label": "OBS-2018-003",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:4002530999813638:1",
+      "cameraId": "4002530999813638",
+      "score": 0.44265425205230713,
+      "bbox": [
+        696.19,
+        499.51,
+        1140.39,
+        898.57
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1105915583240058:2",
+    "label": "OBS-2018-004",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:1105915583240058:2",
+      "cameraId": "1105915583240058",
+      "score": 0.4566751718521118,
+      "bbox": [
+        100.71,
+        419.08,
+        701.58,
+        925.4
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1121021761743910:1",
+    "label": "Arbolado 002",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "group",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:1121021761743910:1",
+      "cameraId": "1121021761743910",
+      "score": 0.7996121644973755,
+      "bbox": [
+        307.75,
+        0.73,
+        1346.91,
+        1115.65
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1416258252042545:1",
+    "label": "OBS-2018-005",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:1416258252042545:1",
+      "cameraId": "1416258252042545",
+      "score": 0.4240491986274719,
+      "bbox": [
+        690.88,
+        770.32,
+        841.42,
+        914.57
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1162960817479137:1",
+    "label": "OBS-2018-006",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:1162960817479137:1",
+      "cameraId": "1162960817479137",
+      "score": 0.44603660702705383,
+      "bbox": [
+        679.71,
+        769.85,
+        855.62,
+        929.53
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:458855975344426:4",
+    "label": "OBS-2018-007",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:458855975344426:4",
+      "cameraId": "458855975344426",
+      "score": 0.37910935282707214,
+      "bbox": [
+        727.24,
+        746.9,
+        936.74,
+        966.47
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:461149594996606:1",
+    "label": "OBS-2018-008",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:461149594996606:1",
+      "cameraId": "461149594996606",
+      "score": 0.5955337285995483,
+      "bbox": [
+        52.88,
+        452.07,
+        615.75,
+        856.48
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:461149594996606:5",
+    "label": "OBS-2018-009",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:461149594996606:5",
+      "cameraId": "461149594996606",
+      "score": 0.4296788275241852,
+      "bbox": [
+        735.75,
+        698.71,
+        983.44,
+        932.47
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:145107770847913:1",
+    "label": "OBS-2018-010",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:145107770847913:1",
+      "cameraId": "145107770847913",
+      "score": 0.5428242683410645,
+      "bbox": [
+        1.69,
+        290.49,
+        544.85,
+        822.12
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:145107770847913:3",
+    "label": "OBS-2018-011",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:145107770847913:3",
+      "cameraId": "145107770847913",
+      "score": 0.4903465807437897,
+      "bbox": [
+        683.84,
+        671.85,
+        1004.28,
+        943.94
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1445099315844837:3",
+    "label": "OBS-2018-012",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:1445099315844837:3",
+      "cameraId": "1445099315844837",
+      "score": 0.4570416212081909,
+      "bbox": [
+        820.47,
+        634.81,
+        978.32,
+        871.3
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1445099315844837:4",
+    "label": "OBS-2018-013",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:1445099315844837:4",
+      "cameraId": "1445099315844837",
+      "score": 0.4811335802078247,
+      "bbox": [
+        657.26,
+        601.76,
+        863.75,
+        911.15
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:324165962607252:2",
+    "label": "OBS-2018-014",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:324165962607252:2",
+      "cameraId": "324165962607252",
+      "score": 0.5589527487754822,
+      "bbox": [
+        290.17,
+        705.72,
+        528.91,
+        1058.77
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:324165962607252:3",
+    "label": "OBS-2018-015",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:324165962607252:3",
+      "cameraId": "324165962607252",
+      "score": 0.46266505122184753,
+      "bbox": [
+        584.43,
+        530.93,
+        837.43,
+        888.99
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:324165962607252:5",
+    "label": "OBS-2018-016",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:324165962607252:5",
+      "cameraId": "324165962607252",
+      "score": 0.44175130128860474,
+      "bbox": [
+        797.45,
+        589.04,
+        985.49,
+        868.54
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:846016185983685:3",
+    "label": "OBS-2018-017",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:846016185983685:3",
+      "cameraId": "846016185983685",
+      "score": 0.4850824177265167,
+      "bbox": [
+        672.21,
+        508.1,
+        924.64,
+        862.82
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1190333971418501:2",
+    "label": "OBS-2018-018",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:1190333971418501:2",
+      "cameraId": "1190333971418501",
+      "score": 0.6396351456642151,
+      "bbox": [
+        31.78,
+        160.11,
+        593.21,
+        927.31
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1190333971418501:5",
+    "label": "OBS-2018-019",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:1190333971418501:5",
+      "cameraId": "1190333971418501",
+      "score": 0.41190409660339355,
+      "bbox": [
+        351.79,
+        430.32,
+        920.94,
+        877.73
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:476938636980232:1",
+    "label": "Arbolado 003",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "group",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:476938636980232:1",
+      "cameraId": "476938636980232",
+      "score": 0.5915056467056274,
+      "bbox": [
+        26.21,
+        231.1,
+        947.0,
+        915.92
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:476938636980232:4",
+    "label": "OBS-2018-020",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 9,
+    "observation": {
+      "id": "mapillary:476938636980232:4",
+      "cameraId": "476938636980232",
+      "score": 0.4262072741985321,
+      "bbox": [
+        0.86,
+        0.95,
+        292.46,
+        901.66
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:870050853581010:2",
+    "label": "Arbolado 004",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "group",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:870050853581010:2",
+      "cameraId": "870050853581010",
+      "score": 0.5530627965927124,
+      "bbox": [
+        29.21,
+        1.48,
+        912.94,
+        1072.06
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:500511691078373:2",
+    "label": "OBS-2018-021",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:500511691078373:2",
+      "cameraId": "500511691078373",
+      "score": 0.4679059684276581,
+      "bbox": [
+        466.78,
+        539.96,
+        747.41,
+        874.17
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:286871449741145:2",
+    "label": "OBS-2018-022",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:286871449741145:2",
+      "cameraId": "286871449741145",
+      "score": 0.6542086005210876,
+      "bbox": [
+        117.77,
+        378.88,
+        645.24,
+        873.17
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:536573210698742:2",
+    "label": "OBS-2018-023",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:536573210698742:2",
+      "cameraId": "536573210698742",
+      "score": 0.36802592873573303,
+      "bbox": [
+        1.32,
+        98.03,
+        495.79,
+        841.7
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:2996353730690117:2",
+    "label": "Arbolado 005",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "group",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:2996353730690117:2",
+      "cameraId": "2996353730690117",
+      "score": 0.5689533948898315,
+      "bbox": [
+        1032.61,
+        0.79,
+        2045.4,
+        665.76
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:2996353730690117:3",
+    "label": "OBS-2018-024",
+    "campaign": "2018",
+    "calle": "Constitución",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:2996353730690117:3",
+      "cameraId": "2996353730690117",
+      "score": 0.5323681235313416,
+      "bbox": [
+        0.56,
+        414.08,
+        162.92,
+        871.55
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:1417530078639595:2",
+    "label": "OBS-2018-025",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 4,
+    "observation": {
+      "id": "mapillary:1417530078639595:2",
+      "cameraId": "1417530078639595",
+      "score": 0.49254149198532104,
+      "bbox": [
+        4.06,
+        639.15,
+        157.08,
+        945.71
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:160982345941294:3",
+    "label": "OBS-2018-026",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:160982345941294:3",
+      "cameraId": "160982345941294",
+      "score": 0.6199736595153809,
+      "bbox": [
+        305.27,
+        622.82,
+        576.8,
+        955.08
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:4048729631855105:2",
+    "label": "OBS-2018-027",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:4048729631855105:2",
+      "cameraId": "4048729631855105",
+      "score": 0.5132197737693787,
+      "bbox": [
+        782.68,
+        527.28,
+        1079.02,
+        920.36
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:4048729631855105:4",
+    "label": "OBS-2018-028",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:4048729631855105:4",
+      "cameraId": "4048729631855105",
+      "score": 0.5018763542175293,
+      "bbox": [
+        0.97,
+        441.87,
+        276.5,
+        939.34
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:4048729631855105:6",
+    "label": "OBS-2018-029",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 4,
+    "observation": {
+      "id": "mapillary:4048729631855105:6",
+      "cameraId": "4048729631855105",
+      "score": 0.3822116255760193,
+      "bbox": [
+        1869.34,
+        450.48,
+        2045.53,
+        1228.8
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:483695476310724:1",
+    "label": "OBS-2018-030",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:483695476310724:1",
+      "cameraId": "483695476310724",
+      "score": 0.6507657766342163,
+      "bbox": [
+        3.45,
+        1.61,
+        791.84,
+        1070.38
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:483695476310724:3",
+    "label": "OBS-2018-031",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:483695476310724:3",
+      "cameraId": "483695476310724",
+      "score": 0.5166641473770142,
+      "bbox": [
+        598.39,
+        513.35,
+        983.91,
+        955.04
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:142226107872905:4",
+    "label": "OBS-2018-032",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 7,
+    "observation": {
+      "id": "mapillary:142226107872905:4",
+      "cameraId": "142226107872905",
+      "score": 0.45001572370529175,
+      "bbox": [
+        1.94,
+        1.12,
+        725.62,
+        723.11
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:319261133201442:4",
+    "label": "OBS-2018-033",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:319261133201442:4",
+      "cameraId": "319261133201442",
+      "score": 0.3633824288845062,
+      "bbox": [
+        1.06,
+        522.98,
+        341.2,
+        1022.66
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:373450317263069:3",
+    "label": "OBS-2018-034",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:373450317263069:3",
+      "cameraId": "373450317263069",
+      "score": 0.41894635558128357,
+      "bbox": [
+        638.49,
+        617.53,
+        837.22,
+        871.43
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:938906563539239:2",
+    "label": "OBS-2018-035",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:938906563539239:2",
+      "cameraId": "938906563539239",
+      "score": 0.5610350370407104,
+      "bbox": [
+        507.32,
+        511.0,
+        824.37,
+        874.4
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:938906563539239:5",
+    "label": "OBS-2018-036",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 9,
+    "observation": {
+      "id": "mapillary:938906563539239:5",
+      "cameraId": "938906563539239",
+      "score": 0.3782329857349396,
+      "bbox": [
+        831.58,
+        696.4,
+        897.33,
+        854.67
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:757577611790641:2",
+    "label": "OBS-2018-037",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:757577611790641:2",
+      "cameraId": "757577611790641",
+      "score": 0.6978389620780945,
+      "bbox": [
+        270.69,
+        348.93,
+        774.26,
+        889.6
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:757577611790641:7",
+    "label": "OBS-2018-038",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:757577611790641:7",
+      "cameraId": "757577611790641",
+      "score": 0.35791125893592834,
+      "bbox": [
+        744.46,
+        788.55,
+        816.96,
+        926.73
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:832783243984699:5",
+    "label": "OBS-2018-039",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:832783243984699:5",
+      "cameraId": "832783243984699",
+      "score": 0.4413799047470093,
+      "bbox": [
+        1.46,
+        0.82,
+        461.97,
+        995.66
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:832783243984699:7",
+    "label": "OBS-2018-040",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "mapillary:832783243984699:7",
+      "cameraId": "832783243984699",
+      "score": 0.40506646037101746,
+      "bbox": [
+        656.77,
+        727.5,
+        757.26,
+        934.09
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:175323477689926:2",
+    "label": "OBS-2018-041",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:175323477689926:2",
+      "cameraId": "175323477689926",
+      "score": 0.38014712929725647,
+      "bbox": [
+        268.77,
+        614.24,
+        491.15,
+        1021.73
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:960621738018740:4",
+    "label": "OBS-2018-042",
+    "campaign": "2018",
+    "calle": "Alberdi",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:960621738018740:4",
+      "cameraId": "960621738018740",
+      "score": 0.3978354036808014,
+      "bbox": [
+        0.92,
+        457.5,
+        172.16,
+        1004.14
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:217656679725522:1",
+    "label": "OBS-2018-043",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:217656679725522:1",
+      "cameraId": "217656679725522",
+      "score": 0.4961969256401062,
+      "bbox": [
+        2.15,
+        1.3,
+        591.47,
+        923.98
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:217656679725522:2",
+    "label": "OBS-2018-044",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:217656679725522:2",
+      "cameraId": "217656679725522",
+      "score": 0.37619128823280334,
+      "bbox": [
+        1517.97,
+        278.77,
+        2044.07,
+        977.53
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:217656679725522:3",
+    "label": "OBS-2018-045",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:217656679725522:3",
+      "cameraId": "217656679725522",
+      "score": 0.3866730034351349,
+      "bbox": [
+        476.05,
+        337.46,
+        772.81,
+        855.11
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:924982405003838:1",
+    "label": "OBS-2018-046",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:924982405003838:1",
+      "cameraId": "924982405003838",
+      "score": 0.4042980372905731,
+      "bbox": [
+        18.54,
+        171.91,
+        928.27,
+        853.55
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:887288155463015:1",
+    "label": "OBS-2018-047",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:887288155463015:1",
+      "cameraId": "887288155463015",
+      "score": 0.38042157888412476,
+      "bbox": [
+        1430.32,
+        241.86,
+        2044.55,
+        913.02
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:506671577138551:1",
+    "label": "OBS-2018-048",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:506671577138551:1",
+      "cameraId": "506671577138551",
+      "score": 0.4336263835430145,
+      "bbox": [
+        1323.84,
+        402.6,
+        1881.97,
+        898.21
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:506671577138551:4",
+    "label": "OBS-2018-049",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:506671577138551:4",
+      "cameraId": "506671577138551",
+      "score": 0.3889240622520447,
+      "bbox": [
+        1240.33,
+        631.76,
+        1369.17,
+        866.46
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:865981113954734:1",
+    "label": "OBS-2018-050",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:865981113954734:1",
+      "cameraId": "865981113954734",
+      "score": 0.4062420725822449,
+      "bbox": [
+        1390.18,
+        174.02,
+        2044.6,
+        951.29
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:865981113954734:4",
+    "label": "OBS-2018-051",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 6,
+    "observation": {
+      "id": "mapillary:865981113954734:4",
+      "cameraId": "865981113954734",
+      "score": 0.37384554743766785,
+      "bbox": [
+        1264.41,
+        582.56,
+        1435.22,
+        889.83
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:153803503413974:3",
+    "label": "OBS-2018-052",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:153803503413974:3",
+      "cameraId": "153803503413974",
+      "score": 0.41893187165260315,
+      "bbox": [
+        1721.64,
+        16.97,
+        2044.87,
+        819.29
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:999708080562137:2",
+    "label": "OBS-2018-053",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 4,
+    "observation": {
+      "id": "mapillary:999708080562137:2",
+      "cameraId": "999708080562137",
+      "score": 0.35089898109436035,
+      "bbox": [
+        1221.23,
+        648.9,
+        1295.97,
+        781.48
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:3698246510285143:1",
+    "label": "OBS-2018-054",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:3698246510285143:1",
+      "cameraId": "3698246510285143",
+      "score": 0.4886859357357025,
+      "bbox": [
+        527.33,
+        282.14,
+        929.27,
+        744.04
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:270872038086737:1",
+    "label": "OBS-2018-055",
+    "campaign": "2018",
+    "calle": "Avenida Rivadavia",
+    "kind": "tree",
+    "heightM": 8,
+    "observation": {
+      "id": "mapillary:270872038086737:1",
+      "cameraId": "270872038086737",
+      "score": 0.5249806046485901,
+      "bbox": [
+        371.41,
+        240.12,
+        893.05,
+        851.05
+      ],
+      "width": 2048,
+      "height": 1536
+    }
+  },
+  {
+    "id": "street:manual:741548099844678:1",
+    "label": "OBS-2019-M01",
+    "campaign": "2019",
+    "calle": "25 de Mayo",
+    "kind": "tree",
+    "heightM": 5,
+    "observation": {
+      "id": "manual:741548099844678:1",
+      "cameraId": "741548099844678",
+      "score": 0,
+      "bbox": [
+        839.68,
+        791.04,
+        1034.24,
+        1059.84
+      ],
+      "width": 2048,
+      "height": 1536,
+      "annotationSource": "manual"
+    }
+  }
+]

@@ -165,7 +165,7 @@ export default function ArborMenu({
           }
         >
           <CircleHelp size={16} />
-          Guía de la demostración
+          Guía de Arbor
         </Menu.Item>
       </MenuSurface>
     </Menu.Root>

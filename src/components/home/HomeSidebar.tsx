@@ -103,7 +103,7 @@ function SidebarContent({
             <p className="text-xs font-medium text-slate-300">
               Espacio municipal
             </p>
-            <p className="mt-1 text-[10px] text-slate-400">Demostración</p>
+            <p className="mt-1 text-[10px] text-slate-400">Espacio municipal</p>
           </div>
         </div>
       </div>

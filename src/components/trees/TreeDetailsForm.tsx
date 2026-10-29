@@ -3,6 +3,7 @@ import type {
   SelectedTree,
   EstadoSanitario,
 } from '../../types/tree'
+import TreeHeightField from './TreeHeightField'
 const fieldClass =
   'mt-2 h-10 w-full rounded-xl border border-slate-200/60 bg-slate-50 px-3 text-sm text-slate-800 outline-none placeholder:text-slate-400 focus-visible:ring-2 focus-visible:ring-emerald-600'
 export default function TreeDetailsForm({
@@ -21,11 +22,13 @@ export default function TreeDetailsForm({
         event.preventDefault()
         const fields = new FormData(event.currentTarget)
         const dap = String(fields.get('dap') ?? '').trim()
+        const altura = String(fields.get('altura') ?? '').trim()
         const interference = (name: string) =>
           fields.get(name) === '' ? null : fields.get(name) === 'yes'
         onSave(tree.id, {
           especie: String(fields.get('especie') ?? '').trim(),
           dap_cm: dap ? Number(dap) : null,
+          altura_m: altura ? Number(altura) : null,
           estado_sanitario: (fields.get('estado') ||
             null) as EstadoSanitario | null,
           interferencias: {
@@ -93,6 +96,7 @@ export default function TreeDetailsForm({
           </select>
         </div>
       </div>
+      <TreeHeightField tree={tree} />
       <fieldset>
         <legend className="mb-2 text-xs font-medium text-slate-700">
           Interferencias
@@ -144,10 +148,6 @@ export default function TreeDetailsForm({
           className={`${fieldClass} h-20 resize-y py-3`}
         />
       </div>
-      <p className="text-[11px] leading-5 text-slate-500">
-        Los campos pendientes requieren relevamiento. La detección no determina
-        especie, DAP ni diagnóstico sanitario.
-      </p>
     </form>
   )
 }

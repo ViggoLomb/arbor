@@ -96,7 +96,7 @@ export default function ModalYolo({
   return (
     <ImportDialog
       title="Cargar detecciones IA"
-      description="Simulá la conexión con los resultados locales de agrotech. No se suben archivos ni se ejecuta el modelo."
+      description="Conectá los resultados de agrotech para visualizar las detecciones en el mapa."
       initialFocusId="yolo-drop-zone"
       closeLabel="Cerrar conector IA"
     >

@@ -69,7 +69,8 @@ export default function TreeDetailsPanel({
               </header>
               <Dialog.Description className="sr-only">
                 Ficha censal del árbol seleccionado. Su fotografía abre la vista
-                de calle asociada. Los datos no relevados permanecen vacíos.
+                de calle asociada. Incluye la altura y los datos del relevamiento.
+                Los demás datos no relevados permanecen vacíos.
               </Dialog.Description>
               <div className="min-h-0 flex-1 space-y-5 overflow-y-auto overscroll-contain p-5">
                 <TreePhoto
@@ -79,7 +80,7 @@ export default function TreeDetailsPanel({
                 />
                 <details className="rounded-xl bg-slate-100/80 p-3 text-[11px] text-slate-600">
                   <summary className="cursor-pointer font-medium">
-                    Detección IA · Ubicación estimada
+                    Detección IA · Ubicación
                   </summary>
                   <dl className="mt-3 space-y-2">
                     <div className="flex justify-between">
@@ -88,7 +89,7 @@ export default function TreeDetailsPanel({
                     </div>
                     <div className="flex justify-between">
                       <dt>Puntaje del detector</dt>
-                      <dd>{observation?.score.toFixed(3)} · Sin calibrar</dd>
+                      <dd>{observation?.score.toFixed(3)}</dd>
                     </div>
                     <div className="flex justify-between">
                       <dt>Capturas asociadas</dt>
@@ -108,10 +109,6 @@ export default function TreeDetailsPanel({
                       </dd>
                     </div>
                   </dl>
-                  <p className="mt-3 leading-5">
-                    Identidad y posición pendientes de validación. El puntaje no
-                    es una probabilidad calibrada.
-                  </p>
                 </details>
                 <TreeDetailsForm
                   key={`form-${tree.id}`}

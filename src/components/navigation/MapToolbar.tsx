@@ -92,7 +92,7 @@ export default function MapToolbar({
             </span>
           </Menu.Item>
           <p className="border-t border-slate-200/80 px-3 pt-2 pb-1 text-[11px] text-slate-500">
-            Conectores de demostración
+            Conectar fuentes
           </p>
         </MenuSurface>
       </Menu.Root>

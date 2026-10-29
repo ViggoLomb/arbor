@@ -13,24 +13,23 @@ export default function MapControls({
     <div
       role="group"
       aria-label="Navegación del mapa"
-      className="absolute right-4 bottom-18 z-10 flex items-center gap-1 rounded-xl border border-slate-200/80 bg-slate-50/90 p-1 shadow-lg shadow-slate-900/10 backdrop-blur-md sm:bottom-14"
+      className="map-navigation absolute right-4 bottom-6 z-10 flex items-center gap-1"
     >
       <button
         type="button"
         onClick={onFit}
         aria-label="Encuadrar proyecto"
         title="Encuadrar proyecto"
-        className="tool-button"
+        className="map-navigation-button"
       >
         <LocateFixed size={18} />
       </button>
-      <span aria-hidden="true" className="mx-1 h-5 w-px bg-slate-200" />
       <button
         type="button"
         onClick={onZoomOut}
         aria-label="Alejar mapa"
         title="Alejar mapa"
-        className="tool-button"
+        className="map-navigation-button"
       >
         <Minus size={19} />
       </button>
@@ -39,7 +38,7 @@ export default function MapControls({
         onClick={onZoomIn}
         aria-label="Acercar mapa"
         title="Acercar mapa"
-        className="tool-button"
+        className="map-navigation-button"
       >
         <Plus size={19} />
       </button>

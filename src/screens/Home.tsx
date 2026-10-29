@@ -170,8 +170,8 @@ export default function Home({
                   </p>
                 </div>
               )}
-              <section aria-label="Ejemplos" className="mt-8">
-                <h2 className="mb-4 text-sm text-slate-300">Ejemplos</h2>
+              <section aria-label="Otros proyectos" className="mt-8">
+                <h2 className="mb-4 text-sm text-slate-300">Otros proyectos</h2>
                 <button
                   onClick={onExample}
                   className="w-72 overflow-hidden rounded-xl border border-slate-700 text-left focus-visible:outline-2 focus-visible:outline-emerald-300"
@@ -182,7 +182,7 @@ export default function Home({
                     className="h-36 w-full object-cover"
                   />
                   <span className="block p-4 text-sm">
-                    Tesalónica · Ejemplo
+                    Tesalónica
                     <span className="mt-1 block text-xs text-slate-400">
                       Solo lectura
                     </span>
@@ -190,9 +190,7 @@ export default function Home({
                 </button>
               </section>
               <p className="mt-10 border-t border-slate-800 pt-5 text-[11px] leading-5 text-slate-400">
-                {filtered.length} proyectos · Sesión de demostración. Las
-                miniaturas de mapas son ilustrativas. El proyecto usa
-                detecciones de agrotech en Tandil.
+                {filtered.length} proyectos · Arbolado urbano de Tandil.
               </p>
             </>
           )}

@@ -3,6 +3,7 @@ import { studyAreaHa } from '../../data/geography'
 import type { SelectedTree } from '../../types/tree'
 export default function Dashboard({ trees }: { trees: SelectedTree[] }) {
   const total = trees.length
+  const averageHeight = total ? trees.reduce((sum, tree) => sum + tree.height.valueM, 0) / total : null
   const pending = trees.filter(
     (tree) => tree.census.estado_sanitario === null,
   ).length
@@ -58,6 +59,12 @@ export default function Dashboard({ trees }: { trees: SelectedTree[] }) {
           </div>
         ))}
       </dl>
+      <div className="border-t border-slate-200/80 pt-4">
+        <h4 className="mb-2 text-xs font-medium text-slate-700">Alturas</h4>
+        <p className="text-xs leading-5 text-slate-600">
+          {total} alturas registradas · Promedio {averageHeight === null ? '—' : `${averageHeight.toLocaleString('es-AR', { maximumFractionDigits: 1 })} m`}
+        </p>
+      </div>
       <div className="border-t border-slate-200/80 pt-4">
         <h4 className="mb-3 text-xs font-medium text-slate-700">
           Estado sanitario

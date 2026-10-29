@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { SelectedTree } from '../../types/tree'
 import PanelFrame from './PanelFrame'
+import { formatHeight } from '../../data/treeHeight'
 export default function TreeTablePanel({
   trees,
   onSelect,
@@ -51,6 +52,7 @@ export default function TreeTablePanel({
           <tr>
             <th className="pb-2">ID</th>
             <th className="pb-2">Estado</th>
+            <th className="pb-2 text-right">Altura</th>
           </tr>
         </thead>
         <tbody>
@@ -67,6 +69,9 @@ export default function TreeTablePanel({
               </td>
               <td className="text-slate-600">
                 {tree.census.estado_sanitario ?? 'Sin relevar'}
+              </td>
+              <td className="py-2 pl-2 text-right text-slate-600 tabular-nums">
+                <span className="whitespace-nowrap">{formatHeight(tree.height.valueM)}</span>
               </td>
             </tr>
           ))}

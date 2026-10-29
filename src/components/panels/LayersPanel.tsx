@@ -68,7 +68,7 @@ export default function LayersPanel({
         />
       </div>
       <p className="mt-4 text-xs leading-5 text-slate-500">
-        Grounding DINO Tiny · Posiciones estimadas. Podés consultar todas las
+        Grounding DINO Tiny. Podés consultar todas las
         campañas o filtrar por año.
       </p>
       <div className="mt-5 border-t border-slate-200/80 pt-5">
@@ -104,7 +104,7 @@ export default function LayersPanel({
           <p className="text-xs font-medium text-slate-700">Imagen aérea</p>
           <p className="mt-1 text-[11px] text-slate-500">
             {session.imageImported
-              ? 'Muestra de Tandil publicada'
+              ? 'Imagen de Tandil publicada'
               : 'Sin imágenes importadas'}
           </p>
         </div>

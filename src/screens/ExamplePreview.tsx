@@ -17,7 +17,7 @@ export default function ExamplePreview({ onClose }: { onClose: () => void }) {
           <ArrowLeft size={18} />
           Volver a Inicio
         </button>
-        <h1 className="mt-3 text-lg font-semibold">Tesalónica · Ejemplo</h1>
+        <h1 className="mt-3 text-lg font-semibold">Tesalónica</h1>
         <p className="mt-2 text-sm">Previsualización de solo lectura</p>
         <p className="mt-2 text-xs">
           Imágenes © Esri, Vantor, Earthstar Geographics y GIS User Community

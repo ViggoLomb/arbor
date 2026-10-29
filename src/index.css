@@ -24,19 +24,49 @@
 }
 
 /* La atribución cartográfica se conserva legible sin competir con los paneles. */
-.maplibregl-ctrl-bottom-right .maplibregl-ctrl-attrib {
-  margin: 0.5rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 9999px;
-  background: rgb(248 250 252 / 85%);
-  color: var(--color-slate-600);
-  font-family: var(--font-sans);
-  backdrop-filter: blur(12px);
+.maplibregl-ctrl-bottom-left .maplibregl-ctrl-attrib {
+  margin: 4px 12px;
+  padding: 0;
+  background: transparent;
+  color: #1e293b;
+  font: 11px/1.5 var(--font-sans);
+  text-shadow: 0 0 3px #f1f5f9, 0 0 6px #f1f5f9;
 }
-
-.maplibregl-ctrl-attrib a {
-  color: var(--color-slate-600);
+.maplibregl-ctrl-bottom-left .maplibregl-ctrl-attrib a { color: inherit; }
+.map-navigation-button {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: rgb(241 245 249 / 25%);
+  color: #1e293b;
+  cursor: pointer;
+  filter: drop-shadow(0 0 2px #f1f5f9) drop-shadow(0 0 3px #f1f5f9);
 }
+.map-navigation-button:hover { background: rgb(241 245 249 / 55%); }
+.map-navigation-button:focus-visible,
+.maplibregl-ctrl-bottom-left .maplibregl-ctrl-attrib a:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+.arbor-map-scale {
+  position: absolute;
+  left: 32px;
+  bottom: 52px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #1e293b;
+  font: 11px/1.5 var(--font-sans);
+  text-shadow: 0 0 3px #f1f5f9, 0 0 6px #f1f5f9;
+  pointer-events: none;
+}
+.arbor-map-scale span { position: absolute; bottom: 5px; white-space: nowrap; }
+.arbor-map-scale span:nth-child(2) { left: 50%; transform: translateX(-50%); }
+.arbor-map-scale span:nth-child(3) { right: 0; transform: translateX(50%); }
+.arbor-map-scale i { height: 6px; border: 1px solid #1e293b; background: rgb(241 245 249 / 75%); }
+.arbor-map-scale i:last-child { background: rgb(30 41 59 / 75%); }
 
 .import-modal {
   transform: translate(-50%, -50%) scale(1);
@@ -248,7 +278,7 @@
   transition: opacity 150ms var(--ease-out);
   cursor: pointer;
 }
-.street-step:hover { background: rgb(15 23 42 / 30%); }
+.street-step:hover { background: rgb(248 250 252 / 15%); }
 .street-step:disabled { opacity: 0.2; cursor: default; }
 .street-step:focus-visible { outline: 2px solid var(--color-emerald-300); }
 .street-map-button {

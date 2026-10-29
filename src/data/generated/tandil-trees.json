@@ -26,7 +26,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "4fecfd84-396f-5b22-b64d-c214bca2b455"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "04c2c798-d0d3-54ac-85e3-d77593e82259",
@@ -55,7 +64,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 3,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "795e6a19-03e7-5ee9-bda9-195e330fc16d"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "0e83c29d-c7f8-53bb-94cf-64836bcc9d5d",
@@ -84,7 +102,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.0,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "b7644123-c7dc-58e3-8cf4-91079e153e60"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "0f5d63f9-10e3-59fe-bd34-afb13f7119a9",
@@ -113,7 +141,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "0cbbbd68-791d-5b66-a10c-a87ee9b11b2f"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "127751a9-af63-5371-abee-e7267a51078a",
@@ -142,7 +179,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "bdf6d0cd-f3f0-5407-8a36-db410e6f84e2"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "13630602-0e33-5e41-8222-459518147cda",
@@ -184,7 +230,14 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8.0,
+      "method": "fallback",
+      "isSimulated": true,
+      "observationIds": [],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "1996e1d6-98fe-52cb-8084-631f6aa5c2cc",
@@ -213,7 +266,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "43c57e03-7528-56e3-850f-0623b130e6be"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "1a644972-0d75-502b-b561-45bf31a13dbe",
@@ -242,7 +304,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "57911657-5c43-5de2-ad97-ae0259593ee3"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "1ab53bf1-893c-5e3e-8663-9f401ff005e7",
@@ -271,7 +342,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "0340fd98-97f2-5ff9-aca2-2cb700d5b9ed"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "1efe29dc-e671-5bc3-8f08-b3d004cbb0a9",
@@ -300,7 +380,14 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8.0,
+      "method": "fallback",
+      "isSimulated": true,
+      "observationIds": [],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "1fd69a3b-5087-53ad-9467-2c7f4e045a45",
@@ -329,7 +416,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "4e0a0e1d-f3af-5c51-a272-1ae4516d1e44"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "249ba93e-5a12-53db-aa07-5bdf443713a7",
@@ -358,7 +454,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "339026df-c393-5c46-a78d-472dcc627afb"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "26a3e82f-31d7-59a9-89ba-267150af7181",
@@ -491,7 +596,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "d34f0a83-164e-5c8c-81cc-2ea43ed600bf"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "27538b2f-6b69-5a80-aba4-e6101fc55a21",
@@ -533,7 +647,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 3.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "57a7a899-8e62-52ca-8153-d5fb0d3b5691"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "2dc2c3c8-bf1c-5ec2-a367-2137fa836473",
@@ -562,7 +686,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 2.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "a316fb11-4b53-5621-8610-9b660757ae33"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "2fa065dc-7eff-5fbc-aa33-4b406bae8c58",
@@ -591,7 +724,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "c744c147-9702-5916-b0d6-bfcb711706d4"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "2ffede8e-650f-50e2-bc46-2afa23f9e25a",
@@ -620,7 +762,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "26355571-a72b-55de-a703-72d029a3a15c"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "31e5b22e-c56d-5883-bd7d-8797233ebb11",
@@ -649,7 +800,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "e5dca55d-b6df-5067-bb42-fd90a24588c5"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "327ebccf-e5df-5c29-9fd4-7771f7928c3e",
@@ -678,7 +838,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "aa5a5958-4222-593a-8feb-9a6e064240c5"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "38f6f9d3-52a0-5435-a7ba-8585b807ab29",
@@ -707,7 +876,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "c54f0637-d069-5a0d-9103-d5febc47b8fe"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "3a3fa9b2-1230-5023-994b-2e2b880dc24d",
@@ -736,7 +914,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "12606fcf-642d-58ba-9609-5b46dca06fc5"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "3ca882b9-c8fc-55dd-ae37-5c83fb3f3731",
@@ -765,7 +952,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "cd838785-bf0e-5446-ac74-cbda1b7edc5f"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "4442e486-d6d7-56af-a330-3c58c840d9fd",
@@ -794,7 +990,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "aa62eab6-737f-5a2a-87f6-0bd85b21be85"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "46aaa3a4-b8b7-57cd-b6a7-e8d7a44922f0",
@@ -823,7 +1028,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "d1b8fa88-f5c2-5b73-88c8-f5985bbef41a"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "47d58a22-bde3-5a2e-83fa-755632365209",
@@ -852,7 +1066,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "f470dd30-2ccb-532c-b75b-ba8c85e82212"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "490828be-bf09-590d-8dc9-76b4fd66e5f9",
@@ -1011,7 +1234,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "9bcb934a-7a43-57b8-8a73-da84701b1325"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "4e9c78ce-55e0-55de-8b95-5272fd451183",
@@ -1053,7 +1285,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "695ae975-2112-574f-a1a7-4cdbafc4eff6"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "4eeec71d-6eb3-542b-8313-e02c162615ba",
@@ -1082,7 +1323,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "5f9d5977-8f02-5b42-9d24-40ae7ac8dba2"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "4fbffef6-5c59-511e-99c8-bb57f577646c",
@@ -1137,7 +1387,14 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8.0,
+      "method": "fallback",
+      "isSimulated": true,
+      "observationIds": [],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "50ba27c1-fe76-51e4-a013-042acf4b83ca",
@@ -1166,7 +1423,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 3.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "a2da3771-d848-5f4f-bd38-afabd72e9928"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "51d36432-74d9-557e-8929-6753c653ba2a",
@@ -1195,7 +1461,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7.0,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "33665bff-b4c8-544a-97fd-cebc9d9b8d72"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "53ae8688-7f44-54ce-a1e0-514fc393fe78",
@@ -1224,7 +1500,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "4610270d-628b-5bfb-a9c3-879f281df587"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "5aca6c47-aec9-5d09-b1a9-3247749a6be3",
@@ -1253,7 +1538,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.0,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "314b0286-09fc-56f2-8d04-9cd22ee3e0f2"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "5f9fbc3e-a505-5eb4-a373-d91e13f1db16",
@@ -1282,7 +1577,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "a5acc3e1-fbb2-5295-9653-b3d4ec263b0d"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "615b36ac-1bd6-5d28-af58-e8c0e1a70438",
@@ -1311,7 +1615,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "81501f2c-4f7e-5e81-90ff-6452aceba3c7"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "66479137-063d-555d-aa22-4bc925cd76b9",
@@ -1392,7 +1705,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "f25c9be7-1fd0-5783-987a-68cc05ebd9d8"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "672ad82a-ecb2-5ae4-9892-fb55a341a1d4",
@@ -1421,7 +1743,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.0,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "21d04e62-07f0-55cb-a85d-bf80ce5a1dc9"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "6fbec9ec-783a-5c22-ba9f-96edc1cad79c",
@@ -1450,7 +1782,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "96f34e92-1a9a-5064-9473-58417ab3bf4d"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "71141ecd-402c-570f-b106-f061019475c9",
@@ -1570,7 +1911,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "5c6d2960-2eb1-5830-9b69-40ec98fa0e4b"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "73b15d5f-0295-5f9d-9f4d-03412f547f8c",
@@ -1625,7 +1976,14 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8.0,
+      "method": "fallback",
+      "isSimulated": true,
+      "observationIds": [],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "778a99b3-db33-5fe0-9c61-677bfc8c43f5",
@@ -1680,7 +2038,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "2e1917f1-e7a1-5d83-a8a5-cfd868dd9f57"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "7a6d7dc6-d4d8-5fc2-8049-834ef741c8cd",
@@ -1709,7 +2076,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "aa6d3fd2-44e4-5fd0-ad7e-31b09906c3a9"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "7eb04a97-5bb8-5d4d-a5a7-5df2216880eb",
@@ -1738,7 +2114,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "725d8125-6468-5698-933b-5183b9dd2fba"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "8368f6e2-1c5e-5f15-87f4-25016cf945ae",
@@ -1819,7 +2204,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "58ab8018-3aa0-51ea-ac1a-e09951e5ee9f"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "88dd5fcc-d754-557c-b9d1-0ea6647ccaf6",
@@ -1848,7 +2242,14 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8.0,
+      "method": "fallback",
+      "isSimulated": true,
+      "observationIds": [],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "8993ce49-91ad-5855-8d6c-6d14cbde44b1",
@@ -1877,7 +2278,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "237795ff-391f-5bd5-9c7e-f46e38cc75d6"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "8baaf651-76dc-56ef-8bfa-e8cbf4b9884c",
@@ -1906,7 +2316,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "91c72d8d-7ce9-535b-bf08-238b10428745"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "8e4314b6-0db1-5843-bac4-fe469417e48d",
@@ -1987,7 +2406,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "04b07475-b01f-57cd-b379-c5fc83536951"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "8ec6bd5c-eead-5ea9-ae5e-6442f0aee8e0",
@@ -2016,7 +2444,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "7edde0fe-5e5a-5cb9-a37d-164af8f74370"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "91d94269-144d-5ab0-ad88-d88cc86c3238",
@@ -2045,7 +2483,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "ee37907d-2cb0-52fb-ba04-2aa1d2832aff"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "94166dd3-04c6-585d-9424-4ebb4b749f81",
@@ -2074,7 +2521,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "dc00eba8-f588-56fb-876c-0d1024da1313"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "95cec516-da19-57a0-aedd-8ec5f934fc9c",
@@ -2103,7 +2559,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "dbf8fd98-f7be-5f92-aa02-c0c31fce9f73"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "971346d2-afb5-5d9d-bbbe-e32e90ddb4d3",
@@ -2132,7 +2597,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "3d8792f7-a972-5415-a437-cb06455785b5"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "97cebc63-f093-5934-90ca-8152a6d95983",
@@ -2161,7 +2635,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "6ee59c14-dc13-5dae-a930-30eabf26c21a"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "983705ea-2fbc-5440-97ad-1b49108f5e42",
@@ -2190,7 +2673,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "c2fa80a1-8e2c-5c66-8786-53b9883a43af"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "9969eef5-5ed3-5ea9-a0da-0e14201a59cd",
@@ -2219,7 +2711,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "9e05dfa0-e06f-5198-b452-8f2eb9f31da3"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "99da99a8-a127-5bf8-95a8-a2b57601a567",
@@ -2248,7 +2749,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "441e67a8-63b7-5b13-8aaf-d71dfa908680"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "9ac5091d-052a-5a2c-810b-dec9cdc3d8f7",
@@ -2355,7 +2865,18 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "26b25770-c751-587a-8cd6-e3bb10f16708",
+        "8b122d93-42af-5848-bd0b-969ce8613bc3"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "9afe2fbe-6cb1-5124-bc47-6e8cf3a565d9",
@@ -2397,7 +2918,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "ce1be34d-3d43-5398-bccc-f91d52fc2c06"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "9b7a1cc0-d0ef-5830-9077-25a34e8dd1c3",
@@ -2426,7 +2956,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "afe355f7-949c-5585-9eba-eb948c62889a"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "a4daf8d0-caa3-5974-9809-b2dfe9a9ae5e",
@@ -2494,7 +3033,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "b4b782c5-930a-5823-8ed4-065fa94be8b5"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "a68ce362-a2ac-52c4-bd68-e705c4edbe81",
@@ -2523,7 +3072,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8.0,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "d91eba36-5efb-50f9-a9cb-0709af4a3f74"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "a8047eea-b3b4-581f-8c0c-f28319a4fe95",
@@ -2643,7 +3202,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "2baee7dc-25fc-5b23-8a46-d468202375bf"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "aa79903c-455c-5e59-af7c-7f5644f212ff",
@@ -2672,7 +3241,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "24505247-9fa7-59ae-a472-b4364bf1a789"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "ac097eba-c5ba-533a-bbfe-d0262cb186c2",
@@ -2701,7 +3279,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 9,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "d0264e97-13e9-5b93-b3b3-db076315e4cd"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "ade047a0-ca51-571e-84c6-03afa8176887",
@@ -2730,7 +3317,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 9,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "2be3fa15-0cb4-5ab5-bda8-24955a7179d6"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "afc7a5d0-d6d1-5945-a5cd-da472cbc59f6",
@@ -2759,7 +3355,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "2a4180fa-afa8-557a-81ab-7bdb03bd3223"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "b0deab3f-eadf-5c25-8fbb-c32488af9e60",
@@ -2788,7 +3393,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "14badc45-d535-57f1-8963-7283ffeab30f"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "b1a7a82e-7cb9-5f9e-a8d0-3fdb4988591d",
@@ -2947,7 +3562,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 9,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "92dd7b76-9f3b-5c58-af63-500313cae829"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "b2d00cbd-5c47-5e3d-880b-a391e98e3391",
@@ -2976,7 +3600,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "2d95412c-a587-5692-93ff-6e26a21c978a"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "b2d65815-b517-5639-b5ad-40a9c40bdf36",
@@ -3005,7 +3638,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "6e062360-6961-5de9-a715-108f24eff31e"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "b3233716-f2c7-58dd-81f7-df1b22ce5676",
@@ -3034,7 +3676,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "86df0057-445d-5eb5-897e-314c8f5cbd8c"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "bb1cdabb-372e-5d75-aba0-5e88d6ee2a6d",
@@ -3063,7 +3714,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "0cf4313f-6a87-5738-8b32-15a3609506a2"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "be14b109-2fe7-5427-8458-c0f329052196",
@@ -3092,7 +3752,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "8d788c37-0dbf-5039-a32c-a4b991831072"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "bff9eb9f-45db-55db-b40f-ac6831207047",
@@ -3121,7 +3790,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "b14ba1b9-9566-5e45-8ab6-0a4e90bac138"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "c01770a3-532f-5836-9b4a-2afd9c733dd8",
@@ -3150,7 +3828,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "9a980bb2-bafa-528a-8269-d2837e8e43b7"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "c34d8b5c-f2bd-5fe5-8d13-5a2d1a1a098c",
@@ -3179,7 +3866,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "331cd36a-99f7-5617-abd5-d5dd94d791d0"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "ca3808ea-c16b-5ed0-852e-72bbfdcac800",
@@ -3208,7 +3905,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "945b13f4-274b-597a-8ac7-9016b3b27942"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "cbd61d2f-39a0-5bde-aa5f-135f3e7aaad0",
@@ -3237,7 +3943,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "ce26a354-fbc7-51f7-98ab-824a718f8304"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "cf56df6e-099a-53b4-8627-4b9238a6d8eb",
@@ -3331,7 +4046,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "d951dd86-a75f-5192-8345-d161d3a089fd"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "cf738879-c4fe-5c9b-a5ab-254a88b5214c",
@@ -3360,7 +4084,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "08a3f326-2f96-5899-8ae8-7745a6cf8f4c"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "d94cce37-8c6c-5e30-9fc8-80f3112f927c",
@@ -3389,7 +4122,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "66ac6c07-59d8-5e10-9585-0c9746a4c7d5"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "d98795d4-546e-5590-9773-84e65778b021",
@@ -3418,7 +4160,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "352239a0-51e7-558b-9b71-ab09a592e2d4"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "db21c5b5-6692-5c78-9e05-8e755ef27dbb",
@@ -3473,7 +4224,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "7cb0fa49-405a-5cb9-b909-bb24b9514d06"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "e0754e6b-cc6f-5b34-851f-5336fa140bda",
@@ -3502,7 +4262,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "bab72179-6689-5de9-bf8b-84bae4d1b9de"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "e3221383-d25b-5bfd-a9b1-c3cd5c6f9a99",
@@ -3531,7 +4300,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "ca4a0887-e5a0-52cd-bd09-6ce9e5f756ef"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "f310761d-dff9-58d5-8724-4de7ca5aab66",
@@ -3599,7 +4377,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "c30f16a9-84e1-5434-8cf2-49acc6f3fab3"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "f875a609-3a2b-5bd7-bf57-afa7557bb0e2",
@@ -3628,7 +4415,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "47566496-1e82-5539-896c-8336388ee638"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "0e5f6f6f-efac-5b92-a6e4-65c5c8c1ccf5",
@@ -3657,7 +4453,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 2.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "4c4921cd-7a10-5b67-b5e2-8888410ff708"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "14733d8a-ca89-54bf-920b-f29f383d2988",
@@ -3686,7 +4492,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "ead759b7-9a9c-540b-9b42-b31506050d29"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "1ecb4501-0290-5543-9e51-73a32ebf4799",
@@ -3715,7 +4530,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "f8369f04-55cd-5f4c-a3fb-130ad2ffcad4"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "1f190e08-7bb9-50e6-8d4d-420c7331846f",
@@ -3744,7 +4568,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "71a02fa6-6e14-5022-97e1-ff24d9258497"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "27aed2b7-97cc-5c75-a740-bd24b7e190af",
@@ -3773,7 +4606,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "e5f93cd7-1181-5885-ab9d-2079b3f361bf"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "2eb2ce85-3960-5941-94bb-d94e9f440b7b",
@@ -3802,7 +4644,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "18997305-aa94-5c3e-aadf-0db0522e6f75"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "3805e8ef-d4d3-50b2-9914-9bb2878f65ee",
@@ -3831,7 +4682,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "2c92dc2c-b2f7-5f6f-a9a7-e422a1f445d7"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "3d67cf0c-0119-5f6e-ad90-d4a018c73df6",
@@ -3886,7 +4746,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "8955790d-146c-557d-9f00-5e67a6e561ef"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "499a6167-ac59-51ae-b7b9-bbfeff283d93",
@@ -3915,7 +4784,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 4.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "8b79c7d6-5908-583f-bb2a-5f5f57054bf9"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "4a1a773f-5237-57df-b8a4-e30f018374cf",
@@ -3944,7 +4823,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "fed36e38-0aaf-5845-93d3-ba3f6932e274"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "580f4ac2-57e8-515b-8655-d4396666c1b4",
@@ -4025,7 +4913,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "eb260332-7fe2-5793-8eeb-bcc0cf0bfd0e"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "5e8fb583-05aa-5f2b-a2b7-3a833e426957",
@@ -4054,7 +4951,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "6c31e947-c0dc-58a7-9cd8-34bd9687ac70"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "7f9a065f-274b-57ac-88bf-a492e13bbd1e",
@@ -4083,7 +4989,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "ff590da9-ad78-5105-b5f8-0f06af125152"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "81f30cf8-2ea5-56bb-98fc-8b5c985aa562",
@@ -4112,7 +5027,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "c42ad546-e876-5222-bcef-63a2a56413aa"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "8cad4c74-d047-5188-a452-7fc0a661bb79",
@@ -4141,7 +5065,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "99c9f3ec-6108-5739-a74b-9bd6edcffeb9"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "944dfdd4-ad20-5f45-9687-e9717c5b1ef5",
@@ -4248,7 +5181,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "a6dfbf48-9643-50e1-8792-11bd321cf1ea"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "96171b73-cb1a-5f67-83e3-42e2d1f37d16",
@@ -4290,7 +5233,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 9.0,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "d6f27b42-13a0-5ff6-b060-a442d2b097e6"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "98c25ae7-07bc-5264-8711-03145a99c945",
@@ -4345,7 +5298,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "6bde9442-eb0e-5ce9-ae6d-7cae1e69f5ad"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "9d60c7d4-1667-53e7-845d-5712dc99536f",
@@ -4374,7 +5336,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "9eba60e6-07b5-5008-b0f5-62d84936f877"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "9f6e5717-839c-55b5-8a42-77e40e4a3bea",
@@ -4403,7 +5374,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "13f42746-8067-551f-b74c-6a7adfabd96d"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "aa25ea03-8feb-53d5-93e2-fe4e20ca9539",
@@ -4432,7 +5412,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "010e5542-fdcc-5039-aa5e-3cf4b10f11e9"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "bf30b17e-f65e-5eaf-ae33-075bdd180195",
@@ -4461,7 +5450,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "0a985a67-b6aa-5239-9ec1-7fc9c77337ab"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "c1008ec7-c61d-55ec-871b-da807b009c94",
@@ -4490,7 +5488,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "55480e74-8369-5240-a64b-fe98a42d06ad"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "c44a78ba-b103-53c9-b303-4759a9c6d26e",
@@ -4571,7 +5578,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 9.5,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "cce0223f-552d-5864-adf5-78b10546c4af"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "c61c3161-30ec-5322-9b0b-b51bb9b81d17",
@@ -4600,7 +5617,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "128a5d99-aa78-52f6-9260-9b1634168734"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "c9ffe13c-4717-50be-a69d-b2f3fc739794",
@@ -4629,7 +5655,14 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8.0,
+      "method": "fallback",
+      "isSimulated": true,
+      "observationIds": [],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "cacf855d-9438-5ca4-901e-2734681913f6",
@@ -4658,7 +5691,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "f882528c-2dfa-5379-8428-72f9d39e1d27"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "d81e300f-0bfc-568c-aa4e-aed3f9c09554",
@@ -4687,7 +5729,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6.5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "27101149-230a-5171-a65a-ee75df5a352a"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "d8b6b98f-1303-5eeb-9b06-2d0c8f78b920",
@@ -4716,7 +5767,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "d3d344df-e263-52c2-81fe-f08c430e81a7"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "e029420f-12a8-5894-b3eb-c74c2b174f1b",
@@ -4745,7 +5805,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 8,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "7a73984a-a24d-5fff-92bc-e3ad9634cca9"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "e2c6066a-0221-538b-8327-0cccc9a0e6a2",
@@ -4774,7 +5843,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "f2e591e6-d870-5e8a-ae20-a47dd8eaf4f6"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "e3a52429-7f18-5497-9e20-579bc2fc0531",
@@ -4803,7 +5881,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "8a4b6dac-e9d0-51c9-9055-f5c1c33babe3"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "e6cdc3a7-3a48-5fbc-9397-1c96f4590964",
@@ -4832,7 +5919,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "f5763149-a466-584c-a945-ba152e9e5f65"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "e7b093fb-880b-58e4-a3ec-4130c52e1c7b",
@@ -4861,7 +5957,17 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 7.0,
+      "method": "geometry",
+      "isSimulated": true,
+      "observationIds": [
+        "ae3b9a62-d48b-57fd-8880-4314a3931a45"
+      ],
+      "version": "demo-height-v1",
+      "cameraHeightM": 1.7
+    }
   },
   {
     "id": "ed0855df-4d1d-51ce-91c4-e7fb9c983f13",
@@ -4890,7 +5996,16 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 6,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "675dd94b-0a99-5851-910e-fb553f4df18d"
+      ],
+      "version": "demo-height-v1"
+    }
   },
   {
     "id": "ffcb3d4a-5cdd-5183-a435-ba48e8b9e00e",
@@ -4919,6 +6034,15 @@
         "width": 2048,
         "height": 1536
       }
-    ]
+    ],
+    "heightEstimate": {
+      "valueM": 5,
+      "method": "visual",
+      "isSimulated": true,
+      "observationIds": [
+        "a1d6a782-cc1a-55e6-ac91-62fe4c1d676c"
+      ],
+      "version": "demo-height-v1"
+    }
   }
 ]

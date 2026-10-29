@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "test:heights": "python3 -B scripts/test_tree_heights.py && node --experimental-strip-types scripts/test-height-census.mjs",
+    "preview": "vite preview",
+    "test:streetview": "node --experimental-strip-types scripts/test-streetview.mjs",
+    "test": "npm run test:heights && npm run test:streetview"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
