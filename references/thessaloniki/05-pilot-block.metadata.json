@@ -1,0 +1,65 @@
+{
+ "displayFieldName": "NICE_NAME",
+ "fieldAliases": {
+  "SRC_DATE": "SRC_DATE",
+  "SRC_RES": "SRC_RES",
+  "SRC_ACC": "SRC_ACC",
+  "SAMP_RES": "SAMP_RES",
+  "NICE_NAME": "NICE_NAME",
+  "NICE_DESC": "NICE_DESC",
+  "BlockName": "BlockName"
+ },
+ "fields": [
+  {
+   "name": "SRC_DATE",
+   "type": "esriFieldTypeInteger",
+   "alias": "SRC_DATE"
+  },
+  {
+   "name": "SRC_RES",
+   "type": "esriFieldTypeDouble",
+   "alias": "SRC_RES"
+  },
+  {
+   "name": "SRC_ACC",
+   "type": "esriFieldTypeDouble",
+   "alias": "SRC_ACC"
+  },
+  {
+   "name": "SAMP_RES",
+   "type": "esriFieldTypeDouble",
+   "alias": "SAMP_RES"
+  },
+  {
+   "name": "NICE_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "NICE_NAME",
+   "length": 50
+  },
+  {
+   "name": "NICE_DESC",
+   "type": "esriFieldTypeString",
+   "alias": "NICE_DESC",
+   "length": 25
+  },
+  {
+   "name": "BlockName",
+   "type": "esriFieldTypeString",
+   "alias": "BlockName",
+   "length": 100
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "SRC_DATE": 20250703,
+    "SRC_RES": 0.34000000000000002,
+    "SRC_ACC": 8.4700000000000006,
+    "SAMP_RES": 0.29999999999999999,
+    "NICE_NAME": "Vivid Advanced",
+    "NICE_DESC": "Vantor",
+    "BlockName": "DYNAMIC_ESRI_Thessaloniki_GR_26Q2"
+   }
+  }
+ ]
+}
